@@ -1,6 +1,6 @@
 # Textwash
 
-Textwash is an automated text anonymisation tool written in Python. The tool can be used to anonymise unstructured text data. To achieve this, Textwash identifies and extracts personally-identifiable information (e.g., names, dates) from text and replaces the identified entities with a generic identifier (e.g., Jane Doe is replaced with PERSON_FIRSTNAME_1 PERSON_LASTNAME_1).
+Textwash is an automated text anonymization tool written in Python. The tool can be used to anonymize unstructured text data. To achieve this, Textwash identifies and extracts personally-identifiable information (e.g., names, dates) from text and replaces the identified entities with a generic identifier (e.g., Jane Doe is replaced with PERSON_FIRSTNAME_1 PERSON_LASTNAME_1).
 
 ## Getting Started
 
