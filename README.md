@@ -1,6 +1,6 @@
 # Textwash
 
-Textwash is an auotmated text anonymisation tool written in Python. The tool can be used to anonymise unstructured text data. To achieve this, Textwash identifies and extracts personally-identifiable information (e.g., names, dates) from text and replaces the identified entities with a generic identifier (e.g., Jane Doe is replaced with PERSON_FIRSTNAME_1 PERSON_LASTNAME_1).
+Textwash is an automated text anonymisation tool written in Python. The tool can be used to anonymise unstructured text data. To achieve this, Textwash identifies and extracts personally-identifiable information (e.g., names, dates) from text and replaces the identified entities with a generic identifier (e.g., Jane Doe is replaced with PERSON_FIRSTNAME_1 PERSON_LASTNAME_1).
 
 ## Getting Started
 
@@ -10,7 +10,7 @@ Textwash is built in Python3. To run the software, it is recommended to first cr
     $ conda activate textwash
     $ pip install -r requirements.txt
 
-Additionally, you need to download the trained model files from [here](https://drive.google.com/file/d/1DR5SfB-xvVxXl5m4nGnSz4kri1mDOuUa/view?usp=sharing). Once you have downloaded the `model.pth`, move it into the `data` directory.
+Additionally, you need to download the trained model file from [here](https://drive.google.com/file/d/1DR5SfB-xvVxXl5m4nGnSz4kri1mDOuUa/view?usp=sharing). Once you have downloaded the `model.pth`, move it into the `data` directory.
 
 ## Using Textwash
 
