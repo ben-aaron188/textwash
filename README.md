@@ -1,10 +1,10 @@
 # Textwash
 
-Textwash is an automated text anonymization tool written in Python. The tool can be used to anonymize unstructured text data. To achieve this, Textwash identifies and extracts personally-identifiable information (e.g., names, dates) from text and replaces the identified entities with a generic identifier (e.g., Jane Doe is replaced with PERSON_FIRSTNAME_1 PERSON_LASTNAME_1).
+Textwash is an automated text anonymisation tool written in Python. The tool can be used to anonymise unstructured text data. To achieve this, Textwash identifies and extracts personally-identifiable information (e.g., names, dates) from text and replaces the identified entities with a generic identifier (e.g., Jane Doe is replaced with PERSON_FIRSTNAME_1 PERSON_LASTNAME_1).
 
 ## Quick start guide
 
-Textwash is built in Python3. To run the software, it is recommended to first create an Anaconda environment and install the required dependencies.
+Textwash is built in Python3. To run the software, it is recommended to first create an Anaconda environment and install the required dependencies. For details on how to get and install Anaconda, click [here](https://www.anaconda.com/products/distribution).
 
     $ conda create -n textwash python=3.7
     $ conda activate textwash
@@ -14,11 +14,11 @@ Additionally, you need to download the trained model file from [here](https://dr
 
 ## Using Textwash
 
-Textwash can be used to anonymize **txt** files. To do this, run `anon.py` by providing the path to the input files `--input_dir` and the corresponding path to the output folder `--output_dir`. For example, running
+Textwash can be used to anonymise **txt** files. To do this, run `anon.py` by providing the path to the input files `--input_dir` and the corresponding path to the output folder `--output_dir`. For example, running
 
-    $ python3 anon.py --input_dir examples --output_dir anonymized_examples --cpu
+    $ python3 anon.py --input_dir examples --output_dir anonymised_examples --cpu
 
-anonymizes the example texts in the `examples` directory and writes the anonymized files to a new directory called `anonymized_examples`.
+anonymises the three example texts in the `examples` directory. In doing so, Textwash loads the downloaded model into memory, then automatically anonymises the inputs and writes the anonymised files to the provided output folder `anonymised_examples`.
 
 Textwash works best when running on a GPU. If no GPU is available, you should use the `--cpu` flag as in the snippet above. If you have a GPU, remove the `--cpu` flag and Textwash will resort to `pytorch` with `CUDA` support.
 

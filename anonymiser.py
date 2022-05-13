@@ -5,7 +5,7 @@ from copy import deepcopy
 from utils import tokenize, get_named_entities_from_preds, get_cut_idx
 
 
-class Anonymizer:
+class Anonymiser:
     def __init__(self, config, model, data_processor, device, bert_model):
         self.config = config
         self.model = model
@@ -66,7 +66,7 @@ class Anonymizer:
 
         return anon_input_seq
 
-    def anonymize(self, input_seq):
+    def anonymise(self, input_seq):
         orig_input_seq = deepcopy(input_seq)
         anon_input_seq = " {}".format(deepcopy(input_seq))
         entities = self.get_identifiable_tokens(deepcopy(input_seq))
