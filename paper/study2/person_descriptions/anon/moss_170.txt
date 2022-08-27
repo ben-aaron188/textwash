@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_4 PERSON_LASTNAME_1 is An iconic DATE_1 supermodel. PRONOUN Was part of the heroin chic scene in the early DATE_1 and was friendly with other supermodels like PERSON_FIRSTNAME_2 PERSON_LASTNAME_2. PRONOUN is shorter than most supermodels but still walked the cat walk. PRONOUN still models now PRONOUN is in PRONOUN late NUMERIC_4s but not as much. PRONOUN has a daughter called PERSON_FIRSTNAME_3 who is walking the catwalks now. PRONOUN is from LOCATION_1 and grew up in LOCATION_2. PRONOUN used to work with PERSON_FIRSTNAME_1 make up. 
+ PRONOUN has blonde hair and is white. PRONOUN is still making headlines and shown in the media. 
+ PRONOUN used to date PERSON_FIRSTNAME_5 PERSON_LASTNAME_3 back in the noighties, they probably did a lot of drugs together

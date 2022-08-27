@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 was an LOCATION_1 scholar, and professor who taught law. PRONOUN has also written a handbook analysing an impeachment law, following a notable court case. PRONOUN was married to PERSON_FIRSTNAME_1 PERSON_LASTNAME_2. 
+ PRONOUN grew up in Austin, Texas, where PRONOUN later attended the university in DATE_1. Following a degree in English, PRONOUN progressed to ORGANIZATION_1, before working as a teacher, and later a professor of Law. 
+
+In addition to PRONOUN work as a professor, PERSON_LASTNAME_2 wrote many poems. PRONOUN was particularly interested in race and civil rights, following a visit to a ORGANIZATION_2 PERSON_LASTNAME_1 concert. 
+
+PERSON_LASTNAME_2 died in LOCATION_2, aged NUMERIC_2.

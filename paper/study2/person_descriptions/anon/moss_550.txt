@@ -1,0 +1,10 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 is an LOCATION_1 model. PRONOUN is NUMERIC_2 years of age, NUMERIC_1 foot NUMERIC_6 and has blonde dyed hair. 
+
+PERSON_FIRSTNAME_1 rose to fame in the DATE_2 and is known for PRONOUN size NUMERIC_7 figure. 
+ PRONOUN has had many clothing ranges throughout the years and has influenced the wear of ugg boots, skint jeans, OTHER_IDENTIFYING_ATTRIBUTE_3 Handbags and waistcoats to list a few 
+
+It is said the popular ORGANIZATION_1 song OTHER_IDENTIFYING_ATTRIBUTE_2 written by PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is about PRONOUN. 
+
+PERSON_FIRSTNAME_1 has just NUMERIC_4 child and is divorced as of DATE_1. 
+
+In DATE_3 PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 was highly criticised when PRONOUN was queried with the phrase “nothing taste as good as OTHER_IDENTIFYING_ATTRIBUTE_1 feels” in an interview and was accused of sparking eating disorders.

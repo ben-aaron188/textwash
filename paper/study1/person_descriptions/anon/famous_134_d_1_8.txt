@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a NUMERIC_3-year-old LOCATION_1 male actor and has starred in various movies. PRONOUN has won countless awards. PRONOUN has been married to PERSON_FIRSTNAME_3 Blažić since DATE_2. 
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was born in Haverfordwest, Wales and on DATE_1. PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is the son of Née PERSON_LASTNAME_2, who was a circus performer and PERSON_FIRSTNAME_2 PERSON_LASTNAME_1, who was an entrepreneur, commercial pilot and talent manager. 
+
+In the media, PRONOUN has been described as an extremely talented actor and is very versatile. PERSON_FIRSTNAME_1 PERSON_LASTNAME_1's NUMERIC_1st major film role was in OTHER_IDENTIFYING_ATTRIBUTE_2'. PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 has also starred in other movies, such as 'The Dark Knight', 'Batman Begins' and OTHER_IDENTIFYING_ATTRIBUTE_3'

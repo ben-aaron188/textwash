@@ -1,0 +1,4 @@
+British actor PERSON_FIRSTNAME_1 PERSON_LASTNAME_4 was born in DATE_3 in LOCATION_1. PRONOUN is an accomplished actor starring in both stage, film and TV. PRONOUN went to school at ORGANIZATION_1 before moving on to the academy of music and dramatic art. 
+Some of PRONOUN most notable roles are as OTHER_IDENTIFYING_ATTRIBUTE_3 in OTHER_IDENTIFYING_ATTRIBUTE_1 which PRONOUN starred alongside PERSON_FIRSTNAME_2 PERSON_LASTNAME_3 and PRONOUN played PERSON_FIRSTNAME_3 PERSON_LASTNAME_2 in OTHER_IDENTIFYING_ATTRIBUTE_2.
+In DATE_1 PRONOUN joined the ORGANIZATION_2 as TITLE PERSON_LASTNAME_1 where plays a surgeon who after a crash is unable to operate. PRONOUN has a big female following who call themselves the OTHER_IDENTIFYING_ATTRIBUTE_4.
+In DATE_2 PRONOUN received a CBE for services to performing arts and to charity

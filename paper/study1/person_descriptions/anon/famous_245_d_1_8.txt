@@ -1,0 +1,5 @@
+Born in DATE_1 in LOCATION_3, PERSON_LASTNAME_1 is a well recognised and awarded LOCATION_2 Actor. PRONOUN is the son of a cirus performer and commercial pilot. PRONOUN grew up in LOCATION_3, England and LOCATION_5. 
+ PRONOUN began acting aged NUMERIC_8 in OTHER_IDENTIFYING_ATTRIBUTE_5. Taking on supporting roles over the next NUMERIC_6 years in Little Women, Pocahontas and OTHER_IDENTIFYING_ATTRIBUTE_4. 
+
+After which PRONOUN played roles in Batman, Terminator Salvation and OTHER_IDENTIFYING_ATTRIBUTE_2. PRONOUN has been named as a sex symbol and among the NUMERIC_1 most influential people in the world. 
+ PRONOUN currently resides in LOCATION_1 with PRONOUN wife PERSON_FIRSTNAME_1 and their NUMERIC_1 children. PRONOUN is a patron of the environmental charities, namely the World Wildlife Fund, Sea Shepherd Conservation Society and ORGANIZATION_1.

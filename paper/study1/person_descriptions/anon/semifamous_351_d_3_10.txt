@@ -1,0 +1,5 @@
+PERSON_LASTNAME_3 in Key West, Florida, in DATE_1, PERSON_FIRSTNAME_2 PERSON_LASTNAME_2, also referred to as PERSON_FIRSTNAME_1, was an LOCATION_1 baseball player in the LOCATION_3 Leagues. PERSON_LASTNAME_2, averaging around NUMERIC_1 NUMERIC_6"", was a scrappy and rather determined individual.
+
+PERSON_LASTNAME_2 was right-handed, in both batting and throwing. PRONOUN played for the ORGANIZATION_2 and was considered NUMERIC_1 of the best of PRONOUN time, where PRONOUN was eventually added to ORGANIZATION_1, NUMERIC_1 of the most influential LOCATION_3 league all-star team.
+
+PERSON_LASTNAME_2 went on to play baseball for NUMERIC_5 years, where PRONOUN eventually left. Living a rich life, PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 PERSON_FIRSTNAME_1' PERSON_LASTNAME_2, died at the age of NUMERIC_2.

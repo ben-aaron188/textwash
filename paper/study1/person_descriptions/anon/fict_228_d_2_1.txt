@@ -1,0 +1,4 @@
+Doctor PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a OCCUPATION_1, PRONOUN is single and aged NUMERIC_3, PRONOUN country of residence is LOCATION_2. PRONOUN is an extremely successful doctor and very well educated. PRONOUN is hoping to find a partner of a similar age to PRONOUN, get married and have NUMERIC_1 children ideally NUMERIC_2 girls and NUMERIC_2 boys, PRONOUN is hoping to meet a LOCATION_1 lass and have a massive wedding in LOCATION_3 and while there do a bunjii jump.
+ PRONOUN is hoping PRONOUN new wife shares the same interests as PRONOUN, PRONOUN would love to travel the world as it would be a dream come true for PRONOUN and very much on PRONOUN bucket list!
+
+Doctor PERSON_LASTNAME_1 would love to live in a big house in the countryside with several acres of ground and grow PRONOUN own vegetables and hopes PRONOUN new wife will enjoy gardening.

@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was born and raised in LOCATION_2 on the DATE_1. PRONOUN is NUMERIC_1 of NUMERIC_2 childen and was the youngest among PRONOUN siblings. PRONOUN was born in LOCATION_1 and studied at the ORGANIZATION_2 where PRONOUN excelled in PRONOUN studies and graduated at the top of PRONOUN class. 
+Once leaving business school PRONOUN joined ORGANIZATION_1. PRONOUN has slowly worked PRONOUN way up in the business and MR/MS PERSON_LASTNAME_1 is now the marketing executive within said company. 
+My PERSON_LASTNAME_1 is currently in a long term relationship. PRONOUN was previously married and has since divorced. PRONOUN has NUMERIC_2 children from PRONOUN previous marriage.

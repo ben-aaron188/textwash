@@ -1,0 +1,5 @@
+Born on DATE_4 DATE_4, DATE_4, PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is a multi-award-winning LOCATION_1 actor whose varied career includes roles on stage, screen, and radio.
+ PRONOUN penchant for acting is no surprise when considering that PRONOUN parents, PERSON_FIRSTNAME_1 PERSON_LASTNAME_5 and PERSON_FIRSTNAME_4 PERSON_LASTNAME_3 are both actors themselves.
+
+Although PRONOUN played PERSON_FIRSTNAME_5 PERSON_LASTNAME_2 in a DATE_1 television movie, PERSON_LASTNAME_1 became a household name playing the titular role in the DATE_3 ORGANIZATION_1 adaptation of OTHER_IDENTIFYING_ATTRIBUTE_1. 
+ PRONOUN married theatre director, PERSON_FIRSTNAME_3 PERSON_LASTNAME_4, in DATE_2, and together they have NUMERIC_1 sons.

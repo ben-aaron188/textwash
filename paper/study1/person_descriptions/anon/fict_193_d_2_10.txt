@@ -1,0 +1,11 @@
+PERSON_FIRSTNAME_1 is is LOCATION_3 descend but currently resides in LOCATION_4. The relocation resulted following a divorce from PRONOUN second husband. 
+
+PERSON_FIRSTNAME_1 is currently single and states PRONOUN is no longer interested in long term relationships following PRONOUN NUMERIC_1 divorces and prefers life with PRONOUN toy OTHER_IDENTIFYING_ATTRIBUTE_1 dog OTHER_IDENTIFYING_ATTRIBUTE_2. 
+
+PERSON_FIRSTNAME_1 is an only child and has never been fond of children.
+
+Prior to living in LOCATION_4 PERSON_FIRSTNAME_1 ran PRONOUN own successful IT firm in LOCATION_2 where PRONOUN had contracts with the ORGANIZATION_1 for training of their own IT specialists. 
+
+Currently PRONOUN is working for ORGANIZATION_2 serious crime squad as senior IT trainer for fraud prevention and still freelances projects where PRONOUN can. 
+
+PERSON_LASTNAME_1 long term goal is to retire to south of LOCATION_1 by NUMERIC_3 and has been looking at property to buy there such as a working farm or country estate to renovate to a B&B.

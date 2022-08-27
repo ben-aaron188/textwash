@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_2 OCCUPATION_1 of OTHER_IDENTIFYING_ATTRIBUTE_1, PERSON_FIRSTNAME_3 PERSON_LASTNAME_2 was born on the DATE_3 DATE_3 DATE_3 DATE_3 . PERSON_FIRSTNAME_2 is married to Prince PERSON_FIRSTNAME_1 which means PRONOUN is now part of the royal family. the pair have NUMERIC_6 children between them PERSON_FIRSTNAME_4, PERSON_FIRSTNAME_4 and PERSON_FIRSTNAME_6.
+PERSON_FIRSTNAME_5 was brought up around LOCATION_1 in LOCATION_3 PRONOUN met PERSON_FIRSTNAME_1 when completing studies at ORGANIZATION_1 in LOCATION_4. they married DATE_1 at LOCATION_5.
+PERSON_LASTNAME_1 family moved the LOCATION_3 in DATE_2 where they began working for LOCATION_2 airways. PERSON_FIRSTNAME_5 attended at nursery which was a english language nursery. PRONOUN family were upper middle class.

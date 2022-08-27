@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 CH, DBE, FRSA (Birthname PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is a legendary LOCATION_1 actress from LOCATION_2. PRONOUN is currently NUMERIC_3 years old. PRONOUN is regarded as NUMERIC_1 of the best LOCATION_4 actresses of all time.
+
+PERSON_LASTNAME_1 has had a long career spanning over NUMERIC_4 years NUMERIC_6 years as of DATE_1 , and has established PRONOUN as NUMERIC_1 of LOCATION_3's most prominent performers. This can be seen by PRONOUN NUMERIC_9 Academy Award nominations. PRONOUN DATE_1 be known to many by PRONOUN numerous appearances within the " OTHER_IDENTIFYING_ATTRIBUTE_2"" franchise as " OTHER_IDENTIFYING_ATTRIBUTE_1"", a character PRONOUN played for NUMERIC_5 years.

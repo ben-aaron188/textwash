@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_3 was born with the original name of PERSON_FIRSTNAME_4 PERSON_LASTNAME_2. PRONOUN was born in LOCATION_1 on the DATE_2. PRONOUN parent were PERSON_FIRSTNAME_1 and PERSON_FIRSTNAME_5. PRONOUN is a singer, songwriter, pianist and composer. PRONOUN first hit single was OTHER_IDENTIFYING_ATTRIBUTE_1, in DATE_1.
+PERSON_LASTNAME_1 is married to PERSON_FIRSTNAME_2 PERSON_LASTNAME_4 and they have NUMERIC_1 children together.
+A film of PERSON_LASTNAME_1's life was released in DATE_3, called OTHER_IDENTIFYING_ATTRIBUTE_2. It told the story of PRONOUN early life and career and also PRONOUN battle with alcohol and drugs. PRONOUN was played by PERSON_FIRSTNAME_6 PERSON_LASTNAME_3 and PRONOUN and PERSON_LASTNAME_1 became good friends during the making of the film.

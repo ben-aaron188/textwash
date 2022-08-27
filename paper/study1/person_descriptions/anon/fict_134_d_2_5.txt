@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 has obtained a Doctor of Philosophy (PhD) at university. PRONOUN works as a OCCUPATION_1. PRONOUN has worked at PRONOUN company for over NUMERIC_4 years. 
+
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is of sixty NUMERIC_1 years of age and PRONOUN country of residence is LOCATION_2. PRONOUN was born in LOCATION_2 to LOCATION_1 parents and has lived there PRONOUN whole life.
+ PRONOUN is currently in a relationship with the NUMERIC_5 years old PERSON_FIRSTNAME_1 PERSON_LASTNAME_2. PRONOUN met PRONOUN at work NUMERIC_6 years ago. They were initially introduced by mutual friends but later fell in love with each other. PRONOUN married PRONOUN NUMERIC_2 years ago in a Church in LOCATION_2 with all their families and friends in attendance. PRONOUN has NUMERIC_3 children with PERSON_FIRSTNAME_1 PERSON_LASTNAME_2, named PERSON_FIRSTNAME_5 PERSON_LASTNAME_2 and PERSON_FIRSTNAME_3 PERSON_LASTNAME_2.

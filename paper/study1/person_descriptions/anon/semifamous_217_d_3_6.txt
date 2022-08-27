@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a former country cricketer from ORGANIZATION_1. PRONOUN made PRONOUN debut in DATE_2 on PRONOUN home team that was situated in ORGANIZATION_1 itself. Though only playing in the minor league, PERSON_LASTNAME_1 quickly made a name for PRONOUN amongst fans of the club.
+
+Only a year later, PRONOUN made a first-class debut on the ORGANIZATION_2 cricketing team - PRONOUN took part in NUMERIC_1 first-class matches. During these matches PRONOUN made NUMERIC_2 runs, which scored PRONOUN a batting average of NUMERIC_5 NUMERIC_8.
+
+In DATE_1, PERSON_LASTNAME_1 moved on from the ORGANIZATION_3 cricketing team and began representing ORGANIZATION_4 in List A matches.
+
+Although PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 moved to various other teams PRONOUN always played for ORGANIZATION_1 and spent NUMERIC_7 years playing for the club.

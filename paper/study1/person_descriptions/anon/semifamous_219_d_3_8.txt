@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_6 PERSON_LASTNAME_2 ORGANIZATION_1: Александр Александрович Грязин; born DATE_1 is a retired ORGANIZATION_1 professional footballer. PRONOUN made PRONOUN professional debut in the ORGANIZATION_1 Second Division in DATE_2 for PFC CSKA-d LOCATION_2. PRONOUN heigh is NUMERIC_2 NUMERIC_5m ( NUMERIC_1 ft NUMERIC_4 inch). PRONOUN used to play in position midfoelder/striker. Sometimes PRONOUN is still playing in domestic clubs. 
+PERSON_FIRSTNAME_4 is married with PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 PERSON_FIRSTNAME_5 from family house).
+They have NUMERIC_1 childrens together: Sasha, Masha and PERSON_FIRSTNAME_3. They love to spend time together, altrough in LOCATION_2 is much colder they decided to moved to LOCATION_1.

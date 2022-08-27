@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a LOCATION_1 supermodel who became famous during the DATE_1 when PRONOUN largely modelled for ORGANIZATION_3. 
+ PRONOUN has been heavily criticised for PRONOUN drug use and has often appeared on the cover of LOCATION_1 newspapers with controversy. PRONOUN has also received much speculation about PRONOUN weight and size zero status. PRONOUN was dropped by h and m due to the drug allegations. PRONOUN also lost contracts with ORGANIZATION_1 and ORGANIZATION_4. PRONOUN was however cleared of all drug allegations made against PRONOUN .
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 designed PRONOUN own clothing range which appeared in the high street store ORGANIZATION_2. 
+ PRONOUN has NUMERIC_1 daughter and has appeared on the Sunday times rich list.

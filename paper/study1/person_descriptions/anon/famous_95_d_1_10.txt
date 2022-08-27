@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is an LOCATION_1 singer-songwriter who has risen to fame in recent years. PRONOUN hits include 'Money on my Mind', 'I'm not the Only One' and OTHER_IDENTIFYING_ATTRIBUTE_4'. PRONOUN has also cowritten and sung the theme song (Writing's on the Wall) to the DATE_1 OTHER_IDENTIFYING_ATTRIBUTE_2 film OTHER_IDENTIFYING_ATTRIBUTE_6'. For this, PRONOUN won both the Golden Globe for best original song and an Oscar.
+
+PERSON_FIRSTNAME_2 was born on the DATE_2 (making PRONOUN NUMERIC_2 years old at present). PRONOUN was bullied as a child and also underwent liposuction just before PRONOUN teen years.
+ PRONOUN main musical influences are PERSON_FIRSTNAME_3 PERSON_LASTNAME_2 and PERSON_FIRSTNAME_1,
+
+Most recently PRONOUN has been in the news for saying that PRONOUN has NUMERIC_1% definitely had OTHER_IDENTIFYING_ATTRIBUTE_3 despite not actually being tested for it.

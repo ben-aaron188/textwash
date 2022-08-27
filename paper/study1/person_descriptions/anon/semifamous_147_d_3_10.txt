@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was an outstanding baseball player during the DATE_2 century in LOCATION_1. PRONOUN is often referred to by the nickname of OTHER_IDENTIFYING_ATTRIBUTE_1' which PRONOUN acquired during PRONOUN playing career. 
+
+PERSON_LASTNAME_2 was born in Key West, Florida, United States of LOCATION_1, however many resources actually state PRONOUN birth place as being in the LOCATION_3. 
+
+PERSON_LASTNAME_2 played in the ORGANIZATION_2 in LOCATION_1. The ORGANIZATION_2 consisted of professional baseball teams from African American backgrounds. The ORGANIZATION_1 were the first black professional baseball team and they were formed in DATE_1, only NUMERIC_3 years before PERSON_FIRSTNAME_2 was born. PRONOUN played for the ORGANIZATION_4 for PRONOUN entire career and here gained much respect by the top dogs within the baseball world.
+
+PERSON_LASTNAME_2 was a highly skilled player, able to operate successfully in the infield and outfield, as well as when playing pitcher. For this, PRONOUN was named in an all-star baseball team by the owner of ORGANIZATION_3.

@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_3 PERSON_LASTNAME_1 is known around the world mainly as a musician. PRONOUN is a singer/songwriter and record producer and has also played small cameo roles in several films. PRONOUN genre of music would be classed as indie. PRONOUN has had NUMERIC_3 number ones and PRONOUN most famous song is OTHER_IDENTIFYING_ATTRIBUTE_1'.
+PERSON_FIRSTNAME_3 plays the guitar on all PRONOUN music and has released NUMERIC_5 solo studio albums and NUMERIC_4 solo singles. PRONOUN has also written songs for other artists.
+PERSON_FIRSTNAME_3 is from LOCATION_1 and is married to PERSON_FIRSTNAME_1 PERSON_LASTNAME_2. PRONOUN has NUMERIC_1 child, PERSON_FIRSTNAME_2 PERSON_LASTNAME_1.

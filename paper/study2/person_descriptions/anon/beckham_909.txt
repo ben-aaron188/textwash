@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 played for ORGANIZATION_1 football club PRONOUN got signed in DATE_2 until DATE_4 with a short spell in between on loan to preston.
+PERSON_FIRSTNAME_1 fell in love with spice girl PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 and married PRONOUN in a lavish ceremony in DATE_3.
+PERSON_FIRSTNAME_1 has NUMERIC_1 children with PERSON_FIRSTNAME_2 brooklyn, romeo, harper, cruz.
+PERSON_FIRSTNAME_1 was given an obe DATE_4.
+PERSON_FIRSTNAME_1 is currently the president and co owner of inter ORGANIZATION_2 cf.
+PERSON_FIRSTNAME_1 was born in DATE_1 PRONOUN's NUMERIC_4 years old.
+PERSON_FIRSTNAME_1 is the first LOCATION_1 player to win league titles in NUMERIC_1 countries. PRONOUN retired in DATE_5 after a NUMERIC_7 year long career. PRONOUN does a lot of charitable work for unicef.

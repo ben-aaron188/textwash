@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was born on DATE_3. PRONOUN started PRONOUN professional football career in DATE_1. Since then PRONOUN has continued PRONOUN football career and now plays overseas in LOCATION_2 for ORGANIZATION_1. PRONOUN plays midfield. PRONOUN enjoys playing the field and has had a string of NUMERIC_1 night stands over the years, NUMERIC_1 of these became a long term relationship and they are now engaged to be married in DATE_2.
+They live in a luxury condominium in the outskirts of LOCATION_1. They have a fleet of cars including a OTHER_IDENTIFYING_ATTRIBUTE_2 and OTHER_IDENTIFYING_ATTRIBUTE_1. 
+During PRONOUN free time PRONOUN has learnt how to fly and now has PRONOUN pilots license and is in the process of buying PRONOUN own private NUMERIC_1 seater plane. 
+Once PRONOUN football career is over PRONOUN plans to reinvent PRONOUN as a football manager. PRONOUN hopes to become manager of ORGANIZATION_1 once their current manager retires.

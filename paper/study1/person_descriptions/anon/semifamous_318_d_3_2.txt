@@ -1,0 +1,11 @@
+PERSON_FIRSTNAME_1 P. PERSON_LASTNAME_2 was a very prolific and famous inventor from the DATE_1's. 
+
+PERSON_FIRSTNAME_1 was famous for having many great ideas, inventions and patents.
+ PRONOUN was born in illinois and comes from a german linegage on PRONOUN fathers side.
+ PRONOUN inventions first developed when PERSON_LASTNAME_1 started working as a machinists apprentice and it was during this time PRONOUN invented the first ever power lift sulky plow. This kind of plow allowed the farmer to remain seated while plowing using a lever to raise the plow.
+
+This plow became popular and drove PRONOUN career forward. 
+
+Late PRONOUN invented many other products, becoming very sucessful over PRONOUN life time.
+
+In PRONOUN personal life PERSON_LASTNAME_1 married PRONOUN first wife and had NUMERIC_2 children. Later PRONOUN first wife died and PRONOUN remarried

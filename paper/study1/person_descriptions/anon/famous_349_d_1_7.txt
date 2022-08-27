@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is an actor who became famous after starring as the main character in the OTHER_IDENTIFYING_ATTRIBUTE_2 films. PRONOUN has had lead roles in several other films including " OTHER_IDENTIFYING_ATTRIBUTE_8 in black"", " OTHER_IDENTIFYING_ATTRIBUTE_1"", and " OTHER_IDENTIFYING_ATTRIBUTE_3"".
+ PRONOUN has also been a stage actor, performing in " OTHER_IDENTIFYING_ATTRIBUTE_7"" and " OTHER_IDENTIFYING_ATTRIBUTE_9.""
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 has also done some work in OTHER_IDENTIFYING_ATTRIBUTE_4 series, including: " OTHER_IDENTIFYING_ATTRIBUTE_5"" and ""A Young Doctor's Notebook & Other Stories"".
+ PRONOUN career started as a child but PRONOUN is now in PRONOUN NUMERIC_4s. PRONOUN is a white male with dark hair. PRONOUN height is slightly below average.

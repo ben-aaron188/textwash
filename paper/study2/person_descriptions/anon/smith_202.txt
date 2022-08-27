@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is an english singer and songwriter they released their first album in DATE_3 through capital records the album won NUMERIC_5 awards at the Grammys. 
+As of DATE_2 they have sold over NUMERIC_4 million albums worldwide.
+They were born in LOCATION_2 and raised in LOCATION_1. PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was bullied in school for ""having breasts"" which led to them having liposuction at NUMERIC_3.
+They came out as gay in DATE_3 and then as genderqueer in DATE_1 and prefer to use they/them pronouns. 
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 identifies as a feminist and will dress as and how they feel the mood for in that day.
+They are the third cousin of singer PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 and actor PERSON_FIRSTNAME_3 PERSON_LASTNAME_2.

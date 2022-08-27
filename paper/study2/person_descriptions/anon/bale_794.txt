@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_3 is an LOCATION_6 actor, born in LOCATION_3, LOCATION_3 in DATE_2. PRONOUN family left LOCATION_3 when PRONOUN was NUMERIC_1 years old and lived in LOCATION_7 and LOCATION_2 before settling in LOCATION_1. At the age of NUMERIC_3, PRONOUN parents divorced and PRONOUN moved with PRONOUN dad and sister to LOCATION_5.
+
+After deciding to become an actor, at age NUMERIC_5 PRONOUN secured a minor role in the DATE_1 tv film OTHER_IDENTIFYING_ATTRIBUTE_1:the mystery of OTHER_IDENTIFYING_ATTRIBUTE_3’ but the role which propelled PRONOUN to fame was by playing PERSON_FIRSTNAME_3 in OTHER_IDENTIFYING_ATTRIBUTE_2’ . This earned PRONOUN the inaugural Best Performance by a juvenile actor award from the National Board of Review of Motion pictures.
+
+ PRONOUN is famous for portraying the OTHER_IDENTIFYING_ATTRIBUTE_4 Billionaire, PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 in the OTHER_IDENTIFYING_ATTRIBUTE_5 series released in DATE_3. For the role PRONOUN lost NUMERIC_6lbs and trained in martial arts. 
+ PRONOUN is married to former model PERSON_FIRSTNAME_4 PERSON_LASTNAME_2 and they have a daughter and son together.

@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_2 is an LOCATION_1 singer who has had many hits including OTHER_IDENTIFYING_ATTRIBUTE_3 and OTHER_IDENTIFYING_ATTRIBUTE_2. PRONOUN has sold over NUMERIC_5 million records worldwide. PRONOUN is NUMERIC_7 and was born in LOCATION_3. PRONOUN is married and has NUMERIC_1 child.
+In DATE_1 PRONOUN released the single OTHER_IDENTIFYING_ATTRIBUTE_1 which was the soundtrack to the PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 film of the same name. OTHER_IDENTIFYING_ATTRIBUTE_1 reached number NUMERIC_2 in the LOCATION_2 singles chart.
+PERSON_FIRSTNAME_2 has won NUMERIC_4 Grammy awards and NUMERIC_2 Brit awards. PERSON_FIRSTNAME_2 has performed at ORGANIZATION_2 music festival and was on the pyramid stage.
+PERSON_FIRSTNAME_2 supports the football club ORGANIZATION_1 and is a ORGANIZATION_3 supporter.

@@ -1,0 +1,8 @@
+PERSON_FIRSTNAME_3 PERSON_LASTNAME_2 is NUMERIC_1 years old, of LOCATION_4 nationality and PRONOUN profession is a footballer, playing as a left winger. PRONOUN is the only son of the former football player PERSON_FIRSTNAME_2 PERSON_LASTNAME_2. PRONOUN was signed by the youth team at NUMERIC_4 years old and quickly gained the attention of many sides. PRONOUN joined the LOCATION_2 team ORGANIZATION_3 at NUMERIC_5 years old, impressing on trial, but a transfer didn't follow as the youth team wanted a transfer price which was too high for such a young player.
+ PRONOUN is compared and named as a successor to PERSON_FIRSTNAME_1 PERSON_LASTNAME_1, thanks to PRONOUN creativity and similarities as players. PRONOUN is known as a fine passer of the ball and provided many assists for PRONOUN teammates but not a scorer PRONOUN. PRONOUN scored PRONOUN first goal in the LOCATION_4 League and since then, PRONOUN became more prolific. NUMERIC_1 of PRONOUN most important contributions was in the Champions League qualifiers where PRONOUN scored the only goal in that game,
+ PRONOUN followed on with several LOCATION_3 top teams such as Manchester City, Milan, Everton, Anderlecht, Sunderland and ORGANIZATION_1 being linked with the LOCATION_4. 
+
+has double LOCATION_4-Moroccan nationality, PRONOUN could choose to play for either country, leading to PRONOUN playing International youth team games for both nations.
+ PRONOUN has double LOCATION_4-Moroccan nationality. 
+
+In DATE_1, PRONOUN received a NUMERIC_2-month prison sentence after appearing in court for a speeding offence for the NUMERIC_4th time. PRONOUN was given the jail term and was banned from driving for NUMERIC_3 years.

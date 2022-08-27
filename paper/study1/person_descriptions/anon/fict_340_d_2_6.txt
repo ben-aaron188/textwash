@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is a NUMERIC_1 year old sales executive from guildford LOCATION_2. PRONOUN was born in south LOCATION_3 to LOCATION_4 parents but moved to the uk aged NUMERIC_2.
+At NUMERIC_6 PRONOUN won a place a the university of LOCATION_1 where PRONOUN met PRONOUN future husband PERSON_FIRSTNAME_1.
+PERSON_FIRSTNAME_1 and PERSON_FIRSTNAME_2 were married at the registeration office in LOCATION_1.
+And have NUMERIC_7 kids,kenny,lisa,Justine. PRONOUN started a sales career at the business offices of ORGANIZATION_2 and was promoted to head of ORGANIZATION_3.
+In DATE_2 PRONOUN joined Clark's where PRONOUN is to this day PRONOUN plans to retire next year.
+And plans to spend more time with PRONOUN NUMERIC_5 grandchildren PERSON_FIRSTNAME_4 died in DATE_1 but has PRONOUN children all around PRONOUN.

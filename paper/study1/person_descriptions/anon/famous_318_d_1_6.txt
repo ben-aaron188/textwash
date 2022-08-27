@@ -1,0 +1,8 @@
+PERSON_FIRSTNAME_1 is multi award winning singer with a incredible voice. PRONOUN grew up in LOCATION_1 and is a huge advocate for the city. PRONOUN recently has made headlines for embarking on a weight loss programme. 
+
+PERSON_FIRSTNAME_1 is a fun bubbly character who is warm and down to earth and seems like PRONOUN would be a great friend. 
+ PRONOUN has a world class voice that is rightfully described as incredible and many of PRONOUN songs are infamous such as chasing pavements and someone like you. 
+ PRONOUN songs have feature in many programmes and PRONOUN also performed a song for the OTHER_IDENTIFYING_ATTRIBUTE_1 film skyfall.
+ PRONOUN also has an MBE.
+
+PERSON_FIRSTNAME_1 largely stays out of the limelight and leads PRONOUN personal life in private and away from the media. PRONOUN is rarely featured in the tabloids and is very private

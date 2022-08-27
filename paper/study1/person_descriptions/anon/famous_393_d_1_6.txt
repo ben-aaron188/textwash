@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_1 is a famous LOCATION_1 singer best known for PRONOUN songs on heart breaks and heart aches. PRONOUN real name is PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 and PRONOUN was born in LOCATION_2 on the DATE_2.
+ PRONOUN discovered PRONOUN love for singing at the age of NUMERIC_1 but continued singing in high school till DATE_1 when PRONOUN a friend posted PRONOUN music of social media site ORGANIZATION_1. PRONOUN was persuaded to sign a record contract with ORGANIZATION_2 , released PRONOUN first album NUMERIC_3 in DATE_3 and after much success and acclaim won Grammy Awards for best female new artist and vocal performer
+
+PERSON_FIRSTNAME_1 is a private person who tries to live an ordinary and not celebrity lifestyle. PRONOUN has a child and is rumoured to be separated from PRONOUN partner. 
+
+PERSON_FIRSTNAME_1 was recently in the news looking slim and had braids on. Some people claim PRONOUN was appropriating black culture but a majority supported PRONOUN on social media for appreciating black culture

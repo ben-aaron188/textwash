@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_1 is a NUMERIC_3 year old from LOCATION_3. PRONOUN is married to a model from LOCATION_4, PERSON_FIRSTNAME_2 PERSON_LASTNAME_2. Together they own a civil engineering empire which they manage between them and PERSON_LASTNAME_1 is a consultant at. 
+
+PERSON_LASTNAME_1 was born and raised in a sleepy village in LOCATION_2, called LOCATION_1. PRONOUN grew up with NUMERIC_1 brothers and a sister, all younger than PRONOUN. As a child PRONOUN learned how to play the guitar and has taught many musicians that have gone on to be in bands such as ORGANIZATION_5 and ORGANIZATION_2. This is a talent PERSON_LASTNAME_1 put aside when PRONOUN met PRONOUN partner and began to build their business. 
+
+As a teenager, PERSON_LASTNAME_1 studied at ORGANIZATION_3 before winning a scholarship at a university in LOCATION_3, ORGANIZATION_4. It was at this uni PRONOUN met PERSON_FIRSTNAME_2. 
+
+Of the many awards and accolades PERSON_LASTNAME_1 has earned, PRONOUN most loved is the NUMERIC_2 PRONOUN has for being patron saint of the ORGANIZATION_1. PERSON_LASTNAME_1 spends a lot of time, money and effort on visiting sick children in hospital and making their dreams and wishes come true.

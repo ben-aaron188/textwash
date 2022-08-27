@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was a successful and famous baseball player with the ORGANIZATION_1 in LOCATION_1, during the segregation years of the DATE_1's and NUMERIC_2's.
+
+From all accounts PRONOUN was a talented, determined player and an outstanding hitter; much admired throughout PRONOUN career and beyond. PRONOUN was also a role model for many LOCATION_3 who saw through PRONOUN success a path to a sporting career of their own. Many current LOCATION_2 baseball players, and even sports people in other areas cite PRONOUN as the inspiration for their own career.
+
+Unfortunately in the current febrile, racist atmosphere of LOCATION_1 it is more important than ever to highlight people such as PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 so those still fighting for racial equality have hope and positivity to give them strength.

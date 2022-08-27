@@ -1,0 +1,9 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_3 was a constitutional jurist, most famous for PRONOUN authorship of the book, Impeachment: A Handbook, which served as an important tool for constitutional understanding during the OTHER_IDENTIFYING_ATTRIBUTE_3.
+
+Born in LOCATION_2 in DATE_2, PRONOUN worked as a professor of law for most of PRONOUN adult life. PRONOUN died aged NUMERIC_2 in LOCATION_1 in DATE_1.
+
+Due to PRONOUN vehement opposition to the death penalty, PERSON_LASTNAME_3 wrote a book called Capital Punishment: The Inevitability of Caprice and Mistake, outlining PRONOUN position on the increasingly mediaeval practice.
+
+During PRONOUN studies at university, PERSON_LASTNAME_3 developed an appreciation for jazz music. PRONOUN particular admiration for PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 helped foster a burning desire to advance the civil rights movement in the south.
+
+Outside of academia, PERSON_LASTNAME_1 employed PRONOUN jurisprudential acumen in the seminal case of ORGANIZATION_1, for which PRONOUN wrote the legal briefs.

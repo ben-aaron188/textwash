@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a retired ORGANIZATION_1 professional footballer. PERSON_FIRSTNAME_1 was born on DATE_5 so PRONOUN is currently NUMERIC_7 years of age. 
+ PRONOUN full name is PERSON_FIRSTNAME_2 PERSON_LASTNAME_1. PRONOUN was born in the city of LOCATION_2 which is in LOCATION_1. PRONOUN is NUMERIC_2 NUMERIC_4 metres tall. 
+ PRONOUN played the position of midfielder/striker when PRONOUN was a football player. 
+ PRONOUN had made PRONOUN debut as a professional football player in DATE_6 in the ORGANIZATION_1 Second Division for PFC CSKA-d Moscow.
+ PRONOUN has played for team PFC CSKA-d Moscow from DATE_6 to DATE_2. PRONOUN has played for team Hapoel Bat Yam F.C. from DATE_2 to DATE_1. PRONOUN has played for team ORGANIZATION_2 from DATE_1 to DATE_3. PRONOUN has played for team ORGANIZATION_4 from DATE_3 to DATE_4.

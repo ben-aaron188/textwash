@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is an LOCATION_1 non-binary singer/ songwriter. 
+They rose to fame after appearing on a number of singles, notably Disclosures “Latch” and Naughty Boys “La La La”. They were nominated and won the DATE_2 Brits Critics Choice Award.
+Their debut album OTHER_IDENTIFYING_ATTRIBUTE_3 was released in DATE_2 and reached number NUMERIC_1 in the LOCATION_2.
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 has recorded with artists such as: PERSON_FIRSTNAME_1 PERSON_LASTNAME_3, PERSON_FIRSTNAME_3 Harris, Normani and ORGANIZATION_1.
+In DATE_1 they also released the first OTHER_IDENTIFYING_ATTRIBUTE_1 soundtrack to reach LOCATION_2 number NUMERIC_1, “Writing’s on the Wall”, for the film OTHER_IDENTIFYING_ATTRIBUTE_6.
+Their second album, OTHER_IDENTIFYING_ATTRIBUTE_4 was released in DATE_3, which reached number NUMERIC_1 in the LOCATION_2. It was a critically acclaimed success. PERSON_FIRSTNAME_2 is currently working on PRONOUN third studio album.

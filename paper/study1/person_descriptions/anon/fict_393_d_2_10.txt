@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_3 is a mixed race woman born DATE_1 in LOCATION_1. PRONOUN was born during OTHER_IDENTIFYING_ATTRIBUTE_1 LOCATION_4 to a white woman and black father. Due to racial laws soon after birth PRONOUN was given up for adoption to an LOCATION_2 couple PERSON_FIRSTNAME_4 and PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 who adopted PRONOUN and PRONOUN moved with them to LOCATION_3
+ PRONOUN had a great childhood and was a talented athlete who also had great interest in technology. After high school PRONOUN enrol in ORGANIZATION_1 where PRONOUN trained and graduated in Computer Sciences. 
+ PRONOUN started as a low level support and rose through the ranks to IT Trainer. PRONOUN is a valued member of staff at ORGANIZATION_2 solutions
+
+PERSON_FIRSTNAME_1 is single after separating from PRONOUN husband in DATE_2 but PRONOUN has NUMERIC_3 kids, some dogs and fish. PRONOUN enjoys outdoor sports and usually participates in marathons

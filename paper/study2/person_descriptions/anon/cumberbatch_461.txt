@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 is an LOCATION_1 OCCUPATION_1 who has starred in many TV programmes and films. PRONOUN was born in LOCATION_2 in DATE_2, and NUMERIC_1 of PRONOUN greatest accomplishments is being awarded a OTHER_IDENTIFYING_ATTRIBUTE_3 by the queen for PRONOUN services to charities and the performing arts world.
+Most known for playing PERSON_FIRSTNAME_2 OTHER_IDENTIFYING_ATTRIBUTE_1 in the DATE_1 film OTHER_IDENTIFYING_ATTRIBUTE_1. PRONOUN also played OTHER_IDENTIFYING_ATTRIBUTE_2 in the ORGANIZATION_1 television series. PRONOUN is a husband and father of NUMERIC_2 children also.
+Also recent involvement in the ORGANIZATION_2 films playing PERSON_FIRSTNAME_3 PERSON_LASTNAME_1.

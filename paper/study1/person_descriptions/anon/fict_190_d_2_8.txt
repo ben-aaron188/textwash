@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is a marketing executive from LOCATION_3 in LOCATION_2, where PRONOUN lives with PRONOUN partner PERSON_FIRSTNAME_5 and their adopted twins PERSON_FIRSTNAME_4 and PERSON_FIRSTNAME_1. Their home is in the hills and overlooks the city, where the children attend school.
+In their spare time the family enjoy eating out and visiting galleries and museums; as well as playing tennis and golf. 
+PERSON_FIRSTNAME_5 and PERSON_FIRSTNAME_3 have been together for NUMERIC_4 years, meeting at a friend's party in LOCATION_1. They hope to marry as soon as lockdown restrictions are lifted.
+PERSON_FIRSTNAME_3 is the youngest of NUMERIC_1 children, having NUMERIC_2 brother and NUMERIC_6 sisters. PRONOUN mother lives very close by and visits the family often.

@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a renowned singer/songwriter and pianist from the LOCATION_1. PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is NUMERIC_1 of the best selling music artists of all time.
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 has released over NUMERIC_2 studio albums and has performed with many other world leading artists. PRONOUN style of music is eclectic ranging from rock, to pop rock to glam rock. 
+Aside from PRONOUN music career, PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 established the ORGANIZATION_1 which has raised millions over the years. 
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is known for PRONOUN outlandish outfits when performing. PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is married to PRONOUN partner and they have NUMERIC_1 children together.

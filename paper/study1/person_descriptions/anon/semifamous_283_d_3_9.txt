@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 grew up in a very small town in LOCATION_1 in DATE_2. Growing up PRONOUN was a very keen football player, often playing with PRONOUN brothers in the back yard. After doing well at school PRONOUN studied Law at ORGANIZATION_2. 
+
+At university PRONOUN played for the home team and was selected for the All- Southern in DATE_3, a team made up of only the best players at their respective universities.
+
+After graduating PRONOUN opened PRONOUN own Law firm and successfully run it for NUMERIC_1 years. In DATE_3, PRONOUN joined as a chief clerk a commission that was reviewing the LOCATION_1 statutes. PRONOUN lated was appointed as the chief clerk of the ORGANIZATION_1 of LOCATION_1. PRONOUN sadly died in DATE_1 at only NUMERIC_1 years old.

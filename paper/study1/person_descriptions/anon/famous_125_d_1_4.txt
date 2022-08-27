@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_2 is an OTHER_IDENTIFYING_ATTRIBUTE_2 artist who recently came out as bisexual, as an artist who came to fame for PRONOUN songs PRONOUN had a huge following. More Specifically, PRONOUN is an LOCATION_1 singer, songwriter, pianist, and composer.
+PERSON_FIRSTNAME_2 has also produced records and occasionally acted in films.
+PERSON_FIRSTNAME_2 is now in PRONOUN sixties and not quite as famous
+They made a film about it
+PERSON_FIRSTNAME_1 has been involved in the fight against OTHER_IDENTIFYING_ATTRIBUTE_3 since the late DATE_1. In DATE_2, PRONOUN established the ORGANIZATION_1, and a year later PRONOUN began hosting PRONOUN annual OTHER_IDENTIFYING_ATTRIBUTE_4, which has since become NUMERIC_1 of the biggest high-profile OTHER_IDENTIFYING_ATTRIBUTE_1 parties in the LOCATION_2 film industry.

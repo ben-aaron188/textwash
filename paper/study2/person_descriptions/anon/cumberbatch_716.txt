@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 is an LOCATION_1 actor that is married to PERSON_FIRSTNAME_2 PERSON_LASTNAME_3 with whom PRONOUN shares NUMERIC_6 children. PRONOUN has acquired many rewards over PRONOUN acting careeer. PRONOUN has starred in many movies however is probably most heard of by todays generation as marvels OTHER_IDENTIFYING_ATTRIBUTE_3 PERSON_LASTNAME_1. 
+ PRONOUN rewards include a Primetime Emmy Award, a OTHER_IDENTIFYING_ATTRIBUTE_4 Award and a OTHER_IDENTIFYING_ATTRIBUTE_2 Award. 
+ PRONOUN full name birth name is PERSON_FIRSTNAME_3 PERSON_LASTNAME_2 and PRONOUN was born in LOCATION_2 in DATE_1. The programme which made PRONOUN shoot to fame was called OTHER_IDENTIFYING_ATTRIBUTE_1 which aired on bbc. 
+
+PERSON_FIRSTNAME_1 currently has a net worth of around NUMERIC_3million dollars, other interesting facts about PRONOUN is that PRONOUN is NUMERIC_4ft tall and made over NUMERIC_5 million pounds playing doctor strange in NUMERIC_5 movies.

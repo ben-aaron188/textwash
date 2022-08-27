@@ -1,0 +1,9 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is a well known LOCATION_2 film actor who is approximately NUMERIC_2 years old. PRONOUN is well known for playing a typically well spoken LOCATION_1 gentleman in films and PRONOUN frequently stars in romantic comedy films.
+ PRONOUN has been in wide range of films including:
+Love Actually
+About a Boy
+Five Weddings and a Funeral
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 series of films OTHER_IDENTIFYING_ATTRIBUTE_1
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 has received many awards for PRONOUN film work including a BAFTA and a Golden Globe.
+
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is also well known for taking on some of the LOCATION_2 tabloids, notably the ORGANIZATION_1 over telephone hacking. PRONOUN also got into trouble with the police in the LOCATION_3 several years ago, I think due to finding a prostitute in PRONOUN car.

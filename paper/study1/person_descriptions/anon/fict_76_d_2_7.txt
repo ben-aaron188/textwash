@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a Slovenian-British Chartered Accountant. Born in LOCATION_1 in DATE_2, PERSON_LASTNAME_1 moved to the LOCATION_2 at the age of NUMERIC_1 with PRONOUN family, settling in Livingston, Scotland and attending the local comprehensive secondary school.
+
+PERSON_LASTNAME_1 was considered an academically gifted child, and earned a scholarship to study medicine at the ORGANIZATION_2. Upon completion of PRONOUN undergraduate studies, PERSON_LASTNAME_1 trained for, and eventually qualified as, a Cardiologist. PERSON_LASTNAME_1 met PRONOUN future spouse whilst training as a Junior Doctor at the ORGANIZATION_1, but quickly found that PRONOUN did not enjoy the long hours and stress involved.
+
+With the support of PRONOUN partner, PERSON_LASTNAME_1 left frontline medicine to work as the bookkeeper for a local GP's Surgery, studying for the ACA in the evening and eventually qualifying as a Chartered Accountant.
+
+PERSON_LASTNAME_1 and PRONOUN wife were married in DATE_1 and live in LOCATION_5.

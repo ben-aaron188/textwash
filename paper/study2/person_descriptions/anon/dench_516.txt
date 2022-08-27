@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 is a world famous LOCATION_2 actress known for starring in the OTHER_IDENTIFYING_ATTRIBUTE_1 movies as well as many other high profile movies in LOCATION_1. 
+
+PERSON_LASTNAME_2 also has a long history in theatre performing in many famous OTHER_IDENTIFYING_ATTRIBUTE_6 plays such as OTHER_IDENTIFYING_ATTRIBUTE_2 and OTHER_IDENTIFYING_ATTRIBUTE_3.
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 is decorated in many awards from PRONOUN film, TV and theatrical career managing to rack up a collection of BAFTAs Golden Globes and Screen Actors guild awards. 
+
+Married in DATE_1 to PRONOUN late husband PERSON_FIRSTNAME_3 PERSON_LASTNAME_1 who passed away in DATE_2 PRONOUN has NUMERIC_2 child PERSON_FIRSTNAME_4 PERSON_LASTNAME_1 and NUMERIC_2 Grandson. PRONOUN grandson has also manged to gather an online audience through the popular social media app OTHER_IDENTIFYING_ATTRIBUTE_5 where PERSON_FIRSTNAME_2 will often feature in PRONOUN video clips.

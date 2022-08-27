@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a russian footballer who is now retired. PRONOUN is in PRONOUN late fourties and enjoys keeping fit. 
+ PRONOUN height is roughly NUMERIC_1 NUMERIC_2metre and PRONOUN stature slender yet muscular. PRONOUN has ash-blond hair, which is lightly receding, likes to be clean-shaven and has brownish eyes. When reading PRONOUN uses glasses. PERSON_FIRSTNAME_1 has NUMERIC_1 tattoos, NUMERIC_2 on PRONOUN right calf and the other on PRONOUN left triceps. 
+
+When resting PRONOUN face, PRONOUN lips seems to go down rather than up. PRONOUN has some light wrinkles around PRONOUN eyes as PRONOUN used to squint PRONOUN eyes when reading before getting glasses. PRONOUN skin is fairly pale but PRONOUN does enjoy a sun bed session every now and then, giving PRONOUN a small amount of frackles.

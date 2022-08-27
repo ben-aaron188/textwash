@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1, knighted OTHER_IDENTIFYING_ATTRIBUTE_6 PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 in DATE_3, is an LOCATION_1 musician who blends pop and rock into a style that PRONOUN is renowned for. In PRONOUN lifetime PRONOUN has sold more than NUMERIC_2 million records, and for this makes PRONOUN NUMERIC_1 of the best-selling music artists in history. 
+
+PERSON_LASTNAME_1 began PRONOUN serious music career in DATE_5, with PRONOUN debut album OTHER_IDENTIFYING_ATTRIBUTE_4'. PRONOUN then went on to have a successful music career and is still NUMERIC_1 of the most well-known artists of the NUMERIC_5st century.
+
+Some of PRONOUN most recent albums include: OTHER_IDENTIFYING_ATTRIBUTE_3 DATE_1 , OTHER_IDENTIFYING_ATTRIBUTE_5 DATE_2 , The Captain & the Kid DATE_4 and OTHER_IDENTIFYING_ATTRIBUTE_2 DATE_6 .

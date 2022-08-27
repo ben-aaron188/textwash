@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 is a NUMERIC_1-year-old accountant who enjoys drone photography, upcycling and podcasting. PRONOUN is boring and careful, but can also be very pessimistic and a bit moody.
+ PRONOUN is LOCATION_1. PRONOUN finished school and then left academia, although did study for PRONOUN accounting qualifications after this.
+
+Physically, PERSON_FIRSTNAME_1 is in good shape. PRONOUN is tall with pale skin, ginger hair and blue eyes. PRONOUN has a nasal kink.
+ PRONOUN grew up in a middle-class neighbourhood. After PRONOUN mother died when PRONOUN was young, PRONOUN was raised by PRONOUN father
+ PRONOUN is currently single. PRONOUN most recent romance was with an artist called PERSON_FIRSTNAME_2, who was NUMERIC_7 years older than PRONOUN. They broke up because PERSON_FIRSTNAME_2 felt PERSON_FIRSTNAME_1 was so cautious that PRONOUN was afraid to live.
+ PERSON_FIRSTNAME_4's best friend is a doctors assistant called PERSON_FIRSTNAME_6 PERSON_LASTNAME_4. They are inseparable. PRONOUN also hangs around with PERSON_FIRSTNAME_3 PERSON_LASTNAME_1 and PERSON_FIRSTNAME_5 PERSON_LASTNAME_3. They enjoy reading together and going on hikes.

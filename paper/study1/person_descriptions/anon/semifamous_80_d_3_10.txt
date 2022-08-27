@@ -1,0 +1,5 @@
+Irvin Woodberry " PERSON_FIRSTNAME_3"" PERSON_LASTNAME_1 lived from DATE_1 NUMERIC_2, NUMERIC_1 – DATE_2 NUMERIC_6, NUMERIC_5. PRONOUN played LOCATION_1 baseball player. PRONOUN was mistakenly referred to as PERSON_FIRSTNAME_3 PERSON_LASTNAME_1 in some reference books which also incorrectly had PRONOUN listed as coming form the LOCATION_2. In reality, PRONOUN came from Key West, Florida. PRONOUN was an all-rounder and played many positions in PRONOUN career including pitcher, infielder and outfielder. PRONOUN devoted all PRONOUN career to playing with the ORGANIZATION_2, and was renowned for PRONOUN hitting ability. PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 who owned the ORGANIZATION_1 stated that PERSON_LASTNAME_1 was PRONOUN favourite player of all time.
+
+
+
+Notes

@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_1 is a Grammy award winning singer from the LOCATION_2, PRONOUN now lives in LOCATION_3. PRONOUN has been in the industry for NUMERIC_3 years, releasing PRONOUN first album NUMERIC_6 in DATE_3. PRONOUN has since released NUMERIC_2 more albums NUMERIC_4 and NUMERIC_5, again to worldwide acclaim. 
+
+From DATE_2 to DATE_1 PRONOUN was married to PERSON_FIRSTNAME_2 PERSON_LASTNAME_1, whom PRONOUN had a child with.
+
+PERSON_FIRSTNAME_1 is also known for PRONOUN philanthropic work most notably after the OTHER_IDENTIFYING_ATTRIBUTE_1, where PRONOUN appeared at the sight to pay PRONOUN respect and to volunteer. PRONOUN later payed tribute to the victims at PRONOUN first show at LOCATION_1.
+ 
+Recently PERSON_FIRSTNAME_1 has made the headline with PRONOUN dramatic weight loss, with many people (mainly the press) speculating how and or why. Many people anticipate that PRONOUN is due to release PRONOUN next album shortly.

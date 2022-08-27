@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 is NUMERIC_3 years of age, born in LOCATION_2. As a child PRONOUN is married to PERSON_FIRSTNAME_1 PERSON_LASTNAME_3 and hey have NUMERIC_1 daughters aged NUMERIC_4 and NUMERIC_2. PRONOUN is multi lingual and able to speak fluent french, LOCATION_1, English and Spanish.
+
+As a child PRONOUN parents wanted PRONOUN to study as a doctor, following in the family tradition, as both PRONOUN parents were brain surgeons. However PRONOUN was always passionate about business and became a successful Marketing Executive in PRONOUN mid thirties.
+ PRONOUN gives charitable donations to the orphanage in LOCATION_3 and often does charity swimming events to raise money for them. This started when PRONOUN travelled to LOCATION_3 as a Youth worker and worked with the orphanage where PRONOUN heart became touched by the needs of the children.
+ PRONOUN has a strong rastafarian faith and does not eat pork. In PRONOUN spare time PRONOUN likes to listen to PERSON_FIRSTNAME_3 PERSON_LASTNAME_1 and read spiritual books.

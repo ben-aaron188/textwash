@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a former professional footballer who played for ORGANIZATION_1 and LOCATION_1. PRONOUN played for other teams during PRONOUN career and ended it playing for ORGANIZATION_3. 
+
+PERSON_FIRSTNAME_1 is considered NUMERIC_1 of the best LOCATION_1 players of all time and is well known for PRONOUN famous free kicks and the iconic number NUMERIC_5 on PRONOUN jersey. 
+ PRONOUN is currently the co-owner of a football club in LOCATION_2 called ORGANIZATION_2, however they have struggled to achieve success.
+ PRONOUN is married to OTHER_IDENTIFYING_ATTRIBUTE_1 PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 and they have NUMERIC_3 children together. A number of PRONOUN children have gone on to become famous themselves, becoming models and artists.

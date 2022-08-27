@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_3 Jr. is a OCCUPATION_2 for ORGANIZATION_2. PRONOUN was born in Barcelona, Spain on DATE_1 to parents PERSON_FIRSTNAME_1 PERSON_LASTNAME_2, a singer/songwriter and PERSON_FIRSTNAME_2 PERSON_LASTNAME_1. , an Investment OCCUPATION_1. PRONOUN is the youngest of NUMERIC_1 siblings (all sisters).
+
+PERSON_LASTNAME_3 began PRONOUN career in PRONOUN father's footsteps, leaving school at NUMERIC_5 and working for the same banking company as PRONOUN. However, at age NUMERIC_2 PRONOUN left PRONOUN role there and decided to enrol in University. PRONOUN spent NUMERIC_6 years at the ORGANIZATION_1 where PRONOUN studied for a BA in Business and Marketing. 
+
+PERSON_LASTNAME_3 had always had a keen interest in fashion. It has been reported that as a child PRONOUN would style and advise PRONOUN sisters on their outfits.
+
+PERSON_LASTNAME_3 now lives in LOCATION_1 with PRONOUN wife PERSON_FIRSTNAME_1 and NUMERIC_4 children.

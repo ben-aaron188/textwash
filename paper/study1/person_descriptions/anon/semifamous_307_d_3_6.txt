@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was born in ORGANIZATION_1 in DATE_1. PRONOUN is a former LOCATION_1 cricketer who bowled right-arm medium pace.
+From NUMERIC_1 eighty NUMERIC_2 to NUMERIC_1 eighty NUMERIC_3, PRONOUN represented the county in NUMERIC_3 Trophy matches. 
+Of which, the last county match was against ORGANIZATION_2!
+In PRONOUN combined career total of NUMERIC_7 List A matches, PRONOUN has scored NUMERIC_6 runs!
+These were at an average of NUMERIC_3 NUMERIC_4, with a high score of NUMERIC_5. PRONOUN also captained ORGANIZATION_1 occasionally!

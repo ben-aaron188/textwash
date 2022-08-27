@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 CH CBE (birthname PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 is a legendary LOCATION_1 musician whose career spans over nearly NUMERIC_4 years.
+
+PERSON_LASTNAME_1 has received multiple awards for PRONOUN many songs, including, NUMERIC_1 Grammy Awards, NUMERIC_1 Brit Awards and NUMERIC_1 Academy Awards. PERSON_LASTNAME_1 was inducted into the Songwriters Hall of ORGANIZATION_1 DATE_1 as well as the ORGANIZATION_2 Hall of ORGANIZATION_1 DATE_4 .
+
+PERSON_LASTNAME_1 came out as bisexual in DATE_3 and has been openly gay since DATE_2. PERSON_LASTNAME_1 is often praised for PRONOUN work on behalf of the LGBT community, and thanked for shining light on societal issues around these subjects.

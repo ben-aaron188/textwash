@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 is a LOCATION_2 born singer-songwriter. Winner of NUMERIC_1 grammys for their debut album OTHER_IDENTIFYING_ATTRIBUTE_1' which was release in DATE_2. PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 was born in DATE_1 and first hit the charts at the age of NUMERIC_4 on the Disclosure song OTHER_IDENTIFYING_ATTRIBUTE_2'. PERSON_FIRSTNAME_2 PERSON_LASTNAME_2's first single was released not long after. 
+
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 came out as gay in the same month as PRONOUN debut album was released and revealed that though having written about love in many of their song they've never actually experienced this themselves and have never been in a relationship before.
+
+PERSON_LASTNAME_2 has since had a duet with PERSON_FIRSTNAME_1 PERSON_LASTNAME_3, had a number NUMERIC_2 hit in the LOCATION_3 charts and co-written and sung the single for 'writings on the wall' for the PERSON_FIRSTNAME_3 PERSON_LASTNAME_1 movie OTHER_IDENTIFYING_ATTRIBUTE_3.
+
+PERSON_FIRSTNAME_2 shares their name with the famous LOCATION_4 painter as well as a number of sports stars and an LOCATION_1 actor.

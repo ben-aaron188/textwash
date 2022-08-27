@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a LOCATION_2 pop star who is well known for singing, song-writing and playing guitar. PRONOUN has a recognisable cheeky face and ginger hair. PRONOUN is NUMERIC_2 years old, from LOCATION_1 in the LOCATION_3 and occasionally wears glasses. 
+ PRONOUN loves football and has lately sponsored PRONOUN club. 
+ PRONOUN has collaborated with a number of artists and has won several awards for PRONOUN work. 
+ PRONOUN albums are mathematical symbols, + - OTHER_IDENTIFYING_ATTRIBUTE_1 and [divide]
+ PRONOUN musical style has changed over the years. Going from an acoustic sound to more of a dance style.

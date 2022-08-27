@@ -1,0 +1,9 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 born DATE_1 is well known for PRONOUN football career. Starring in teams ORGANIZATION_6, ORGANIZATION_2 ORGANIZATION_2 ORGANIZATION_2, ORGANIZATION_2 ORGANIZATION_2, ORGANIZATION_2 ORGANIZATION_2, ORGANIZATION_2 ORGANIZATION_2, ORGANIZATION_2 ORGANIZATION_2 ORGANIZATION_2 and the LOCATION_1 national team.
+
+The start of PRONOUN professional career was when PRONOUN turned NUMERIC_3 when PRONOUN joined ORGANIZATION_6. PRONOUN has been married to wife PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 since DATE_2 and together they have NUMERIC_8 boys and a girl. PRONOUN has been a ORGANIZATION_5 LOCATION_2 ambassador since DATE_3.
+
+PERSON_FIRSTNAME_1 is known to worth over NUMERIC_5 million, PRONOUN owns a whiskey brand called ORGANIZATION_3 and PRONOUN’s the current president and co owner of ORGANIZATION_1.
+
+A fun fact is that PRONOUN wife PERSON_FIRSTNAME_2 was actually famous before PRONOUN as PRONOUN was a member of the band ORGANIZATION_4’ 
+
+PERSON_FIRSTNAME_1 was the first ever LOCATION_3 football player to collect NUMERIC_1 red cards and the first NUMERIC_2 OTHER_IDENTIFYING_ATTRIBUTE_1 captain to be sent off.

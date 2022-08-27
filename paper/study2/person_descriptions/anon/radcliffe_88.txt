@@ -1,0 +1,4 @@
+British actor, PERSON_FIRSTNAME_2 PERSON_LASTNAME_2, NUMERIC_8, rose to fame as a child in the OTHER_IDENTIFYING_ATTRIBUTE_2 film series, in which PRONOUN played the title character, PERSON_FIRSTNAME_3. Viewers watched PRONOUN grow up on screen over the NUMERIC_5-film series, which PRONOUN starred in from age NUMERIC_6 to age NUMERIC_7. 
+
+When PRONOUN was NUMERIC_3, in a bid to prevent PRONOUN being typecast, PERSON_LASTNAME_2 starred in the play, OTHER_IDENTIFYING_ATTRIBUTE_1, as the lead character PERSON_FIRSTNAME_4 PERSON_LASTNAME_1. PRONOUN received widespread critical acclaim as well as some controversy because PRONOUN starred in a nude scene during the play.
+ PERSON_LASTNAME_2, who is a Labour supporter, has a long term partner, PERSON_FIRSTNAME_1 PERSON_LASTNAME_3, who is also an actress.

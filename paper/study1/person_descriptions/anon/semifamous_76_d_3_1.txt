@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_2 son of former OCCUPATION_1 General PERSON_FIRSTNAME_3 PERSON_LASTNAME_1 Sr, PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was an american statesman in the early DATE_1 century. Born in Worcester, Mass, PERSON_LASTNAME_1 studied Law at ORGANIZATION_2 in nearby LOCATION_1 before being admitted to the ORGANIZATION_1. There PRONOUN pursued the family business of politics by serving as a District OCCUPATION_1 before, in DATE_2, being elected as a congressman for the state of LOCATION_3 under the Democratic-Republican banner.
+
+Following PRONOUN congressional seat, PERSON_LASTNAME_1 served as Governor of LOCATION_3 for NUMERIC_1 years until PRONOUN death in DATE_3. PRONOUN was memorialised by the town of PERSON_LASTNAME_1, ME, which was named in PRONOUN honour.

@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 was born in LOCATION_1 PRONOUN birthday was NUMERIC_3nd of DATE_1. PRONOUN passed away on DATE_3.
+ PRONOUN was a highly regarded legal figure in respect of constitutional law and wrote a book regarding OTHER_IDENTIFYING_ATTRIBUTE_1 which is well regarded by law students and professionals. PRONOUN has also written poetry after taking this up at the age of NUMERIC_4 and has published NUMERIC_1 volumes. 
+ PRONOUN studied at ORGANIZATION_1 before serving in the ORGANIZATION_2 in the DATE_2’s. PRONOUN served as a professor at the ORGANIZATION_3 and was involved in many civil rights debates and cases. PRONOUN states PRONOUN started taking an interest in civil rights following attending a concert to see PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 while PRONOUN was a freshman at the ORGANIZATION_4. 
+
+PERSON_FIRSTNAME_1 was a well known critic of PRONOUN death penalty.

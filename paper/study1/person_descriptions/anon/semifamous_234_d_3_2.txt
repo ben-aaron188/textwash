@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_6 P. OTHER_IDENTIFYING_ATTRIBUTE_1 was a prolific NUMERIC_6th century OTHER_IDENTIFYING_ATTRIBUTE_2 LOCATION_1 inventor. In PRONOUN short life PRONOUN held almost NUMERIC_1 hundred patents. The most widely used of these include, but are not limited to the power lift sulky plow and the OTHER_IDENTIFYING_ATTRIBUTE_1 metal wheel.
+
+Born in LOCATION_3, PRONOUN family moved to LOCATION_4, where PRONOUN father ran a grocers, then on to LOCATION_5. PERSON_FIRSTNAME_6 was educated in a school that was primarily for OTHER_IDENTIFYING_ATTRIBUTE_3, despite being OTHER_IDENTIFYING_ATTRIBUTE_2 LOCATION_1. 
+
+PERSON_FIRSTNAME_6 married PERSON_FIRSTNAME_5 PERSON_LASTNAME_2 in DATE_1 and together they had NUMERIC_2 children, a boy and a girl named PERSON_FIRSTNAME_1 and PERSON_FIRSTNAME_2. Then PERSON_FIRSTNAME_5 died, so PRONOUN married PERSON_FIRSTNAME_4 PERSON_LASTNAME_1. PRONOUN husband had died, so they probably bonded over a mutual hatred of death.

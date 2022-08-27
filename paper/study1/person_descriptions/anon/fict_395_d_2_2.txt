@@ -1,0 +1,7 @@
+TITLE PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 was born in Manchester, England. At the age of NUMERIC_3 PERSON_LASTNAME_1 moved to LOCATION_1. 
+
+This was due to PERSON_LASTNAME_1's father, PERSON_FIRSTNAME_3. PERSON_FIRSTNAME_3 was a in the armed forces and was stationed in LOCATION_2.
+
+PERSON_LASTNAME_1 was always interested in archaeology and dreamed of becoming an explorer. This Passion led PRONOUN to meet PRONOUN girlfriend PERSON_FIRSTNAME_2 at the archaeological convention of DATE_1 . Both PERSON_FIRSTNAME_2 and PERSON_LASTNAME_1 are atheist and so no reason to marry. 
+ TITLE PERSON_LASTNAME_1 is a hydrographic surveyor and has won NUMERIC_3 prices from this.
+ TITLE PERSON_LASTNAME_1 is close to retiring now and plans to travel the world, going to historic sites.

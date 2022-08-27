@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_3 is am LOCATION_1 footballer, most well know for playing for ORGANIZATION_1 and LOCATION_2. PRONOUN is also famously married to posh spice, PERSON_FIRSTNAME_5 PERSON_LASTNAME_3. 
+
+PERSON_LASTNAME_3 signed for ORGANIZATION_1 when PRONOUN was NUMERIC_1, the club that PRONOUN had supported throughout PRONOUN childhood. PRONOUN played midfield and was well known for PRONOUN free kicks. 
+ PRONOUN made PRONOUN premier.league debut in DATE_2 under the then manager PERSON_FIRSTNAME_2 PERSON_LASTNAME_2. PRONOUN quickly became a regular in the starting line up and played wearing the number NUMERIC_2 shirt. 
+
+PERSON_FIRSTNAME_1 married PERSON_FIRSTNAME_5 PERSON_LASTNAME_3 in DATE_1. They have NUMERIC_3 children together, PERSON_FIRSTNAME_3, PERSON_FIRSTNAME_3, PERSON_LASTNAME_1 and PERSON_FIRSTNAME_4.

@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a white, middle aged female with long blonde hair who was born in the LOCATION_1.
+ PRONOUN is an author, most well-known for the incredibly successful OTHER_IDENTIFYING_ATTRIBUTE_1, which made PRONOUN the first billionaire author, a label PRONOUN rejects as untrue, due to having given much of PRONOUN wealth to charity.
+ PRONOUN has also worked on movies as a producer, and writer. PRONOUN is also well-known for PRONOUN philanthropy but has been involved in some controversy due to expressing PRONOUN views on certain social issues on social media sites regarding Trans issues.
+
+It is quite well known that whilst writing the OTHER_IDENTIFYING_ATTRIBUTE_1, PRONOUN struggled financially. Since becoming wealthy however, PRONOUN has not forgotten the help PRONOUN received and is vociferous about pay due taxes in an honest manner and the positive aspects of the social safety net the state provides.

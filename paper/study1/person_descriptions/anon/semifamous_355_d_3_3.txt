@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a famous LOCATION_1 football player playing the position of left wing PRONOUN is the only son to the famous PERSON_FIRSTNAME_3 PERSON_LASTNAME_2.
+PERSON_FIRSTNAME_1 had it all going for PRONOUN playing for english team birmingham city in trials but fell through after transfer prices could not be negotiated.
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 has double Belgian-Moroccan nationality which enabled PRONOUN to play for both teams internationally mking a name for PRONOUN
+however in DATE_1 PRONOUN was arrested and sent to prison for drink driving which was PRONOUN NUMERIC_1th offence 
+a once promising and growing young man with many opertunities wasted away by bad choices and repeat offences

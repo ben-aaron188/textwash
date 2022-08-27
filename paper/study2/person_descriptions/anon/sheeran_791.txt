@@ -1,0 +1,10 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is an LOCATION_4 singer songwriter born in LOCATION_5, LOCATION_5 LOCATION_5 in DATE_2. 
+ PRONOUN has sold over NUMERIC_3 million records worldwide making PRONOUN NUMERIC_1 of the worlds best selling artists of all time.
+
+PERSON_LASTNAME_1 sang in the local church choir at the age of NUMERIC_6 and learned how to play the guitar at NUMERIC_2. PRONOUN began writing songs in High School and was noted as being a natural performer in NUMERIC_1 of PRONOUN school reports. PRONOUN also won “most likely to be famous” as voted for by PRONOUN classmates. 
+ PRONOUN began recording music in DATE_1 and moved to LOCATION_3 in DATE_3 to pursue PRONOUN music career, PRONOUN supported bands such as ORGANIZATION_2 and ORGANIZATION_1 and performed at small venues to get PRONOUN music heard. 
+
+With the help of YouTube, PERSON_LASTNAME_2 music was reaching a wider audience and started gaining a name for PRONOUN in the industry. PRONOUN released PRONOUN debut single OTHER_IDENTIFYING_ATTRIBUTE_2 in DATE_5, entering the LOCATION_2 charts at number NUMERIC_7, and it became a top NUMERIC_5 hit all over LOCATION_1. 
+ PRONOUN has since has massive success with songs such as, OTHER_IDENTIFYING_ATTRIBUTE_1 house, shape of you and perfect.
+
+In DATE_4 PRONOUN married PRONOUN long term girlfriend PERSON_FIRSTNAME_1 PERSON_LASTNAME_3 and they have a daughter, PERSON_FIRSTNAME_3.

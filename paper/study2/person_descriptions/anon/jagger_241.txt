@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is a singer and song writer who is most famous as the lead singer of ORGANIZATION_1, a rock and roll band PRONOUN started over NUMERIC_5 decades ago. PRONOUN was born in DATE_2 in LOCATION_1, LOCATION_1. PRONOUN has NUMERIC_4 children and has been married once but had various long term partners including PERSON_FIRSTNAME_1 PERSON_LASTNAME_2. 
+In DATE_3 PRONOUN was inducted into the rock and roll hall of fame. PRONOUN band have reached the top NUMERIC_3 singles charts with NUMERIC_8 singles.
+In DATE_1 PRONOUN became TITLE PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 for PRONOUN services to popular music. PRONOUN net worth is around NUMERIC_6

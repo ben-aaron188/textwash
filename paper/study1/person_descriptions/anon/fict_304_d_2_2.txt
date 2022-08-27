@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_3 O'connor is a world famous hydrographic surveyor who trained and worked in LOCATION_2. PRONOUN has won many prestigious awards in PRONOUN field and is consulted regularly on PRONOUN work and opinions on maritime navigation.
+PERSON_FIRSTNAME_3 O'connor has been married for NUMERIC_1 years to PRONOUN partner Doctor PERSON_FIRSTNAME_2 O'connor who is also a hydrographic surveyor. They met whilst studying in their hometown of Berlin, Germany and have been together ever since. 
+They are both NUMERIC_2 years d, have NUMERIC_4 dogs - Spot, Spit and OTHER_IDENTIFYING_ATTRIBUTE_3 and live in the suburbs.
+Their ultimate ambition is to win a OTHER_IDENTIFYING_ATTRIBUTE_2 peace prize and travel the world together in Old age.

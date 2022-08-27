@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_3 PERSON_LASTNAME_2 was born in LOCATION_2 on DATE_2 currently NUMERIC_3. 
+PERSON_LASTNAME_2 began acting in school plays at the age of NUMERIC_1, making PRONOUN debut in the ORGANIZATION_1 production of OTHER_IDENTIFYING_ATTRIBUTE_2. 
+PERSON_FIRSTNAME_2 is an LOCATION_1 actor. PRONOUN is best known for playing PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 in the eponymous film series, beginning with OTHER_IDENTIFYING_ATTRIBUTE_1, which brought PRONOUN international fame. As of DATE_3, PRONOUN has starred in NUMERIC_2 more instalments, with a fifth set to be released in late DATE_1. Famous for PRONOUN looks and charm PRONOUN continues to fill out screens and is arguably the best bond to date.

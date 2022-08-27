@@ -1,0 +1,5 @@
+PERSON_LASTNAME_1 is a gentleman that comes from LOCATION_1. PERSON_LASTNAME_1 was Born and raised in LOCATION_1. PRONOUN is NUMERIC_2 years old and is still a bachelor. PERSON_LASTNAME_1 is a dealer. It is unclear what type of dealer PRONOUN is. PERSON_FIRSTNAME_1 could be a drug dealer. Although this seems unlikely as they usually have women falling all over them. 
+
+PERSON_LASTNAME_1 could be a card dealer in a casino. This would make sense being single perhaps PRONOUN has spent too many hours on night shift to have a relationship. The last NUMERIC_1 I can think of is a car dealer. This could also make sense as they spend many hours including on weekends working. 
+
+PERSON_LASTNAME_2 last name is homesick. It doesn't sound like a LOCATION_1 name. Perhaps PERSON_LASTNAME_2 parents were born elsewhere.

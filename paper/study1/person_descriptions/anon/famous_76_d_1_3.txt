@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a NUMERIC_2-year old LOCATION_2 actress. Having gone to stage school, PRONOUN started PRONOUN career as a child by appearing as PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 in the OTHER_IDENTIFYING_ATTRIBUTE_1 film series. PRONOUN has since appeared in many other films and continues to enjoy a successful acting career, mixing blockbuster films with well regarded indies. PRONOUN has also modeled professionally for ORGANIZATION_4 and ORGANIZATION_1.
+
+PERSON_LASTNAME_1 describes PRONOUN as a feminist and has spent time promoting gender equality and advocating against violence against women. PRONOUN works as a goodwill ambassador for the ORGANIZATION_2, and served as a visiting fellow at LOCATION_3 ORGANIZATION_3 Hall, Oxford.

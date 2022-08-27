@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a LOCATION_1 singer and songwriter born in LOCATION_2 in DATE_1. PRONOUN first broke onto the music scene on DATE_2 on the vocals for disclosures track latch. PRONOUN international success has won PRONOUN various acolades including NUMERIC_2 grammys and brit awards. Such success seen PRONOUN asked to write and appear on the theme song for OTHER_IDENTIFYING_ATTRIBUTE_1 movie spectre. PRONOUN has sold NUMERIC_3 million albums.
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is genderqueer meaning PRONOUN is homosexual and neither considers PRONOUN male or female but rather refers to PRONOUN as they/ them.

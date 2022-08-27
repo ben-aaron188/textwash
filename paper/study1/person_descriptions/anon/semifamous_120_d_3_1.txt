@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was born in Worcester, Massachusetts in DATE_8 and was educated at ORGANIZATION_2 studying law where PRONOUN graduated in DATE_6. From DATE_1 PRONOUN was admitted to the bar (gave permission by the court to begin PRONOUN career as a lawyer) and started practicing as a district attorney in LOCATION_5 from NUMERIC_8 NUMERIC_2. From here PRONOUN moved to Paris, Massachusetts where PRONOUN carried on PRONOUN profession in DATE_3. 
+In DATE_7 PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 stood for election for the Democratic-Republican Party in the LOCATION_2 district where PRONOUN served from DATE_7 until DATE_4.
+In DATE_3 PERSON_LASTNAME_1 was also elected a member of the ORGANIZATION_1, which is a learned society and national research library. 
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 died in Augusta, LOCATION_2 in DATE_1 of NUMERIC_3

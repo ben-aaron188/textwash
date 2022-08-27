@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is an indian professional footballer. PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was born in Mumbai, Mahadrashtra, LOCATION_2. PRONOUN was born in DATE_2. PRONOUN is NUMERIC_2 year old. PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 plays in the position of Defender. PRONOUN is NUMERIC_3 NUMERIC_5 metres tall. HClyde PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 plays for the Ozoe team with the number NUMERIC_1. As a young player PRONOUN has played in different teams.
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 made PRONOUN professional debut for ORGANIZATION_1 in DATE_1.
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 has played at the under NUMERIC_6 level. As a young player PRONOUN has played in different teams. It is very interesting to see PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 develop a carrear as footballer when in LOCATION_2 most young kids are very interesting in cricket being considered their national sport.

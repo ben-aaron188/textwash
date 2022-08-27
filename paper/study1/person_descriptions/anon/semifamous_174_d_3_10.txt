@@ -1,0 +1,7 @@
+PERSON_LASTNAME_1 PERSON_LASTNAME_2 was an LOCATION_1 baseball player in the early DATE_2. PRONOUN was born in Key West, Florida and was also known as PERSON_FIRSTNAME_2. 
+
+PERSON_LASTNAME_1 was an outstanding hitter and is known to this day as being NUMERIC_1 of the best in PRONOUN field, no pun intended! 
+
+PERSON_LASTNAME_1 grew up as a single child, without any brothers or sisters and as such, carved PRONOUN baseball skills with school friends and wider family, often playing with PRONOUN cousins at the weekend between shifts at the local bakery. 
+
+PERSON_LASTNAME_1 met PRONOUN wife at the bakery and married PRONOUN on DATE_1. Together they had NUMERIC_1 children, Katy, Katherine, Kai, Keely and PERSON_FIRSTNAME_1. All NUMERIC_2 children went on to have a huge interest in baseball, like their father.

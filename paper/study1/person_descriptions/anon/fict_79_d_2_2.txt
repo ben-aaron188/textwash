@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 is a NUMERIC_3 year old man born in DATE_1 in Berlin, Germany.
+Having grown up in the bustling city of LOCATION_1, PERSON_LASTNAME_1 would relish the chance to escape by spend much of PRONOUN summers at PRONOUN family's estate in the countryside.
+It's here were PRONOUN developed a love for nature and the construction of city live versuses rural life- especially the rivers and ponds which surrounded the farms. 
+This love along with a fascination to learn how things looked, led to PRONOUN profession as a Hydrographic Surveyor, which PRONOUN has done for the last NUMERIC_2 years.
+Despite nearing retirement, PERSON_LASTNAME_1 has no plans to slow down, PRONOUN is a testament to the passion of doing what you love.

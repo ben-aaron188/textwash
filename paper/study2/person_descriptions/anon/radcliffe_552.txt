@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a white man in PRONOUN early thirties with short brown hair, and sometime sports a scruffy beard. PERSON_FIRSTNAME_1 was born in the LOCATION_1
+
+PERSON_FIRSTNAME_1 is an actor who rose to prominence at a young age having been cast as the title character in the OTHER_IDENTIFYING_ATTRIBUTE_2 films. Since then PRONOUN has been cast in further films, but none have been as successful, although this would admittedly be very difficult as the OTHER_IDENTIFYING_ATTRIBUTE_2 series was NUMERIC_1 of the most successful box office film franchises ever. This work has left PERSON_FIRSTNAME_1 in an incredibly stable financial position.
+
+PERSON_FIRSTNAME_1 is also known for PRONOUN love of rap music and support for the OTHER_IDENTIFYING_ATTRIBUTE_1 community. PERSON_FIRSTNAME_1 appears to have left leaning political tenancies.

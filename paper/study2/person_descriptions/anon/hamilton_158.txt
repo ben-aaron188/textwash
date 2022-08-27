@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_5 PERSON_LASTNAME_1 is a LOCATION_1 ORGANIZATION_3 driver who has won NUMERIC_1 world titles since PRONOUN started competing in DATE_1. PRONOUN currently drives in ORGANIZATION_3 for ORGANIZATION_4, previously with ORGANIZATION_1.
+ PRONOUN is the first OTHER_IDENTIFYING_ATTRIBUTE_1 person to drive in ORGANIZATION_3. PRONOUN is also the youngest person to have won a championship. PRONOUN is currently tied with PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 for number of titles won in the sport.
+
+PERSON_LASTNAME_1 has a number of rivalries in the sport, mainly with PERSON_FIRSTNAME_1 PERSON_LASTNAME_4 and PERSON_FIRSTNAME_3 PERSON_LASTNAME_3. PRONOUN is considered a very competitive driver with the desire to win all the time.
+
+PERSON_LASTNAME_1 previously dated former OTHER_IDENTIFYING_ATTRIBUTE_2 Doll PERSON_FIRSTNAME_4 PERSON_LASTNAME_5.

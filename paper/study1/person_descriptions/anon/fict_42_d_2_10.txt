@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_1 is an IT trainer and lives in LOCATION_2. PRONOUN is currently single but has NUMERIC_4 children from a previous relationship. All NUMERIC_4 children live with their father in LOCATION_1.
+PERSON_FIRSTNAME_1 trained in LOCATION_3 before moving to LOCATION_1 where PRONOUN met the father of PRONOUN children and when that relationship broke down PRONOUN then moved to LOCATION_2 to further PRONOUN career. 
+PERSON_FIRSTNAME_1 has various interests outside of PRONOUN job including cookery (especially baking), horse riding and crafting. PRONOUN also owns NUMERIC_4 dogs and a cat which PRONOUN rescued from animal rescues centres in the LOCATION_4. PRONOUN rescued these whilst visiting PRONOUN parents who still both live in the LOCATION_4.

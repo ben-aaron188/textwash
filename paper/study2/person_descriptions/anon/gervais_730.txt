@@ -1,0 +1,5 @@
+Born on DATE_2, PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a writer, actor, and comedian most famous for co-creating, writing, and acting in the popular LOCATION_1 sitcom OTHER_IDENTIFYING_ATTRIBUTE_1. 
+
+Despite being best-known for PRONOUN comedy, PERSON_LASTNAME_1 actually started PRONOUN career in the music industry trying to make it as a pop star, as a singer in the DATE_1 new-wave act OTHER_IDENTIFYING_ATTRIBUTE_2'. 
+
+Although popular, PERSON_LASTNAME_1' comedy could occasionally be described as controversial, and PRONOUN has been very vocal about free speech, and the right of comedians to joke about anything they like. This has invited criticism, even from PRONOUN peers, with LOCATION_1 Comedian PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 taking apart PERSON_LASTNAME_1' attitude to joking about transgender people, by ridiculing PERSON_LASTNAME_1' approach in PRONOUN own set.

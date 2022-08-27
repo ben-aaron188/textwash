@@ -1,0 +1,9 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a funny, funny man. PRONOUN is an actor, standup comedian, director, writer and producer. PRONOUN is extremely talented. 
+ PRONOUN is best known for creating, writing and acting in the hit comedy TV Show OTHER_IDENTIFYING_ATTRIBUTE_1. This was also made into an LOCATION_1 version which was also hugely successful. 
+ PRONOUN has been in a relationship with PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 for almost NUMERIC_4 years and does not believe in marriage, or god. 
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 managed the band ORGANIZATION_1 until their fame in the DATE_2 and also when PERSON_LASTNAME_1 was red to make a name for PRONOUN
+ PRONOUN has no kids and PRONOUN didn’t want to waste NUMERIC_3 years of PRONOUN life raising them. 
+
+In DATE_1 PRONOUN was name in the Times NUMERIC_5 most influential people. 
+ PRONOUN has won many awards including NUMERIC_7 bafta awards and NUMERIC_6 golden gloves which is such an achievement.

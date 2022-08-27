@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1, who was born in LOCATION_1 in DATE_1, rose to fame in the DATE_2 as a supermodel. PRONOUN gained most fame for PRONOUN modelling with ORGANIZATION_5, and specifically for PRONOUN role in the 'heroin chic' trend which gained widespread condemnation for promoting drug taking and unhealthy lifestyles PRONOUN was often labelled as 'anorexic'). 
+
+In DATE_3 PRONOUN was involved in a drug scandal that resulted in PRONOUN losing high value contracts with ORGANIZATION_3 ORGANIZATION_3, ORGANIZATION_3 and ORGANIZATION_1. Although PRONOUN never admitted PRONOUN drug taking PRONOUN did apologise.
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 has previously been romantically involved with PERSON_FIRSTNAME_3 PERSON_LASTNAME_2 of ORGANIZATION_4 and was once married to PERSON_FIRSTNAME_2 PERSON_LASTNAME_3 from band, ORGANIZATION_6.
+ PRONOUN received negative coverage from ORGANIZATION_2 for wearing fur many times during PRONOUN career

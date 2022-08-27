@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_1. PERSON_LASTNAME_1 was born in an impoverish part of LOCATION_2.
+
+As a child PRONOUN took an intrest in ancient artifacts after finding remnants of clay pots burried near PRONOUN village. Although these were not very old or an important discovery, they did get PRONOUN very excited and from then on, PRONOUN pursued a career in arachaelogy. 
+ PRONOUN put PRONOUN through school by working NUMERIC_1 jobs as a child and eventually gained a scholarship to study in LOCATION_1 when PRONOUN was only NUMERIC_3. 
+ PRONOUN graduated and followed a career as an OCCUPATION_1. PRONOUN enjoyed being front and centre in digs but after an injury to PRONOUN back, PRONOUN was no longer able to be in the front lines.
+ PRONOUN returned to school and earned PRONOUN PHD in Education and is now employeed at the ORGANIZATION_1 as a Museum Education Officer.

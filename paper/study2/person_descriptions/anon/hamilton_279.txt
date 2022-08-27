@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is a very successful LOCATION_1 formula NUMERIC_1 racer who drives for ORGANIZATION_1. PRONOUN was born in DATE_1 making PRONOUN NUMERIC_3). PRONOUN career began with the ORGANIZATION_2 young driver programme in DATE_4. PERSON_LASTNAME_1 then went on to drive for ORGANIZATION_2 between the years of DATE_3 and DATE_2. PRONOUN is probably smaller than the average male heigh and has a slim build and brown hair. 
+
+Overall PERSON_LASTNAME_1 holds a joint record with another racer named PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 who both have NUMERIC_1 World Drivers' Championship titles each.

@@ -1,0 +1,8 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a NUMERIC_1 year old LOCATION_1 singer-songwriter known for being in the ORGANIZATION_1 band. 
+ PRONOUN was born DATE_4. PRONOUN has NUMERIC_1 children. 
+
+In DATE_1 PRONOUN was enrolled in the rock and roll hall of fame. In DATE_3 PRONOUN was added to the ORGANIZATION_2. PRONOUN's had NUMERIC_5 number NUMERIC_2 charting songs and NUMERIC_6 in the top NUMERIC_5. 
+
+In DATE_2 PRONOUN was knighted for PRONOUN services to popular music and is now known as OTHER_IDENTIFYING_ATTRIBUTE_1 PERSON_FIRSTNAME_1 PERSON_LASTNAME_1. PRONOUN net worth is supposedly NUMERIC_2million. 
+
+PERSON_LASTNAME_1 has also appeared in more than NUMERIC_9 films during PRONOUN career.

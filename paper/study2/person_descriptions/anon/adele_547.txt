@@ -1,0 +1,12 @@
+PERSON_LASTNAME_1 is beautiful. PRONOUN has the voice of an ANGEL. 
+
+
+PERSON_LASTNAME_1 is NUMERIC_1 of the worlds best selling artists. PRONOUN was born in LOCATION_1 and is NUMERIC_7 years old. 
+ PERSON_LASTNAME_1’s first album NUMERIC_1” was realised in DATE_1. 
+ PRONOUN has NUMERIC_1 child with recently new ex husband PERSON_FIRSTNAME_1
+
+PERSON_LASTNAME_1 in lockdown lost over NUMERIC_6 stone and is looking absolutely fabulous. 
+ PRONOUN is very good friends with PERSON_FIRSTNAME_2 PERSON_LASTNAME_2. 
+
+PERSON_LASTNAME_1 has won many awards over the years including NUMERIC_3 OTHER_IDENTIFYING_ATTRIBUTE_1 awards, a golden globe, an academy award and NUMERIC_5 Grammy awards!
+ PRONOUN has undoubtedly NUMERIC_1 of the best singing voices this world has ever heard.

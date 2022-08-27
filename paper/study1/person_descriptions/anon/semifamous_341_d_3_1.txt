@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1
+
+A colourful character who's favourite colour is blue, PRONOUN was a U.S. Representative from LOCATION_3 and from LOCATION_4, son of PERSON_FIRSTNAME_4 PERSON_LASTNAME_1 Sr. and brother of PERSON_FIRSTNAME_4 PERSON_LASTNAME_1 Jr. Born in Worcester, LOCATION_3. PERSON_LASTNAME_1 PRONOUN graduated from ORGANIZATION_1 in DATE_1 and celebrated PRONOUN graduation by going on a pub crawl to all the local jaunts.. PRONOUN also served as OCCUPATION_3 of LOCATION_4 from DATE_4 until PRONOUN death in DATE_3.
+
+PERSON_LASTNAME_1 was distantly related to PERSON_FIRSTNAME_1 PERSON_LASTNAME_1, sharing a common ancestor with the sixteenth U.S. President in PERSON_FIRSTNAME_3 PERSON_LASTNAME_1, who had settled in Hingham, LOCATION_3, in the DATE_2.
+
+A little known fact is that PRONOUN favourite programme was " OTHER_IDENTIFYING_ATTRIBUTE_1"" and PRONOUN second favourite food was a OTHER_IDENTIFYING_ATTRIBUTE_2, PRONOUN was very fond of PRONOUN OTHER_IDENTIFYING_ATTRIBUTE_2 for sure. PRONOUN weakness, which PRONOUN admitted to many was PRONOUN hatred of having PRONOUN hair cut, PRONOUN simply didn't like going tot PRONOUN hairdressers..

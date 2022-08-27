@@ -1,0 +1,8 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is an OTHER_IDENTIFYING_ATTRIBUTE_1, PRONOUN is a White NUMERIC_1 NUMERIC_4 year old male who has a Funky hair cut with a fringe and whom I believe wears Leather pants and boots. PRONOUN genre of music is Rock n roll. 
+OTHER_IDENTIFYING_ATTRIBUTE_2 ORGANIZATION_2 have a song with PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 called moves like PERSON_LASTNAME_1 so I’m assuming PRONOUN could dance pretty well in PRONOUN time as well. 
+ PRONOUN was born in LOCATION_1 and part of the group ORGANIZATION_1. 
+The ORGANIZATION_1 were a big hit group in the NUMERIC_6s & NUMERIC_2s the time of the beetles I believe? 
+
+ PRONOUN has a lot of children and I think got married twice/ NUMERIC_7 times. 
+
+I think people loved PERSON_FIRSTNAME_1 Jagger

@@ -1,0 +1,8 @@
+PERSON_FIRSTNAME_4 PERSON_LASTNAME_4 was born DATE_1 in LOCATION_1 era LOCATION_2 to a PERSON_FIRSTNAME_3 and PERSON_FIRSTNAME_5 PERSON_LASTNAME_2. From a young age it was apparent PRONOUN was skilled at negotiating. Convincing PRONOUN parents, to be more lenient with punishments. This led PRONOUN to enjoying debating at school and then college, volunteering to be part of the Debate Society in PRONOUN first year of college. 
+ PRONOUN father worked in a mine, as many people still do to this day in LOCATION_2, although not usually a high paying career, PRONOUN father PERSON_LASTNAME_3, known as " PERSON_FIRSTNAME_1"" to PRONOUN friends quickly climbed up the ranks from a miner, to the mine manager. This let PERSON_LASTNAME_3 pay for a very nice and comfortable college stay for PRONOUN daughter in PRONOUN youth. 
+
+Today PERSON_FIRSTNAME_4 lives and is retired in England, United Kingdom, maintaining a strong LOCATION_6 tradition of retiring in the LOCATION_7 or LOCATION_3. 
+ PRONOUN is OTHER_IDENTIFYING_ATTRIBUTE_2 Boer (White LOCATION_6 in heritage and PRONOUN first language is OTHER_IDENTIFYING_ATTRIBUTE_2 although PRONOUN is fluent in LOCATION_5 as a second language. 
+ PRONOUN spent most of PRONOUN working life in sales, using PRONOUN negotiating skills to convince people how to spend their hard earned cash. 
+
+When PRONOUN was NUMERIC_5 PRONOUN married an PERSON_FIRSTNAME_2 PERSON_LASTNAME_1, who PRONOUN met while on holiday in LOCATION_8. They divorced NUMERIC_9 years later and PERSON_FIRSTNAME_2 left LOCATION_2. PERSON_FIRSTNAME_4 never did find love again.

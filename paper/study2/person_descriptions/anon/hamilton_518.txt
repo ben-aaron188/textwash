@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a highly successful LOCATION_1 Formula NUMERIC_1 car racing driver.
+
+PERSON_LASTNAME_1 is regarded as NUMERIC_1 of the best racing drivers the sport has seen and PRONOUN has raced for high profile teams such as ORGANIZATION_3 and PRONOUN current team ORGANIZATION_2. Starting PRONOUN opening Season in NUMERIC_3 for ORGANIZATION_3 in DATE_1 PRONOUN now holds claim to NUMERIC_4 wins and over NUMERIC_4 pole positions.
+
+Born in LOCATION_2, LOCATION_2, LOCATION_2 PRONOUN became part of the ORGANIZATION_1 young driver programme in DATE_2.
+
+PERSON_LASTNAME_1 has made history to become the first and only black driver in the series which PRONOUN has spoken publicly about and is a prominent figure in the fight against racism and increased diversity in motorsport.

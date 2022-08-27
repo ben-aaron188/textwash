@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1, born DATE_1 in LOCATION_1 is a dealer. PERSON_LASTNAME_1 grew up in LOCATION_1 with PRONOUN family. As the son of a local antique dealer, PERSON_LASTNAME_1 joined the family business at a young age. 
+
+Aged NUMERIC_3 PERSON_LASTNAME_1 took over the family business expanding the company utilising social media and the internet. PRONOUN was rewarded with local awards and was named business man of the year in DATE_3. 
+
+PERSON_LASTNAME_1 remains at the helm of the company, assisted by PRONOUN wife PERSON_FIRSTNAME_4. In DATE_2 they welcomed twins, PERSON_FIRSTNAME_3 and PERSON_FIRSTNAME_1. 
+
+PERSON_LASTNAME_1 is also patron for the ORGANIZATION_1 for the protection of historic furniture and the ORGANIZATION_2.

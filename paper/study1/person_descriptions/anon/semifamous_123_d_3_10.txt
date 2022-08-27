@@ -1,0 +1,10 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 was a previous american baseball player that used to play in the negro leagues and PRONOUN was born on DATE_2 but sadly died on the DATE_4
+
+Several reference books incorrectly list PRONOUN as " PERSON_FIRSTNAME_1"" PERSON_LASTNAME_1 born in the LOCATION_1, when PRONOUN was actually born in Key West, Florida
+ PRONOUN batted in baseball with PRONOUN right hand and also threw the baseball with PRONOUN right hand also
+ PRONOUN has also played for the following teams
+
+ORGANIZATION_4  NUMERIC_4 NUMERIC_1)
+ORGANIZATION_3  DATE_3 
+
+ORGANIZATION_1 PERSON_LASTNAME_2, the influential owner of the ORGANIZATION_2 also named PERSON_LASTNAME_1 to PRONOUN all-time Negro league baseball all-star team due to PRONOUN skill

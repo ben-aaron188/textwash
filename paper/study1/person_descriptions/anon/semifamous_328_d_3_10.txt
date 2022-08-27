@@ -1,0 +1,8 @@
+On DATE_2 in LOCATION_3 a child was born, PRONOUN parents name PRONOUN PERSON_FIRSTNAME_1 PERSON_LASTNAME_1. PERSON_LASTNAME_2 grew into a lively little boy whose greatest pleasure was to play baseball with PRONOUN father. 
+
+At school PRONOUN played on the team and always loved PRONOUN game. 
+PERSON_LASTNAME_2 as an adult played in the LOCATION_4 leagues as LOCATION_1 still had segregation. 
+PERSON_LASTNAME_2 played with a passion and was part of the team ORGANIZATION_1 and was an outstanding hitter. PRONOUN was to become known as NUMERIC_1 of the all time greats.
+
+As little was really known and recorded back then, reference books have called PRONOUN PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 and claim PRONOUN was born in the LOCATION_2, this is untrue and reflects society at that time. 
+PERSON_LASTNAME_2 played for NUMERIC_4- NUMERIC_1 and stayed with the same team.

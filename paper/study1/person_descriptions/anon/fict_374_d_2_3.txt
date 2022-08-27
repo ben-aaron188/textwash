@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_1 is a very friendly charming guy who is a consulting civil engineer. PRONOUN is NUMERIC_3, half LOCATION_1, lives in LOCATION_2 and has very dark hair and a designer stubble. PRONOUN is a bit of a joker but PRONOUN isn’t offensive. PRONOUN has many friends and never forgets PRONOUN humble roots. 
+ PRONOUN has been in a steady relationship for NUMERIC_1 years and they are soon to be married. PRONOUN is very close to PRONOUN parents and often visits although they live a distance away. PRONOUN has NUMERIC_5 other brothers and they all keep in touch and have many family gatherings. 
+
+PERSON_FIRSTNAME_2 is very sporty and belongs to a football team and often trains at the weekend. PRONOUN also jogs, plays tennis and does backpacking.

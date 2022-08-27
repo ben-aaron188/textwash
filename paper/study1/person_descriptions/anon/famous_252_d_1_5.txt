@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is the colourful lead singer with the rock band the ORGANIZATION_2. Famous for PRONOUN energetic performances, distinctive lips, pout and strutting-style dancing PRONOUN first came to prominence with the band in the DATE_1.
+
+Forever young, PERSON_FIRSTNAME_1's career is now well past NUMERIC_2 years and PRONOUN shows no sign of slowing down yet.
+
+PERSON_FIRSTNAME_1 has dated and indeed married many women but is probably most associated with PRONOUN first wife PERSON_FIRSTNAME_3 and a long association with the LOCATION_2 super-model PERSON_FIRSTNAME_2 PERSON_LASTNAME_2.
+
+PERSON_FIRSTNAME_1 love for the game of cricket is also enduring. PERSON_FIRSTNAME_1 can often be spotted at LOCATION_1 during ORGANIZATION_1 test matches.

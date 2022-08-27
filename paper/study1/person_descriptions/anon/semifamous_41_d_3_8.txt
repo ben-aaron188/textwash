@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_1 is a professional retired LOCATION_2 footballer who has worked immensely in PRONOUN career. PRONOUN is only NUMERIC_5 years of age, and perhaps PRONOUN wanted to settle down after playing football for NUMERIC_1 years! 
+ PRONOUN is a private person, and keeps PRONOUN private life offline, however PRONOUN football career is the highlight and star of the show. 
+
+Having payed for a LOCATION_1 team, PRONOUN made PRONOUN professional debut in DATE_1, as a midfielder. PRONOUN is also NUMERIC_1ft NUMERIC_4in making PRONOUN build aiding PRONOUN career. 
+
+The team PRONOUN worked in, interestingly was the official team for the ORGANIZATION_1, and was extremely successful straight after OTHER_IDENTIFYING_ATTRIBUTE_1.

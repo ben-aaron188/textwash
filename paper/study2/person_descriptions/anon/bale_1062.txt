@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_3 is a LOCATION_3 actor commonly known for PRONOUN role in PERSON_FIRSTNAME_3 PERSON_LASTNAME_2's OTHER_IDENTIFYING_ATTRIBUTE_2 as OTHER_IDENTIFYING_ATTRIBUTE_1 as well as PRONOUN role in OTHER_IDENTIFYING_ATTRIBUTE_3 as PERSON_FIRSTNAME_1 PERSON_LASTNAME_1. PERSON_LASTNAME_3's notability also arises from PRONOUN ability to undergo huge physical transformations for PRONOUN roles, often losing and gaining large amounts of weight as necessary for a particular role.
+
+Born in DATE_1 in LOCATION_4, LOCATION_4 in the LOCATION_1, PERSON_LASTNAME_3 decided to become an actor at age NUMERIC_1 after securing PRONOUN first acting role at age NUMERIC_2 in a commercial for fabric softener.
+
+A common misconception is that PERSON_FIRSTNAME_2 PERSON_LASTNAME_3 is actually LOCATION_2 due to PRONOUN excellent accents and impersonations.

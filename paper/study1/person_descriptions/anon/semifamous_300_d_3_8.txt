@@ -1,0 +1,8 @@
+PERSON_FIRSTNAME_3 PERSON_LASTNAME_1
+PERSON_FIRSTNAME_3 PERSON_LASTNAME_1 was born on DATE_1 in LOCATION_1. PRONOUN played football for several ORGANIZATION_2 when PRONOUN became scouted as a teenager playing with PRONOUN friend in the local park. PERSON_FIRSTNAME_3 was always known as fast feet PERSON_FIRSTNAME_5 and PRONOUN mother described PRONOUN as having very strong kicking legs even in the womb.
+
+PERSON_FIRSTNAME_3 is NUMERIC_4ft tall with grey eyes and ginger hair. PRONOUN is married to PERSON_FIRSTNAME_6 and they have unidentical twin children PERSON_FIRSTNAME_4 and PERSON_FIRSTNAME_1, aged NUMERIC_1.
+
+PERSON_FIRSTNAME_2 still loves to play football in PRONOUN spare time, but now also enjoys playing ping-pong and scrabble. 
+
+PERSON_FIRSTNAME_2 is now a billionaire after investing in oil shares and using compoud interest during PRONOUN time as a footballer. PRONOUN also donates to the ORGANIZATION_1 because PRONOUN realises that many footballers feel lost when they finish their footballing careers and don't know what they are doing anymore.

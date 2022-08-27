@@ -1,0 +1,3 @@
+Another white older male. PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 was born in DATE_1 and is an LOCATION_1 actor who has been highly successful. 
+ PRONOUN has been in films such as NUMERIC_1 weddings and a funeral, OTHER_IDENTIFYING_ATTRIBUTE_1 to PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 diary. All being very similar roles as a vulnerable and witty romantic lead. 
+ PRONOUN is a patron of a charity called ORGANIZATION_3, which operates ORGANIZATION_4 and the ORGANIZATION_1, which is named after PRONOUN late mother. The foundation is a home for adults with learning disabilities. PRONOUN has also worked as a fundraiser and ambassador for ORGANIZATION_2.

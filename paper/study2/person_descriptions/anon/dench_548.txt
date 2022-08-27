@@ -1,0 +1,8 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 is a famous LOCATION_1 actress. PRONOUN is probably NUMERIC_1 of the highest rated LOCATION_2 actresses. PRONOUN is NUMERIC_4 years old. 
+
+PERSON_FIRSTNAME_1 was married to actor PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 until PRONOUN death DATE_1 whom PRONOUN has NUMERIC_1 daughter to. 
+ PRONOUN has appeared in many films and won many awards. 
+ PRONOUN has been in several OTHER_IDENTIFYING_ATTRIBUTE_4 films including OTHER_IDENTIFYING_ATTRIBUTE_5 & OTHER_IDENTIFYING_ATTRIBUTE_5, OTHER_IDENTIFYING_ATTRIBUTE_5 and OTHER_IDENTIFYING_ATTRIBUTE_2. 
+ PRONOUN also attracted international attention with PRONOUN roles in the OTHER_IDENTIFYING_ATTRIBUTE_1 movies. 
+ PRONOUN won an Oscar for PRONOUN role as OTHER_IDENTIFYING_ATTRIBUTE_3 in the film OTHER_IDENTIFYING_ATTRIBUTE_6. 
+ PRONOUN is a beautiful and ridiculously talented human

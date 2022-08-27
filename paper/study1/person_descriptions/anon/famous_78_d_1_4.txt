@@ -1,0 +1,8 @@
+A famous musician and songwriter born DATE_3. PERSON_LASTNAME_1 is from the LOCATION_1 and rose to fame in the late DATE_2 early DATE_1. is known for wearing big extravagant sun glasses. 
+ PRONOUN has a very flamboyant style of dressing and PRONOUN signature item to wear is big colourful sun-glasses. 
+
+ While I do not know is exact height, PRONOUN appears to be small to me. These days, PRONOUN has gotten a little bit bigger around PRONOUN mid rift, but being PRONOUN age and having recently recovered from cancer, I think this is something to be celebrated. 
+
+PERSON_LASTNAME_1 plays the piano whilst performing PRONOUN songs and is known for being very outspoken. PRONOUN is a fantastic and energetic performer. NUMERIC_1 of PRONOUN most popular songs is OTHER_IDENTIFYING_ATTRIBUTE_1, originally composed for PERSON_FIRSTNAME_1 PERSON_LASTNAME_2, PRONOUN re-wrote the lyrics for OTHER_IDENTIFYING_ATTRIBUTE_2 PERSON_FIRSTNAME_2 after PRONOUN tragic death. 
+
+PERSON_LASTNAME_1 used to have brown hair but has gotten lighter with the years.

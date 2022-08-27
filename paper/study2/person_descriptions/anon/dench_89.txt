@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_3, born in DATE_2, is a LOCATION_3 actress famous for film and television roles spanning PRONOUN multi-decade career. PRONOUN has most notably starred as " OTHER_IDENTIFYING_ATTRIBUTE_2"" in NUMERIC_4 OTHER_IDENTIFYING_ATTRIBUTE_4 films from DATE_3 to DATE_1. In the DATE_4 film, OTHER_IDENTIFYING_ATTRIBUTE_1, PRONOUN was replaced by PERSON_FIRSTNAME_1 PERSON_LASTNAME_1. 
+
+Aside from PRONOUN acting career, PERSON_LASTNAME_3 was married to fellow actor, PERSON_FIRSTNAME_3 PERSON_LASTNAME_2, until PRONOUN death in DATE_5.
+
+PERSON_LASTNAME_3 is also well known in the LOCATION_1 for PRONOUN role in the film OTHER_IDENTIFYING_ATTRIBUTE_3, following a group of older LOCATION_3 people who decide to move to LOCATION_2 in their retirement.

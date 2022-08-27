@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 was an early DATE_3 century LOCATION_1 lawyer and politician, serving as the governor OCCUPATION_2 LOCATION_2 from DATE_2 until PRONOUN death in DATE_5 at the age OCCUPATION_2 NUMERIC_3. PERSON_LASTNAME_1 was the NUMERIC_6th governor OCCUPATION_2 LOCATION_2, following PERSON_FIRSTNAME_3 PERSON_LASTNAME_2. The town OCCUPATION_2 PERSON_LASTNAME_1, LOCATION_2 is named after PRONOUN.
+
+Born in DATE_4 in Worcester, Massachusetts, PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 was a distant relative OCCUPATION_2 PERSON_FIRSTNAME_1 PERSON_LASTNAME_1, the NUMERIC_5th OCCUPATION_3 the OCCUPATION_1 ORGANIZATION_2 OCCUPATION_2 LOCATION_3. PRONOUN served in the Democratic Republican party, before later joining the Anti ORGANIZATION_1 'National Republican' party later. 
+
+PERSON_LASTNAME_1 graduated from ORGANIZATION_3 in DATE_1 at the age OCCUPATION_2 NUMERIC_8, beginning PRONOUN legal studies, presumably, at a precocious age OCCUPATION_2 NUMERIC_5. In Portraits PERSON_LASTNAME_1 has a gentle, reserved demeanour and calm countenance.

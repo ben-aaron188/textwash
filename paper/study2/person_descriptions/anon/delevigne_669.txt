@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is NUMERIC_5 years old and began PRONOUN career as a model at the tender age of NUMERIC_4. PRONOUN was born and raised in LOCATION_1, LOCATION_1 LOCATION_1.
+PERSON_FIRSTNAME_1 had many side-line jobs, such as voice overs for the world famous game OTHER_IDENTIFYING_ATTRIBUTE_1; PRONOUN was in music video's, with ORGANIZATION_2. 
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2's career has mostly consisted of modelling jobs for big brands such as ORGANIZATION_1. 
+Behind the scenes, PERSON_FIRSTNAME_1 had Dyspraxia and ADHD which PRONOUN describes as being a challenge, but NUMERIC_1 PRONOUN'd always faced and tried to overcome. 
+When PERSON_FIRSTNAME_1 was NUMERIC_3 years old, PRONOUN was prescribed some anti-depressants after admitting PRONOUN had Mental Health; partly due to PRONOUN OTHER_IDENTIFYING_ATTRIBUTE_2 own drug addiction.

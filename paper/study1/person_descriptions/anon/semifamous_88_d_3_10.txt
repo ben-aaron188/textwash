@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_4 Woodberry " PERSON_FIRSTNAME_3"" PERSON_LASTNAME_1 was born DATE_1 NUMERIC_2, NUMERIC_1 and died DATE_2 NUMERIC_6, NUMERIC_5. PRONOUN was an LOCATION_2 baseball player in the Negro leagues. PRONOUN was born in Key LOCATION_1, Florida where PRONOUN grew up with PRONOUN mother and NUMERIC_2 brothers. PRONOUN always wanted to be a baseball player and loved playing little league as a child. 
+
+During PRONOUN playing career PRONOUN was known as " PERSON_FIRSTNAME_4"". PRONOUN was also nicknamed PERSON_FIRSTNAME_3, a reference to LOCATION_1 OTHER_IDENTIFYING_ATTRIBUTE_1 origins From DATE_4 to DATE_3 PRONOUN played pitcher, infielder, and outfielder.
+
+PERSON_LASTNAME_1 spent PRONOUN entire playing career with the ORGANIZATION_2 and was an outstanding hitter. PERSON_FIRSTNAME_1 PERSON_LASTNAME_2, the influential owner of the ORGANIZATION_1, named PERSON_LASTNAME_1 to PRONOUN all-time Negro league baseball all-star team.

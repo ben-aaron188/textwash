@@ -1,0 +1,4 @@
+PERSON_LASTNAME_1 grew up in the LOCATION_6 with NUMERIC_4 brothers and sisters. PRONOUN went to live with extended family for a summer in LOCATION_2 and there PRONOUN learning LOCATION_1. PRONOUN went to university in LOCATION_4 to study surveying. 
+
+While at ORGANIZATION_1 PRONOUN met PRONOUN now husband. They met at the ORGANIZATION_1 volleyball club where they both played. They have since adopted NUMERIC_7 children, NUMERIC_3 girls and a boy, and have NUMERIC_1 grandchildren. PERSON_LASTNAME_1 played volleyball for a local LOCATION_4 team for many years and has several trophies on PRONOUN mantel.
+ PRONOUN really enjoys PRONOUN job but is looking forward to retirement in the next few years. PRONOUN has plans to travel more and see PRONOUN grandchildren who live in LOCATION_3 and LOCATION_5.

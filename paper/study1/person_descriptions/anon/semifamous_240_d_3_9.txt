@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was born in Howard County, LOCATION_3 in DATE_3 and died in DATE_2. PRONOUN played football in college and then became a lawyer, having graduated with an LLB from LOCATION_3 and ORGANIZATION_2 university in Nashville, Tennessee.
+
+Whilst at university PRONOUN was a member of ORGANIZATION_1 and played football for the varsity team. A dapper young man, PRONOUN cut a chase with PRONOUN sideswept hair and neat white tie with black suit.
+ PRONOUN practiced law for NUMERIC_3 years before becoming chief clerk of the commisson that revised the LOCATION_3 statutes. In DATE_1 PRONOUN became chief clerk to the LOCATION_3 ORGANIZATION_3.
+ PRONOUN died in DATE_2 aged NUMERIC_1 in Kansas City, LOCATION_3.

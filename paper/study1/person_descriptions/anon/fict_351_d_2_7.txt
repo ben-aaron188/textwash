@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 MD, was born into a rather poor household in the small town of Piran, Slovenia in DATE_1. PRONOUN mother was a humble cook and PRONOUN father, a watchmaker.
+
+From the age of NUMERIC_2, PERSON_FIRSTNAME_2 used to watch PRONOUN father repair watches; a fascinating activity to observe and a trait PRONOUN adopted in early life. PERSON_FIRSTNAME_2 is a curious, hard-working and determined woman 
+
+PERSON_FIRSTNAME_2 is a curious, creative and hardworking individual who is determined to complete whatever task is required of PRONOUN. After having worked on an array of projects, with and without PRONOUN father's supervision, PRONOUN decided to study mechanical engineering. As someone who grew up having to look after any money earned, and who is passionate in self-development and progression, PERSON_FIRSTNAME_2 decided to instead follow down a different patch, NUMERIC_1 of Accountancy. Taking PRONOUN father's skilled traits, alongside PRONOUN curiosity, PRONOUN eventually found PRONOUN dream job, as well as PRONOUN dream partner.

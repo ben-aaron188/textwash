@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_3 PERSON_LASTNAME_5 entered stardom at a young age with PRONOUN role as OTHER_IDENTIFYING_ATTRIBUTE_2 in the OTHER_IDENTIFYING_ATTRIBUTE_2 sequel. Initially starting out as books by the author PERSON_FIRSTNAME_2 PERSON_LASTNAME_4, the film adaptation led to PERSON_FIRSTNAME_3 PERSON_LASTNAME_2’s fame. PRONOUN starred alongside PERSON_FIRSTNAME_1 PERSON_LASTNAME_3 and other child stars and went on to have an incredibly successful career featuring in other films such as OTHER_IDENTIFYING_ATTRIBUTE_1.
+
+PERSON_FIRSTNAME_3 PERSON_LASTNAME_5’s career is not limited to film, PRONOUN has also had roles in television as well as theatre. PRONOUN is NUMERIC_4 years old now and has been married since DATE_1.
+
+To the surprise of many, PRONOUN is a big fan of rap

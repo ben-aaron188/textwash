@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_1 is a married woman who lives in Galway, LOCATION_3. PRONOUN has NUMERIC_1 children, NUMERIC_2 boys and NUMERIC_2 girls. All, but NUMERIC_3, live in LOCATION_3. PERSON_FIRSTNAME_1 is a proud grandmother of NUMERIC_4. PRONOUN has NUMERIC_1 grandsons and NUMERIC_3 granddaughters. PERSON_FIRSTNAME_1's eldest son PERSON_FIRSTNAME_2 is a doctor and lives in LOCATION_1 and PRONOUN NUMERIC_2 youngest daughters PERSON_FIRSTNAME_3 (an accountant) and PERSON_FIRSTNAME_4 (a headteacher) live in LOCATION_2. 
+
+PERSON_FIRSTNAME_1 has worked hard all PRONOUN life to achieve PRONOUN goals and has made a difference in the marketing world. Despite adversity, through ill health, PRONOUN successfully completed PRONOUN Phd in NUMERIC_1 years and manged to secure a job as in academia. 
+
+PERSON_FIRSTNAME_1 enjoys PRONOUN role which involves a huge amount of travelling. meeting new people and a working across various work sectors. 
+
+PERSON_FIRSTNAME_1 is fit and healthy; PRONOUN is determined to stay healthy and well, by exercising and adhering to a healthy diet. PRONOUN is also aware of the importance of self-care and ensures PRONOUN incorporates this into PRONOUN daily life.

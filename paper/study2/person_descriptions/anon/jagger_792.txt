@@ -1,0 +1,10 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 is an LOCATION_5 singer, most famously known for being a member of the rock band, ORGANIZATION_3. 
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 was born in DATE_6 in LOCATION_4, LOCATION_4. 
+
+PERSON_FIRSTNAME_2 met PRONOUN ORGANIZATION_1 band are, PERSON_FIRSTNAME_4 PERSON_LASTNAME_5 in DATE_5, at LOCATION_1. They lost contact when they moved to different schools, but after a chance meeting at LOCATION_3 in DATE_4, they resumed their friendship and discovered their shared love for music.
+
+PERSON_FIRSTNAME_2 left school in DATE_2 and PRONOUN and PERSON_FIRSTNAME_4 PERSON_LASTNAME_5 moved into a flat in LOCATION_2, where PRONOUN studied Finance and Accounting. 
+
+The first gig for the ORGANIZATION_1 was in the ORGANIZATION_2 in LOCATION_2 in DATE_3. By DATE_1, PERSON_FIRSTNAME_2 had left university to concentrate on PRONOUN music career, and they were a great success, releasing songs such as OTHER_IDENTIFYING_ATTRIBUTE_1 OTHER_IDENTIFYING_ATTRIBUTE_1 OTHER_IDENTIFYING_ATTRIBUTE_1 OTHER_IDENTIFYING_ATTRIBUTE_1 OTHER_IDENTIFYING_ATTRIBUTE_1 OTHER_IDENTIFYING_ATTRIBUTE_1, and OTHER_IDENTIFYING_ATTRIBUTE_2. 
+ PRONOUN has been married once but has had several long term partners including model PERSON_FIRSTNAME_3 PERSON_LASTNAME_1. PRONOUN has NUMERIC_4 children including PERSON_FIRSTNAME_6, PERSON_LASTNAME_4 and PERSON_FIRSTNAME_5 PERSON_LASTNAME_3 who are models.

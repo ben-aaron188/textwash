@@ -1,0 +1,9 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_3 is a LOCATION_3 male actor in PRONOUN fifties. PRONOUN is currently best known for playing the part of PERSON_FIRSTNAME_3 PERSON_LASTNAME_2 in the NUMERIC_4 films. 
+
+PERSON_LASTNAME_3 was born in LOCATION_2, in the north of LOCATION_1. PRONOUN began acting at school and ended up graduating from ORGANIZATION_1 school of music and drama. 
+
+The first film in which PRONOUN played PERSON_FIRSTNAME_3 PERSON_LASTNAME_2 was OTHER_IDENTIFYING_ATTRIBUTE_1 which was released in DATE_2. 
+
+PERSON_LASTNAME_3 was strongly opposed to the OTHER_IDENTIFYING_ATTRIBUTE_2 vote and campaigned to remain. 
+
+In DATE_1 PERSON_FIRSTNAME_2 PERSON_LASTNAME_3 married PERSON_FIRSTNAME_1 PERSON_LASTNAME_1. They share a daughter together.

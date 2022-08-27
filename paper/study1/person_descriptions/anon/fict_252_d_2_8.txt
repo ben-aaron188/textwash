@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 is a LOCATION_2 OCCUPATION_1 working in PRONOUN native country of LOCATION_1.
+
+PERSON_LASTNAME_1 is NUMERIC_1 feet tall and has to have specially purchased furniture to allow PRONOUN to work comfortably. PERSON_LASTNAME_1 is a basketball player in PRONOUN spare time and as a young man was selected several times to play for LOCATION_1.
+
+PERSON_LASTNAME_1 is NUMERIC_3 years old and is married to PRONOUN seventh wife, unfortunately the first NUMERIC_5 died in a series of bizarre boating accidents. No blame was ever attached to PERSON_LASTNAME_3.
+
+PERSON_FIRSTNAME_1 and PERSON_LASTNAME_1 have NUMERIC_4 children including NUMERIC_2 lots of triplets and NUMERIC_2 lots of twins. Bizarrely the couple have named their children by the order they were born in Number NUMERIC_1; Number NUMERIC_2 etc etc.

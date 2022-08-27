@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 has talked about the fact that PRONOUN struggles with depression PRONOUN, particularly at the age of NUMERIC_4. 
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is an LOCATION_1 model, actress, and singer. PRONOUN signed with ORGANIZATION_1 after leaving school in DATE_2. PERSON_LASTNAME_1 won Model of the Year at the ORGANIZATION_3 in DATE_1 and DATE_3.
+PERSON_FIRSTNAME_2 was born into a wealthy and well connected family.
+Thanks to endorsements with companies like ORGANIZATION_2 ORGANIZATION_2, ORGANIZATION_2, and ORGANIZATION_4, PRONOUN is NUMERIC_1 of the highest paid models in the world and earns an estimated NUMERIC_2 million a year.

@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_3 PERSON_LASTNAME_3 is a NUMERIC_5 year old extremely successful LOCATION_1 singer/songwriter. 
+ PRONOUN has an extremely powerful voice and has won numerous awards, including Grammys, a Golden Globe and Brit Awards.
+
+PERSON_FIRSTNAME_3 was married to PERSON_FIRSTNAME_1 PERSON_LASTNAME_1, a charity entreprenuer who is probably best know for ORGANIZATION_1. They have a son, PERSON_FIRSTNAME_2 PERSON_LASTNAME_2, together who is nearly NUMERIC_2 years old. Unfortunately their marriage didn't last and their divorce was finalised this year. 
+
+PERSON_FIRSTNAME_3 has recently undergone an amazing transformation having lost a large amount of weight. PRONOUN achieved this by following the OTHER_IDENTIFYING_ATTRIBUTE_1 diet and also working out with a personal trainer.

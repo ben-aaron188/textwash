@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 came to fame when PRONOUN acted as a child in OTHER_IDENTIFYING_ATTRIBUTE_1 . PRONOUN is NUMERIC_1 of the worlds highest paid actresses . 
+PERSON_FIRSTNAME_2 was born in LOCATION_2 but moved to LOCATION_1 when PRONOUN was very young . there where PRONOUN started acting as PRONOUN joinned a musical theatre school . PRONOUN had PRONOUN first acting job in harry potter before that PRONOUN only acted in school plays . PRONOUN has also stared in beauty and the beast movie .
+As well as acting PRONOUN is a actovist for womens right and is passioete about how women should have the same oppurtunities as any male .

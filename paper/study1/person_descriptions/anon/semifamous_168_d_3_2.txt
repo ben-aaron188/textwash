@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_1 P. PERSON_LASTNAME_2, born on DATE_1, is a renowned German-American inventor. After PRONOUN death, in which PRONOUN first wife PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 and their NUMERIC_1 children, preceded PRONOUN, PRONOUN was recognised for holding the patent for NUMERIC_2 inventions mostly of industrial use.
+The ORGANIZATION_1 was founded alongside PERSON_FIRSTNAME_1's younger brother Joseph W. PERSON_LASTNAME_2. 
+Just as the company was rapidly expanding, PERSON_FIRSTNAME_1 died before PRONOUN moved into a palatial home. PRONOUN died whilst receiving emergency surgery whilst living in a bungalow whilst PRONOUN mansion was being constructed, The city of PERSON_LASTNAME_2, Iowa is named after the NUMERIC_1 brothers.

@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_9 PERSON_LASTNAME_1 , The OTHER_IDENTIFYING_ATTRIBUTE_3 PERSON_LASTNAME_2, was born on the DATE_2. PRONOUN was born in LOCATION_3 to parents PERSON_FIRSTNAME_5 and PERSON_FIRSTNAME_1 PERSON_LASTNAME_1. PRONOUN was brought up in LOCATION_2, LOCATION_2. PRONOUN attended ORGANIZATION_1 university in LOCATION_1, where PRONOUN met PERSON_FIRSTNAME_8. 
+PERSON_FIRSTNAME_4 worked in retail and marketing, also getting involved in charity work.
+The engagement of PERSON_FIRSTNAME_4 and PERSON_FIRSTNAME_8 was announced in DATE_1.
+They married on the DATE_3 and have NUMERIC_1 children, OTHER_IDENTIFYING_ATTRIBUTE_2 PERSON_FIRSTNAME_2, OTHER_IDENTIFYING_ATTRIBUTE_1 PERSON_FIRSTNAME_7 and OTHER_IDENTIFYING_ATTRIBUTE_2 PERSON_FIRSTNAME_6.
+The OTHER_IDENTIFYING_ATTRIBUTE_3 PERSON_LASTNAME_2 is involved with many charities to do with art, sport, early years and mental health. 
+The OTHER_IDENTIFYING_ATTRIBUTE_3 PERSON_LASTNAME_2 is the likely future queen consort if PRONOUN husband takes the royal throne.

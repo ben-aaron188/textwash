@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 OTHER_IDENTIFYING_ATTRIBUTE_1 is a LOCATION_1 actor most famous for PRONOUN role as OTHER_IDENTIFYING_ATTRIBUTE_3 in the TV series OTHER_IDENTIFYING_ATTRIBUTE_2 and for playing PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 in OTHER_IDENTIFYING_ATTRIBUTE_4. 
+
+A graduate on ORGANIZATION_2, OTHER_IDENTIFYING_ATTRIBUTE_1 continued PRONOUN training at the ORGANIZATION_1. PRONOUN originally began PRONOUN career as a stage actor working on the West End and preforming in a range of ORGANIZATION_3 performances. 
+
+Alongside PRONOUN work as a stage and screen actor, OTHER_IDENTIFYING_ATTRIBUTE_1, NUMERIC_3, is an outspoken advocate for issues surrounding equality. In DATE_1 PRONOUN announced that PRONOUN would no longer be accepting roles where is female co-star would not be paid the same.

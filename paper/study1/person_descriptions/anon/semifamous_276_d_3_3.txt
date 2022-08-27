@@ -1,0 +1,4 @@
+Yassine PERSON_LASTNAME_2 was born in DATE_1 DATE_3 to a formerfootball player PERSON_FIRSTNAME_2 PERSON_LASTNAME_2. PRONOUN started playing football when PRONOUN was NUMERIC_1 in hainaut.
+At NUMERIC_2 PRONOUN went to birmingham city for a trial , but PRONOUN team wanted a transfer price that was far to high. PRONOUN was initially in the youth team but played games in the juliper pro league.
+In DATE_1 DATE_2 PRONOUN was signed to west bromwich ORGANIZATION_1 for a season long deal.
+In DATE_2 DATE_1 PRONOUN was signed up to a dutch team ORGANIZATION_3, PRONOUN was then signed up on a a NUMERIC_3-year contract with Stabæk on DATE_5, in DATE_3 DATE_4 PRONOUN played PRONOUN first match for the club.

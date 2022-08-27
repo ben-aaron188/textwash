@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_3 PRONOUN was born on the DATE_3 in the small town of LOCATION_1 in ORGANIZATION_1
+Amazingly for such a small town it has other famous names who were born there including the incredible PERSON_FIRSTNAME_4 PERSON_LASTNAME_2, and NUMERIC_1 of the most famous musicians PERSON_FIRSTNAME_2 PERSON_LASTNAME_4 from ORGANIZATION_4 and PERSON_FIRSTNAME_3 PERSON_LASTNAME_5 from ORGANIZATION_3.
+PERSON_LASTNAME_1 is a former LOCATION_2 cricketer . PRONOUN was a right handed batsman who bowled with the right arm medium pace. PRONOUN played for Minor Counties South
+From DATE_7 to DATE_2, Minor Counties West from DATE_4 to DATE_1, ORGANIZATION_5 from DATE_6 to DATE_5, 
+
+PERSON_LASTNAME_1 made PRONOUN debut in cricket for ORGANIZATION_1 in the DATE_6 Minor Counties Championship against ORGANIZATION_2.
+ PRONOUN will be celebrating PRONOUN NUMERIC_5th Birthday next month

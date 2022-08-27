@@ -1,0 +1,6 @@
+PERSON_LASTNAME_2 PERSON_LASTNAME_4 (born NUMERIC_8 NUMERIC_3 NUMERIC_6) is a LOCATION_2 Consulting civil engineer. PRONOUN was born in Winnipeg, Manitoba to PERSON_LASTNAME_1 PERSON_LASTNAME_4 a schoolteacher and PERSON_FIRSTNAME_1 PERSON_LASTNAME_3 a nurse. PRONOUN has NUMERIC_1 younger sisters NUMERIC_2 of whom is the actress PERSON_FIRSTNAME_2 PERSON_LASTNAME_4.
+
+The family moved to LOCATION_3 when PERSON_LASTNAME_2 was NUMERIC_1 where PRONOUN and PRONOUN sisters attended local schoolS before PERSON_LASTNAME_2 went on to study civil engineering at ORGANIZATION_4. Upon graduating PRONOUN took up employment with LOCATION_4 based civil engineering firm Young, Hansen & Scott where PRONOUN rose rapidly through the ranks before leaving in DATE_1 to set up ORGANIZATION_1. 
+
+Some of the projects PERSON_LASTNAME_4 has consulted on include the new ORGANIZATION_3 and the new LOCATION_1 tunnel.
+ PRONOUN lives with PRONOUN partner PERSON_FIRSTNAME_4 and they have a NUMERIC_4 year old son PERSON_FIRSTNAME_3 PERSON_LASTNAME_1 born in DATE_2. PRONOUN enjoys running marathons and playing recreational ice hockey in PRONOUN spare time.

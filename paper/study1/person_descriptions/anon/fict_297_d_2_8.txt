@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 Jr. (Age NUMERIC_3) was born in an upper-middle class family in LOCATION_1. PRONOUN father was an electrical engineer. PRONOUN spent most of PRONOUN childhood in spain and later PRONOUN moved to LOCATION_2.
+ PRONOUN work as a marketing executive for a multi national company. PRONOUN is married to PERSON_FIRSTNAME_2 L. and they have NUMERIC_1 daughters together. 
+While entering into the field of marketing, PERSON_FIRSTNAME_1 first worked as an Assitant Engineer for a leading steel company. 
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 was a paasionate student who has multiple degrees from some of the most prestigious universities in LOCATION_2. PRONOUN studied Mechanical engineering and MBA.

@@ -1,0 +1,3 @@
+Yassine PERSON_LASTNAME_2 is a LOCATION_4 footballer, the only son of a former footballer. PRONOUN youth was spent developing PRONOUN ability in football, and gained attention within a youth team. Following a few years in several teams in the ORGANIZATION_5, PRONOUN was loaned by ORGANIZATION_1 in DATE_3 and LOCATION_1 team ORGANIZATION_6 in DATE_1. PRONOUN later spent time with LOCATION_2 team Stabæk, LOCATION_4 team ORGANIZATION_4, and LOCATION_3 team ORGANIZATION_2. Early in DATE_2, PRONOUN was in talks with the LOCATION_3 team ORGANIZATION_3, however this move never came through for PRONOUN.
+
+In DATE_4, PERSON_LASTNAME_2 was sentenced to a NUMERIC_1-months in prison following PRONOUN NUMERIC_4th speeding offense, and was banned from driving for NUMERIC_2 years.

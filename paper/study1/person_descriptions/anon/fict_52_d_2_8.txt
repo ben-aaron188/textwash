@@ -1,0 +1,4 @@
+PERSON_LASTNAME_1 Pacocha Jr. is a successful middle-aged OCCUPATION_1 who lives in LOCATION_1.
+In PRONOUN personal live PRONOUN is settled and has forged a relationship with PRONOUN partner.
+PERSON_LASTNAME_1 was born on the LOCATION_2 of LOCATION_3, growing up living with PRONOUN parents who owned a small hotel and restaurant. PRONOUN first became interested in marketing when PRONOUN helped to promote and advertise PRONOUN parent's business. PRONOUN was successful in every level of education which concluded with PRONOUN studying marketing at the ORGANIZATION_1.
+PERSON_LASTNAME_1 is a determined and loyal character, to this day PRONOUN still maintains and develops the marketing strategy for PRONOUN parents business which has now become the family business.

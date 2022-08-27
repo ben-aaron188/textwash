@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_7 PERSON_LASTNAME_4 known to friends as PERSON_FIRSTNAME_5, is a retired LOCATION_2 professional footballer. 
+PERSON_FIRSTNAME_3 was born in LOCATION_1 on DATE_1. 
+PERSON_FIRSTNAME_3 made played for PFC CSKA-d Moscow for NUMERIC_5 years as their Striker. 
+PERSON_FIRSTNAME_3 is known for PRONOUN bad temper on and off the pitch. PRONOUN holds the most red cards, a total of NUMERIC_9 and yellow cards, a total of NUMERIC_7. 
+PERSON_FIRSTNAME_3 is also famous for PRONOUN sex symbol status. PRONOUN has dated numerous celebrities including PERSON_FIRSTNAME_6 Middleton, Cher and TITLE PERSON_FIRSTNAME_4 PERSON_LASTNAME_3. 
+With PRONOUN ex wife PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 PRONOUN has NUMERIC_5 children which they named after their favourite fruit and vegetables, Apple, Banana, Pear, Blueberry, Grape, Lemon, Lime, Carrot, Celery, Avacado, Tomato, Onion, Chilli, Mushroom and PERSON_FIRSTNAME_1.

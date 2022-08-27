@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was an LOCATION_1 pharmacist who developed a system of adding flavour to unpleasant-tasting medicines to make them easier to swallow.
+
+The idea, which developed into a business called OTHER_IDENTIFYING_ATTRIBUTE_1, was born out of desperation. PERSON_LASTNAME_1’s second daughter PERSON_FIRSTNAME_2 had been born with cerebral palsy and, as an infant, refused to take the foul-tasting anti-seizure medicines PRONOUN had been prescribed, vomiting or spitting them out. NUMERIC_1 times a day PRONOUN parents had to pin PRONOUN down, force open PRONOUN mouth and try to get PRONOUN to swallow PRONOUN medicine. Missing a dose even once could bring on violent convulsions and cause further brain damage.

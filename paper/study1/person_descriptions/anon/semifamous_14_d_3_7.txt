@@ -1,0 +1,13 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 a literature lover and also a man of justice. 
+
+PERSON_FIRSTNAME_1 began writing poetry at the age of NUMERIC_1, PRONOUN has a masters degree in English and graduated with an LLB from ORGANIZATION_1 university.
+ PRONOUN has written numerous amount of books for education consumption and for entertainment. 
+
+Died at the tender age of NUMERIC_3, PERSON_LASTNAME_2 was well known for constitutional law. 
+
+Born in LOCATION_1 and became a professor at ORGANIZATION_2 university. 
+
+An LOCATION_2 scholar 
+ PRONOUN wife PERSON_FIRSTNAME_2 became dean at ORGANIZATION_2 where PRONOUN worked as professor and taught law.
+
+While PRONOUN was a freshman at ORGANIZATION_1, PRONOUN attended a concert by PERSON_LASTNAME_1 who PERSON_LASTNAME_2 said inspired PRONOUN to take an interest in civil rights and race.

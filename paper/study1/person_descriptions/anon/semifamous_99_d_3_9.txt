@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 played the positions of Guard and Tackle with the ORGANIZATION_2 college football team in DATE_4. That season the team finished top of their conference and overall with an NUMERIC_1 NUMERIC_4 NUMERIC_6 record, much of their success being due to PERSON_LASTNAME_1's hard work and team building expertise.
+ PRONOUN was selected for the College Football All-Southern Team in DATE_4 and picked for an all-time ORGANIZATION_1 team which was named in DATE_6.
+
+PERSON_LASTNAME_1 left university with a law degree and opened a law office in PRONOUN home town of Lafayette, Missouri. By DATE_1 PRONOUN was working in the state auditor's office and in DATE_5 PRONOUN was made chief clerk of the state's supreme court.
+
+PERSON_LASTNAME_1 was born in DATE_2 and passed away in NUMERIC_3

@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_4, duchess of PERSON_LASTNAME_4, original name in full PERSON_FIRSTNAME_10 PERSON_LASTNAME_1, known as PERSON_FIRSTNAME_11 was born DATE_2 DATE_2, DATE_2 in LOCATION_1, LOCATION_1, LOCATION_1 , and is married to Prince PERSON_FIRSTNAME_3, PERSON_LASTNAME_2 of PERSON_LASTNAME_4 who is second in line to the LOCATION_2 throne
+ PRONOUN married Prince PERSON_FIRSTNAME_3 in DATE_1 at LOCATION_3. PRONOUN is the mother to Prince PERSON_FIRSTNAME_1, the third in line to the throne, Princess PERSON_FIRSTNAME_7 and Prince PERSON_FIRSTNAME_6.
+
+PERSON_FIRSTNAME_4 was the eldest of NUMERIC_1 children of PERSON_FIRSTNAME_5 and PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 who were both ORGANIZATION_1 employees who then set up their own party business; PRONOUN siblings are PERSON_FIRSTNAME_8 PERSON_LASTNAME_3 and PERSON_FIRSTNAME DATE_2.

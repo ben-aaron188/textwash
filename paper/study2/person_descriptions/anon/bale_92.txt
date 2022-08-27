@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is a LOCATION_3 actor who was born in LOCATION_2 in DATE_1. PRONOUN has been awarded various accolades but is probably best known for playing the multi millionaire bruce PERSON_FIRSTNAME_1 and PRONOUN super hero alias batman in movies batman, batman begins, the dark OTHER_IDENTIFYING_ATTRIBUTE_1 and the dark knight rises. PRONOUN has built a reputation for PRONOUN commitment and dedication to PRONOUN roles where PRONOUN transforms PRONOUN physical appearance and for playing such versatile characters.
+
+In PRONOUN private life PRONOUN lives in the LOCATION_1 and is married to a model who PRONOUN has NUMERIC_1 children with, a boy and a girl.

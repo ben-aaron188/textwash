@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_3 PERSON_LASTNAME_2 was born in DATE_3 to LOCATION_2 parents. A first generation immigrant, PRONOUN parents fled the nazi regime in the DATE_1, eventually settling in the LOCATION_1, where PRONOUN father found work as a shoe repairer, while PRONOUN mother raised PERSON_FIRSTNAME_3 and PRONOUN NUMERIC_1 older siblings. 
+
+PERSON_FIRSTNAME_3 is the top sales executive for ORGANIZATION_1, PRONOUN brings in clients and sells products to them. PRONOUN met PRONOUN second husband PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 through this job. PRONOUN first husband, PERSON_FIRSTNAME_1, died of a pulmonary embolism on DATE_2. PRONOUN has NUMERIC_1 adult children, NUMERIC_2 stepsons, and NUMERIC_3 grandchildren.

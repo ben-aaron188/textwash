@@ -1,0 +1,7 @@
+Award winning PERSON_FIRSTNAME_5 PERSON_LASTNAME_2 was born in DATE_1 and has starred in close to NUMERIC_5 films released globally Including such hits as notting OTHER_IDENTIFYING_ATTRIBUTE_1, PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 and NUMERIC_1 weddings are funeral. 
+
+PERSON_FIRSTNAME_4 had a high profile relationship with PERSON_FIRSTNAME_2 PERSON_LASTNAME_3 and was photographed with PRONOUN in the famous safety pin dress. 
+
+PERSON_FIRSTNAME_4 has NUMERIC_1 children, PRONOUN youngest born in DATE_2 with PRONOUN now wife PERSON_FIRSTNAME_3 PERSON_LASTNAME_4. 
+
+PERSON_FIRSTNAME_4 has won a BAFTA and a golden globe but so far the Oscar has eluded PRONOUN. PRONOUN has achieved NUMERIC_4 nominations for the work in PRONOUN career.

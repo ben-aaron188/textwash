@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_1 is NUMERIC_5 years old from LOCATION_1 and rose to fame at NUMERIC_1. 
+PERSON_FIRSTNAME_1 is a world wide celebrity and a celebrity in PRONOUN own right, selling over NUMERIC_4 million records. PRONOUN is recognised for PRONOUN quirky personality, and PRONOUN beautiful voice. PERSON_FIRSTNAME_1 has received many awards and has even been published in OTHER_IDENTIFYING_ATTRIBUTE_1'. 
+PERSON_FIRSTNAME_1 often speaks of the ORGANIZATION_1 as PRONOUN influence 'making PRONOUN what PRONOUN is today'. 
+ PERSON_FIRSTNAME_1 had many tours, but sadly the tours were cut short in LOCATION_1 due to OTHER_IDENTIFYING_ATTRIBUTE_2... PRONOUN also stated that it would be the last ever tour.

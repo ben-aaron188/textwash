@@ -1,0 +1,10 @@
+PERSON_FIRSTNAME_5 PERSON_LASTNAME_1
+PERSON_FIRSTNAME_5 PERSON_LASTNAME_1 was born PERSON_FIRSTNAME_4 PERSON_LASTNAME_4. PRONOUN was born on the DATE_1. Although PRONOUN is LOCATION_2, PRONOUN was born in LOCATION_5. As a child PRONOUN trained as an actress at the ORGANIZATION_3, studying at the ORGANIZATION_2 Branch in the ORGANIZATION_1. PRONOUN rose to fame as a child when PRONOUN got PRONOUN first prominent role in PRONOUN professional career as PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 in the OTHER_IDENTIFYING_ATTRIBUTE_1 films.
+
+Early Life PERSON_FIRSTNAME_5's parents are both Lawyers, PERSON_FIRSTNAME_3 PERSON_LASTNAME_3 and PERSON_FIRSTNAME_1 PERSON_LASTNAME_1. PERSON_FIRSTNAME_5 lived in Mason-Laffitte near LOCATION_6 until PRONOUN was NUMERIC_1 years old. PRONOUN parents divorced when PRONOUN was a child and PERSON_FIRSTNAME_5 moved to live with PRONOUN mother in LOCATION_3 in LOCATION_1. PERSON_FIRSTNAME_5 explains that PRONOUN is able to speak ""some french"" but not as well as PRONOUN used to. 
+
+Personal Life
+PERSON_FIRSTNAME_5 is single, and describes PRONOUN as ""self-partnered"". PRONOUN practises spiritual Universalist as PRONOUN faith.
+
+PERSON_FIRSTNAME_5 is a well-loved actress described as an OTHER_IDENTIFYING_ATTRIBUTE_2. PRONOUN is a person who isn't afraid to speak PRONOUN mind. 
+ PRONOUN has light brown hair. PRONOUN eyes are dark brown almond. PRONOUN is of medium height.

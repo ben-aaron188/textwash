@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_3 is a NUMERIC_3-year-old LOCATION_1 musician who sang, composed and played the piano. PRONOUN composed the music for PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 and often performed wearing some crazy looks!
+When PRONOUN first found PRONOUN love for music, PRONOUN dropped out of school - at the age of NUMERIC_5 - to follow PRONOUN dream. PRONOUN played with a group and then put together PRONOUN stage name from NUMERIC_4 members of the group! 
+PERSON_FIRSTNAME_3 has sold over NUMERIC_2 million records which makes PRONOUN NUMERIC_1 of the best-selling music artists. PRONOUN was born on the NUMERIC_2-fifth of DATE_1, NUMERIC_3 forty NUMERIC_4 (hence PRONOUN age, NUMERIC_3).

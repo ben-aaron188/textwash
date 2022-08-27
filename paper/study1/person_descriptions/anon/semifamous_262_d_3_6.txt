@@ -1,0 +1,8 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1, now aged NUMERIC_1, is a former LOCATION_1 Cricketer from ORGANIZATION_1. 
+
+Beginning PRONOUN career in DATE_2, the right-handed batsman's career spanned a decade and saw PRONOUN play for teams, including Minor Counties South, Minor Countries West, Gloucestershire and finally ORGANIZATION_1.
+
+A medium-pace right-handed bowler, PERSON_LASTNAME_1's professional career spanned NUMERIC_9 matches - NUMERIC_12 First-Class and NUMERIC_11 List A.
+ PRONOUN First-Class career saw PRONOUN score NUMERIC_3 runs and held a batting average of NUMERIC_8 NUMERIC_6. In comparison, whilst playing at List A PERSON_LASTNAME_1 held a NUMERIC_7 NUMERIC_2 batting average and scored NUMERIC_10 runs. 
+
+Whist never playing for the national team, PRONOUN did play against ORGANIZATION_2 as part of their national tour in DATE_1.

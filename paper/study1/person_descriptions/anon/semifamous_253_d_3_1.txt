@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_1 LOCATION_1 was an LOCATION_2 man from LOCATION_3, who during PRONOUN life (December NUMERIC_3th, NUMERIC_7- DATE_1 NUMERIC_1th, NUMERIC_2) served in office. PERSON_FIRSTNAME_1 was a OCCUPATION_1 from LOCATION_4, and has a long political career, in which PRONOUN served in office multiple times and belonged to the party of the Democratic Republicans. PERSON_FIRSTNAME_1 was also governor of LOCATION_3 during PRONOUN career, and the town of LOCATION_1 in LOCATION_3 is named after PRONOUN. 
+PERSON_FIRSTNAME_1 was, by profession, a lawyer, and PRONOUN studied law at ORGANIZATION_1 and was admitted to the bar in DATE_1. 
+Although photos of PERSON_FIRSTNAME_1 are limited and in black and white, PRONOUN has dark slightly curly hair.

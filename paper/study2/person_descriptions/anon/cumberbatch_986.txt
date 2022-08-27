@@ -1,0 +1,4 @@
+PERSON_LASTNAME_1 PERSON_LASTNAME_3 is an LOCATION_1 actor who is most well known for starring in the hit TV show OTHER_IDENTIFYING_ATTRIBUTE_2. 
+In recent years PRONOUN has been known for playing OTHER_IDENTIFYING_ATTRIBUTE_3. OTHER_IDENTIFYING_ATTRIBUTE_1 in numerous ORGANIZATION_1 films. PERSON_LASTNAME_1 has been acting since the early DATE_3's but has only really reached global fame since the start of OTHER_IDENTIFYING_ATTRIBUTE_2 in DATE_2.
+PERSON_LASTNAME_1 is a very well spoken man and has a very typical LOCATION_1 accent. PRONOUN is NUMERIC_1 the most recognizable LOCATION_1 celebrities around the world today.
+PERSON_LASTNAME_1 has been married to PRONOUN partner PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 since DATE_1 and has since had NUMERIC_2 children PRONOUN with PRONOUN. The couple had known each for NUMERIC_4 years before deciding to tie the knot.

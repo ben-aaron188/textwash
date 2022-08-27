@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_1 is a marketing executive from LOCATION_1. PRONOUN recently celebrated PRONOUN NUMERIC_6th birthday with PRONOUN girlfriend PERSON_FIRSTNAME_2, aged NUMERIC_4. PRONOUN has NUMERIC_7 children from a previous marriage, and PRONOUN girlfriend is expecting a child in late DATE_1. 
+PERSON_FIRSTNAME_1 has jet black hair and olive coloured skin. PRONOUN is NUMERIC_2ft NUMERIC_1in, and of average weight. PRONOUN dresses smartly for work, in a formal navy NUMERIC_1 piece suit. 
+In PRONOUN spare time PRONOUN enjoys playing football with PRONOUN eldest son, and teaching PRONOUN youngest how to play rugby. PRONOUN enjoys eating out at restaurants, LOCATION_2 in particular, and regularly watches the latest action movie in the cinema.

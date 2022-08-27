@@ -1,0 +1,4 @@
+The actor PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 found fame at a very young age in the epic stories from author J.K PERSON_LASTNAME_3 OTHER_IDENTIFYING_ATTRIBUTE_2 PERSON_LASTNAME_1. 
+Since then PRONOUN has found continuous fame on stage and screen. PRONOUN was already a millionaire by NUMERIC_3. To PRONOUN credit, PRONOUN has always stayed level headed and professional. PRONOUN has also raised millions of pounds for charity and PRONOUN is held in high regard in the LOCATION_1 bubble of fame & fortune.
+Recently in DATE_1, PRONOUN became a ninja warrior and a father.
+In DATE_2 PRONOUN got married and played in goal for OTHER_IDENTIFYING_ATTRIBUTE_1 in a sky sports special event to raise money for the search for the manor NUMERIC_4 champions

@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was born in DATE_1 making PRONOUN NUMERIC_4 years old. PRONOUN is also blonde and NUMERIC_2 NUMERIC_8m tall. 
+ PRONOUN career included PRONOUN being a successful actress with roles ranging from OTHER_IDENTIFYING_ATTRIBUTE_1 films to Shakespearean dramas. Some roles PRONOUN played within Shakespearean dramas include OTHER_IDENTIFYING_ATTRIBUTE_2 in OTHER_IDENTIFYING_ATTRIBUTE_6, OTHER_IDENTIFYING_ATTRIBUTE_6 in OTHER_IDENTIFYING_ATTRIBUTE_4 and OTHER_IDENTIFYING_ATTRIBUTE_5 in OTHER_IDENTIFYING_ATTRIBUTE_3. Across PRONOUN career PRONOUN has worked for the ORGANIZATION_1 and the ORGANIZATION_2.
+
+Finally, PERSON_LASTNAME_1 is also a NUMERIC_1-time Academy Award nominee.

@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is an LOCATION_1 singer songwriter. They are a feminist and identify as genderqueer having come out in DATE_2. They were initially brought onto the music scene through featuring on ORGANIZATION_3 by ORGANIZATION_2. PRONOUN is currently signed to the LOCATION_2 record label ORGANIZATION_1.
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 has have had NUMERIC_1 studio albums which have all done very well selling over thirty million copies worldwide. Namely OTHER_IDENTIFYING_ATTRIBUTE_2 DATE_3 ; OTHER_IDENTIFYING_ATTRIBUTE_3 DATE_2 ; and OTHER_IDENTIFYING_ATTRIBUTE_4 DATE_1 . The most well known song from these albums is probably OTHER_IDENTIFYING_ATTRIBUTE_1 which has had NUMERIC_2 NUMERIC_1 Million streams on Spotify.

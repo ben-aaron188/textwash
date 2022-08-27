@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 CBE, best known as PERSON_FIRSTNAME_1 PERSON_LASTNAME_1, is an LOCATION_1 actor from LOCATION_2. PRONOUN is NUMERIC_3 years old.
+
+PERSON_LASTNAME_1 is well known for PRONOUN various roles on television as well as PRONOUN roles on film. PRONOUN is likely best known for playing " OTHER_IDENTIFYING_ATTRIBUTE_3"" in the ORGANIZATION_1 show " OTHER_IDENTIFYING_ATTRIBUTE_1"". This role won PERSON_LASTNAME_1 a Primetime Emmy Award for Outstanding Lead Actor in a Miniseries. PERSON_LASTNAME_1 is also well known as playing " OTHER_IDENTIFYING_ATTRIBUTE_2"" in multiple movies within the OTHER_IDENTIFYING_ATTRIBUTE_4 universe.

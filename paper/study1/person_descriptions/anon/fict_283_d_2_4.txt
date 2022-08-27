@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was born in LOCATION_3 in DATE_1, to a single mother raising NUMERIC_6 children. PRONOUN mother was a teacher at the local primary school where PRONOUN inspired PRONOUN to learn about their cultural history. PERSON_LASTNAME_1 took it upon PRONOUN to teach to PRONOUN younger siblings about their local history, preforming live action replay's of history, playing each character PRONOUN.
+
+After coming top of PRONOUN year at secondary school, PRONOUN studied at ORGANIZATION_1 majoring in History. 
+
+After PRONOUN time at university PRONOUN traveled the world for NUMERIC_1 years living in London, Madrid, Vietnam, Sydney and LOCATION_5. After coming back to LOCATION_2 PRONOUN moved to LOCATION_6 and took up a position as a Museum education officer, so as PRONOUN can continue teaching LOCATION_4's history.

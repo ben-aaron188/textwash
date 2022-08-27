@@ -1,0 +1,9 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a NUMERIC_10 year former cricketer for LOCATION_1. PRONOUN made PRONOUN debut in DATE_2 was in the Minor Counties Championship for ORGANIZATION_2. PRONOUN made PRONOUN first list A cricket was also playing for ORGANIZATION_2 against ORGANIZATION_3. 
+
+PERSON_LASTNAME_1 continued to play List A cricket even after leaving ORGANIZATION_1, playing a further NUMERIC_1 List A matches for ORGANIZATION_2. PRONOUN final match was the DATE_1 Natwest Trophy against ORGANIZATION_4.
+
+Over the years PRONOUN played for ORGANIZATION_1 and ORGANIZATION_2 in various matches and tournaments notably captaining for ORGANIZATION_2 on occasion. 
+
+In PRONOUN NUMERIC_5 NUMERIC_3st class matches, PRONOUN had a batting average of NUMERIC_9 NUMERIC_6 over NUMERIC_2 runs, with a single half century high score of NUMERIC_7.
+
+Over PRONOUN career PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 played NUMERIC_12 List A matches scoring an average of NUMERIC_8 NUMERIC_1 over NUMERIC_11 runs

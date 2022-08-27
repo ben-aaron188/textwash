@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is best known for being a top formula NUMERIC_1 racing car driver.
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 started driving when PRONOUN was a young child. PRONOUN was the youngest driver, winning the race at the age if NUMERIC_2 years old. PRONOUN continued to win many races and gain numerous trophies along the way. PRONOUN has maninly worked for ORGANIZATION_1 although my personal opinion is that many other big names would like to offer PRONOUN a high rate although i think PRONOUN is quite dedicated to them.
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 has a disabled brother who attends the majority of PRONOUN races.

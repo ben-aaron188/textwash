@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a LOCATION_2 singer and songwriter best known for hit songs such as " OTHER_IDENTIFYING_ATTRIBUTE_4 OTHER_IDENTIFYING_ATTRIBUTE_4 OTHER_IDENTIFYING_ATTRIBUTE_4 OTHER_IDENTIFYING_ATTRIBUTE_4"" and " OTHER_IDENTIFYING_ATTRIBUTE_6"" which PRONOUN famously performed at OTHER_IDENTIFYING_ATTRIBUTE_1's funeral. PRONOUN has had more than NUMERIC_3 Top NUMERIC_6 LOCATION_1 hits and sold over NUMERIC_5 million records.
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is an accomplished Pianist learning to play as a young child. PRONOUN career started as a pub pianist before releasing PRONOUN first album and rising to worldwide fame.
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is well known for hosting an annual OTHER_IDENTIFYING_ATTRIBUTE_5 and OTHER_IDENTIFYING_ATTRIBUTE_2 to raise money for PRONOUN OTHER_IDENTIFYING_ATTRIBUTE_3 charity.

@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_2 is a LOCATION_2 pop singer and actor. PRONOUN has received various awards including the Honoured Artist of LOCATION_1 And the chanson of the year award.
+
+OTHER_IDENTIFYING_ATTRIBUTE_1 graduated from music school, studying piano, after graduating from eighth grade PRONOUN studied radio apparatus construction. PRONOUN dropped out and began to play in OTHER_IDENTIFYING_ATTRIBUTE_2 ensemble.
+ PRONOUN worked in an ensemble band OTHER_IDENTIFYING_ATTRIBUTE_3, PRONOUN released NUMERIC_1 albums, NUMERIC_4 of them were a collection of PRONOUN own songs,
+
+Quite genrous , active , practical , down to earth, humble and famous personality 
+ PRONOUN parents were PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 glyzin and seraphima glyzina

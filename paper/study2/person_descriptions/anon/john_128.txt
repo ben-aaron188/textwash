@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 is a LOCATION_1 singer / songwriter known for PRONOUN work spanning several decades. PRONOUN is well known for wearing PRONOUN flamboyant outfits and incredible spectacles. 
+
+PERSON_LASTNAME_1 is often found seated behind a piano, and more often than not sits still during PRONOUN performances. This is a stark contrast to PRONOUN early days where PRONOUN’d often prance around the stage in sequinned outfits and incredible wigs. 
+
+PERSON_LASTNAME_1 has collaborated with a number of well known artists and has had more number NUMERIC_1 singles than NUMERIC_1 can count.

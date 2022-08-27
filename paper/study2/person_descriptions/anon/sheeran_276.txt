@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is an LOCATION_1 singer, songwriter, record producer, musician, and actor. PRONOUN was also born in LOCATION_3, LOCATION_3 on DATE_4 making PRONOUN NUMERIC_5 years old. 
+
+Before PERSON_FIRSTNAME_2's career took a turn for itself PRONOUN began opening for more established acts, such as ORGANIZATION_1, ORGANIZATION_1 ORGANIZATION_1 and PERSON_FIRSTNAME_1 PERSON_LASTNAME_2, and released another EP, OTHER_IDENTIFYING_ATTRIBUTE_1, in DATE_2, a year that found PERSON_LASTNAME_1 playing more than NUMERIC_4 live shows.
+
+Overall PRONOUN has sold more than NUMERIC_2 million records worldwide, making PRONOUN NUMERIC_1 of ORGANIZATION_1 world's best-selling music artists. In DATE_3 PRONOUN was named ORGANIZATION_1 artist of ORGANIZATION_1 decade by ORGANIZATION_1 ORGANIZATION_2, due to PRONOUN most combined success in ORGANIZATION_1 LOCATION_2 album and singles charts in ORGANIZATION_1 DATE_1.

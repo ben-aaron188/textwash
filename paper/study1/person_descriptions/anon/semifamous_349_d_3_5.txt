@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1, (full name PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 was an entrepeneur from LOCATION_1.
+
+PERSON_LASTNAME_1 is known for founding OTHER_IDENTIFYING_ATTRIBUTE_1, a company that supplies flavorings and flavoring systems to make medicines more palatable. 
+ PERSON_LASTNAME_1's company was started after the birth of PRONOUN daughter, PERSON_FIRSTNAME_3. PERSON_FIRSTNAME_3 began suffering epileptic seizures that required PRONOUN to take many doses of ill-tasting medicine. PERSON_LASTNAME_1 found it difficult to get PERSON_FIRSTNAME_3 to take PRONOUN medicine and so began searching for ways to make it easier. PRONOUN used candy flavourings and after experimenting with many different samples, PERSON_FIRSTNAME_3 eventually approved of NUMERIC_1 and it was later sold to pharmacies to be used more widely.

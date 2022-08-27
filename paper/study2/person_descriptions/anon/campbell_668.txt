@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a LOCATION_1 Model, from LOCATION_2, named as a supermodel by the fashion industry. PERSON_FIRSTNAME_1's career started when PRONOUN was just NUMERIC_6 years old.
+PERSON_FIRSTNAME_1 is now NUMERIC_1 years old and has had a relatively successful career, modelling, acting, singing and now a business woman, selling fragrances. 
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 has played in a series called OTHER_IDENTIFYING_ATTRIBUTE_1'. Dated many famous faces and hasn't always had good press; due to PRONOUN cocaine and alcohol addiction, and violent anger outbursts.
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1, sued ORGANIZATION_1 for reporting PRONOUN drug addiction. The court overturned the appeal and PERSON_FIRSTNAME_1 was liable for NUMERIC_5 NUMERIC_4 legal costs to the ORGANIZATION_1. The ORGANIZATION_2 stepped up to PERSON_FIRSTNAME_1's aid and reinstated the fees and damages, which nearly cost PERSON_FIRSTNAME_1 PRONOUN career.

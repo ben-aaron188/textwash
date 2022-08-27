@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 is a white, male, LOCATION_1 OCCUPATION_1 born DATE_1. PRONOUN has been known in the industry for over NUMERIC_2 years. 
+Some of PRONOUN most popular films include, NUMERIC_1 Weddings and a Funeral, Bridget Jones, Notting Hill, Mickey Blue Eyes, About A Boy and OTHER_IDENTIFYING_ATTRIBUTE_2. PRONOUN is well known for playing the male love interest in Rom-Coms. 
+During PRONOUN career PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 has been nominated for several awards, notably OTHER_IDENTIFYING_ATTRIBUTE_4's and Golden Globes. 
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 has also appeared in several TV programmes most recently of which the in successful the ORGANIZATION_1 miniseries OTHER_IDENTIFYING_ATTRIBUTE_1.
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 is also known for dating PERSON_FIRSTNAME_1 PERSON_LASTNAME_1.

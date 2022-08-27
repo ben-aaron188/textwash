@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_3. (September NUMERIC_4, NUMERIC_5 – DATE_1 NUMERIC_1, NUMERIC_6) was an LOCATION_1 scholar of constitutional law. PERSON_LASTNAME_4 Jn taught law from DATE_4 to DATE_1. Best known for the historic ORGANIZATION_3 OTHER_IDENTIFYING_ATTRIBUTE_2. ORGANIZATION_1 OTHER_IDENTIFYING_ATTRIBUTE_1 case, as well as for PRONOUN Impeachment: A Handbook, which provided a trustworthy analysis of the law of impeachment during the OTHER_IDENTIFYING_ATTRIBUTE_4.
+
+A graduate of the ORGANIZATION_2 LOCATION_2 in DATE_2 PRONOUN went on to obtain a Masters in English and received PRONOUN LLB from ORGANIZATION_4. Whilst working at ORGANIZATION_4 as a Professor of Law PRONOUN taught PERSON_FIRSTNAME_2 PERSON_LASTNAME_1. 
+ PRONOUN was against the death penalty and a book on the subject. PRONOUN was interested in race and the civil rights movement and attended a performance by PERSON_FIRSTNAME_3 PERSON_LASTNAME_2 whilst still a freshman in college.

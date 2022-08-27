@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_5 PERSON_LASTNAME_1 is an LOCATION_1 singer and known for being NUMERIC_1 of the founding members of ORGANIZATION_1.
+PERSON_FIRSTNAME_3 PERSON_LASTNAME_1 has a very recognisable voice which, along with PERSON_FIRSTNAME_4 PERSON_LASTNAME_4 on the guitar, made ORGANIZATION_1 NUMERIC_1 of the greatest bands of all time. 
+PERSON_FIRSTNAME_3 is known for PRONOUN shaggy haircut and alternative clothing. Personally, I think that PERSON_FIRSTNAME_2 PERSON_LASTNAME_3 takes quite a lot of influence from PRONOUN. 
+PERSON_FIRSTNAME_3 has been married a couple of times. The NUMERIC_1 that springs to mind for me is PERSON_FIRSTNAME_1 PERSON_LASTNAME_2. I think PRONOUN was also married to L'wren Scott who committed suicide. PRONOUN has quite a few children, perhaps NUMERIC_5 or NUMERIC_4, I think some of them are into reality television.

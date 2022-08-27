@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_1 is a LOCATION_1 female singer songwriter. PRONOUN is married and has NUMERIC_1 child. PRONOUN is a very popular singer and has recently been pursuing a weight loss journey which has changed PRONOUN appearance dramatically. Along with the weight loss PRONOUN has also altered PRONOUN trademark hairstyle. 
+PERSON_FIRSTNAME_1 is a very forthright woman and willingly speaks PRONOUN mind. PRONOUN is very proud of PRONOUN working class background and is very personable and friendly when meeting fans and performing. 
+PERSON_FIRSTNAME_1 has had health problems with PRONOUN vocal chords but has overcome this. 
+PERSON_FIRSTNAME_1 has been singing and performing for over NUMERIC_1 years now and PRONOUN popularity is not diminished diminished

@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_1 is a LOCATION_1 singer and songwriter. PRONOUN rose to fame in the early DATE_2 DATE_2 with PRONOUN song OTHER_IDENTIFYING_ATTRIBUTE_3 which became a big hit. 
+ PRONOUN has released a number of albums, all of which are titled after the age PRONOUN was when it was released. PRONOUN latest album is called OTHER_IDENTIFYING_ATTRIBUTE_4.
+ PRONOUN recored the theme tune to the OTHER_IDENTIFYING_ATTRIBUTE_2 PERSON_LASTNAME_1 film OTHER_IDENTIFYING_ATTRIBUTE_1, which was a massive chart hit. It also won numerous award at the Brit Awards and Grammys.
+ PRONOUN is reportedly working on a fourth album however that has been postponed due to COVID NUMERIC_1.
+
+PERSON_FIRSTNAME_1 was married to an entrepreneur with which PRONOUN had a son however they got divorced in DATE_1.

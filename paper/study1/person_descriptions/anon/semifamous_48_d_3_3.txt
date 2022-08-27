@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is NUMERIC_2 year old LOCATION_3 footballer who mainly plays as a left winger PRONOUN was a fine passer of the ball.
+ PRONOUN has played international football for ORGANIZATION_3 mainly in PRONOUN youth but also NUMERIC_1 caps has a full international PRONOUN is also elligable to play for LOCATION_2.
+ PRONOUN signed for many different teams around LOCATION_1 including ORGANIZATION_1 in DATE_1 although PRONOUN never played for them.
+
+Many different well known teams including ORGANIZATION_2 and ORGANIZATION_4 had scouts watching PRONOUN but no attempts to sign PRONOUN!
+ PRONOUN received a NUMERIC_2 months prison sentence in DATE_2 for a speeding offence for the NUMERIC_4th time.

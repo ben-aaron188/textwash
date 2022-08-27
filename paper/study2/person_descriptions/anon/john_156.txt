@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_2 is a LOCATION_1 singer and songwriter who has had a career which has spanned nearly NUMERIC_1 decades. PRONOUN is NUMERIC_2 of the biggest selling musical artists in history.
+ PRONOUN is famous for playing the piano and wearing extravagant costumes whilst performing.
+ PRONOUN has recorded more than NUMERIC_3 albums and has helped write soundtracks for musicals and films such as OTHER_IDENTIFYING_ATTRIBUTE_1. A film about PRONOUN life was made in DATE_1 which starred PERSON_FIRSTNAME_4 PERSON_LASTNAME_2 as PERSON_LASTNAME_1. PERSON_LASTNAME_1 has also starred in other films and made cameos in movies such as OTHER_IDENTIFYING_ATTRIBUTE_2.
+
+PERSON_FIRSTNAME_2 is openly gay and is married to PRONOUN partner PERSON_FIRSTNAME_1 PERSON_LASTNAME_3. Together they have NUMERIC_3 adopted children.

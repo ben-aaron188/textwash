@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 is an LOCATION_1 singer/songwriter who also produces music. PRONOUN is known as NUMERIC_1 of the best selling artists in the world following album sales of NUMERIC_2 million.
+
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 was born in LOCATION_2 in DATE_2. PRONOUN is married to a childhood friend PERSON_LASTNAME_1 and has NUMERIC_1 daughter, PERSON_FIRSTNAME_1.
+ PRONOUN appearance is well known from PRONOUN carrot top hair, baggy jeans and trainers. PRONOUN also is recognisable by PRONOUN tattoos NUMERIC_1 of which is a teddy bear. 
+ PRONOUN story is magnificent how PRONOUN went from homeless and busking on LOCATION_3 streets to now a musician that has made history.
+ PRONOUN has won far too many awards to possibly list but has also broke many world records. NUMERIC_2 being PRONOUN album called divide released in DATE_1 which had the most top NUMERIC_4 singles to come off NUMERIC_1 album ever and was the top selling album in the whole world.

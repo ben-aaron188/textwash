@@ -1,0 +1,9 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is the singer in the rock band the ORGANIZATION_1. PRONOUN was born in LOCATION_2, but now lives in the LOCATION_1 for dubious tax reasons.
+ PRONOUN and PRONOUN bandmates have been touring around the world for nearly NUMERIC_1 decades. It is arguable that PRONOUN best, most creative work is in the distant past.
+
+Many of PRONOUN songs have described several of PRONOUN romantic entanglements over the years, such as the song " OTHER_IDENTIFYING_ATTRIBUTE_2"".
+ PRONOUN has had NUMERIC_1 children to NUMERIC_1 different women, and despite PRONOUN advanced years, did not appear to be slowing down. Do not be surprised if PRONOUN adds more heirs to the PERSON_LASTNAME_1 fortune.
+
+Politically, here's an avowed conservative and noted admirer of PERSON_FIRSTNAME_2 PERSON_LASTNAME_2. Despite such political leanings, it has not yet dented PRONOUN popularity among the celebrity class.
+
+In recent years, PRONOUN was knighted by the OTHER_IDENTIFYING_ATTRIBUTE_1 family.

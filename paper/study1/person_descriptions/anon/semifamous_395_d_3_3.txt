@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a professional footballer born in LOCATION_5 re, LOCATION_4 on the DATE_1.
+
+PERSON_LASTNAME_2 started PRONOUN career at the young age of NUMERIC_4! Playing for ORGANIZATION_3-manage (located in LOCATION_1 PRONOUN was later signed at NUMERIC_5 by ORGANIZATION_2 where PRONOUN gained the attention of champion league club ORGANIZATION_1. While PRONOUN impressed on the trial, this sadly was not to be as La Louviere was greedy and requested a price which was too high for a inexperience young player.
+
+At NUMERIC_7 years old PRONOUN played for the LOCATION_2 national team, being that PRONOUN is LOCATION_2-Moroccann nationality PRONOUN can play for either contrary

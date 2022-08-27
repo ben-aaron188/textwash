@@ -1,0 +1,4 @@
+MR/MS. PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 MD is a chartered accountant who currently resides in Ljubljana, Slovenia. 
+ MR/MS. PERSON_LASTNAME_1 initially trained as a doctor at the university of california, berkeley and moved to LOCATION_1 to begin practising. NUMERIC_1 years after PRONOUN move however, PRONOUN met and fell in love with PERSON_FIRSTNAME_2 PERSON_LASTNAME_2. PERSON_LASTNAME_2 lived in LOCATION_4, and for NUMERIC_3 years they maintained a long-distance relationship before deciding to give up their jobs and travel around the world together. 
+
+When money became short, they decided to settle in Paris, LOCATION_4. Not wanting to return to the stress of medicine, but wanting to train in a reliable job, MR/MS PERSON_LASTNAME_1 decided to retrain as an accountant.

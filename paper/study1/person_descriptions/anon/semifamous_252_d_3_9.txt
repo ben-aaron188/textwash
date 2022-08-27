@@ -1,0 +1,9 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 was born in LOCATION_1 in the state of LOCATION_4 in the LOCATION_5 towards the end of the NUMERIC_5th century. 
+
+PERSON_LASTNAME_1 received a full education attending college in LOCATION_2 and also ORGANIZATION_2 in LOCATION_3.
+
+During PRONOUN university years PERSON_LASTNAME_1 played American Football and was a versatile member of the university's Commodore's team playing in either the Guard or Tackle position.
+
+PERSON_LASTNAME_1 graduated from ORGANIZATION_1 and went into the legal profession. PERSON_LASTNAME_1 opened a Law Office in LOCATION_2 where PRONOUN practiced for NUMERIC_3 years during which time PRONOUN was selected to be the chief clerk of the commission that was responsible for making revisions to LOCATION_4 law. Further promotions followed in the ensuing years.
+
+No record exists of PERSON_LASTNAME_1 getting married or having children and details about PRONOUN personal life are extremely difficult to get hold of.

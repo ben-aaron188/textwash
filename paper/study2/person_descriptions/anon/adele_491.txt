@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 is a famous singer songwriter born in LOCATION_1, LOCATION_1 and has sold over NUMERIC_7 million records since PRONOUN rise to fame in DATE_1 with the release of PRONOUN first album OTHER_IDENTIFYING_ATTRIBUTE_1. OTHER_IDENTIFYING_ATTRIBUTE_1 went on to become NUMERIC_5 times platinum in the LOCATION_2.
+
+PERSON_FIRSTNAME_1 went on a NUMERIC_1 year hiatus due to having OTHER_IDENTIFYING_ATTRIBUTE_2 surgery, getting married and having a child with PRONOUN husband. Once returning from hiatus, PRONOUN released an album with songs about heartbreak as PRONOUN has separated from PRONOUN husband.
+
+In DATE_2, PERSON_FIRSTNAME_1 was worth NUMERIC_3 million and was the NUMERIC_6nd richest musician in the UK

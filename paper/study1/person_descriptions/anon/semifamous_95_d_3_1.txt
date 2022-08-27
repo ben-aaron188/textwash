@@ -1,0 +1,9 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is a former OCCUPATION_1 LOCATION_3 who shares ancestory with former OCCUPATION_3 the ORGANIZATION_2, PERSON_FIRSTNAME_1 PERSON_LASTNAME_1. PRONOUN was in office from DATE_4 until PRONOUN death in DATE_1. PRONOUN was born in Worcester, Massachusetts in DATE_2 and is an alumni of ORGANIZATION_3.
+
+After passing the Bar exam, PRONOUN worked as a District Attorney between the years of DATE_5 and DATE_3 after which PRONOUN moved to Paris, LOCATION_3 and continued to practise law.
+
+In PRONOUN role of OCCUPATION_2 of LOCATION_3 PRONOUN was preceded by PERSON_FIRSTNAME_4 PERSON_LASTNAME_3 and
+succeeded by	James W. PERSON_LASTNAME_2.
+
+PERSON_LASTNAME_1 was also a member of the ORGANIZATION_1 with which now some of PRONOUN personal papers and manuscripts now reside.
+The town of LOCATION_4 in LOCATION_3 is named after PRONOUN.

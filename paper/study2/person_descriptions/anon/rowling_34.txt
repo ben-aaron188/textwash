@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a LOCATION_1 singer songwriter from LOCATION_2 born to rich parents. PRONOUN first track was alongside naughty of and has since gone gone to create the theme tune for the popular LOCATION_1 film series OTHER_IDENTIFYING_ATTRIBUTE_1 starring PERSON_FIRSTNAME_2 PERSON_LASTNAME_2. PRONOUN has appeared on many TV shows and has a lot of time in the press. PRONOUN has recently come out as non binary and has received wide spread support for this. PRONOUN sings pop soul and r&b
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 has received many awards such as album of the year, song of the year and many brit awards

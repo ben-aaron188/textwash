@@ -1,0 +1,10 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1
+Date of birth DATE_4 (age NUMERIC_6)
+Place of birth LOCATION_10, Maharashtra, India
+Height NUMERIC_10 NUMERIC_12 m NUMERIC_9 ft NUMERIC_20 NUMERIC_10 NUMERIC_15 in)
+Playing position(s)	Defender
+Club information
+Current team	Ozoe
+Number NUMERIC_3
+Youth career LOCATION_10
+Hurricane OTHER_IDENTIFYING_ATTRIBUTE_1 was the third hurricane and first major hurricane of the DATE_1 Atlantic hurricane season. It was the first tropical cyclone since DATE_2 to affect the LOCATION_9 while retaining tropical characteristics. OTHER_IDENTIFYING_ATTRIBUTE_1 formed on DATE_6 in the tropical LOCATION_1. It gradually matured into a hurricane as it tracked northward, reaching its peak intensity with winds of NUMERIC_17 km/h NUMERIC_7 mph) early on DATE_3 while located about NUMERIC_14 km NUMERIC_21 mi) southeast of LOCATION_7. It weakened after moving over cooler waters, and passed through the LOCATION_9 on DATE_5. Wind gusts reached hurricane force on LOCATION_6, but the LOCATION_9 sustained little damage. OTHER_IDENTIFYING_ATTRIBUTE_1 then became an extratropical cyclone and affected LOCATION_3, Ireland, and the LOCATION_4. In LOCATION_3, wind gusts reached NUMERIC_18 km/h NUMERIC_11 mph) along the northwest coast, left NUMERIC_1 NUMERIC_16 people without power, and injured NUMERIC_1 people. In LOCATION_5, high winds left NUMERIC_2 NUMERIC_16 people without power and caused NUMERIC_2 injury.

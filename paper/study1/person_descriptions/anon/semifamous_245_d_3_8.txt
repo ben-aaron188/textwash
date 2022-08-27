@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1, known as PERSON_FIRSTNAME_1, is a ORGANIZATION_1 footballer. PERSON_LASTNAME_1 was born DATE_1 in Lyubertsy, LOCATION_2. PRONOUN showed a passion and talent for football at a young age. 
+
+In DATE_3 PERSON_LASTNAME_1 joined the CSKA-d Moscow football team as a Midfielder/Striker. PRONOUN remained in the team until DATE_2 following success in the ORGANIZATION_1 Second Division. 
+
+Between DATE_2 and DATE_5 PRONOUN swapped clubs playing for Krylia Sovetov Samara, Torpedo-ZIL Moscow, Metallurg Lipetsk, Rubin Kazan, Salyut-Energiya Belgorod and Spartak-MZhK Ryazan. 
+
+In DATE_4 PRONOUN retired from the sport following a decline in success. PRONOUN remains in LOCATION_2 and continues to take an interest in football.

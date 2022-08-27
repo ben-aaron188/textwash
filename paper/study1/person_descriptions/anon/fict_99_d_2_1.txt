@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was born in LOCATION_1, Denmark, in DATE_1 to LOCATION_3 parents. PRONOUN mother was a doctor, and PRONOUN father run a company which made computer components. PRONOUN went to school until the age of NUMERIC_1 in LOCATION_1 before the family returned to LOCATION_2 where PRONOUN finished PRONOUN education in LOCATION_5, in the north of the country.
+
+PERSON_LASTNAME_1 attended university in LOCATION_6 where PRONOUN studied OTHER_IDENTIFYING_ATTRIBUTE_1 History, finishing with a first class honours degree. PRONOUN began work at the ORGANIZATION_1 as an archivist where PRONOUN remained for NUMERIC_1 years, before completing a Masters Degree specialising in OTHER_IDENTIFYING_ATTRIBUTE_2.
+
+At the ORGANIZATION_2, PRONOUN took on a new position as Museum Education Office where PRONOUN has had continued success to the present day.
+
+In addition to PRONOUN main job, PERSON_LASTNAME_1 plays bass guitar in a heavy metal band whose songs are all based on key events in LOCATION_3 history. The band play several shows each year, including some at the Museum itself.

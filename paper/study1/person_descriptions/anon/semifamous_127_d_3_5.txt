@@ -1,0 +1,8 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was a pioneering man in the field of medicine and most notably flavouring medicines. 
+ PRONOUN was born in LOCATION_1 but graduated from the university of LOCATION_2 with a degree in advertising design. 
+
+When PRONOUN daughter became ill and started having epileptic seizures PRONOUN had to get medicine, but the foul tasting nature of these medicines meant that PRONOUN daughter refused to swallow or spat it out, meaning that PRONOUN continued to have seizures. 
+
+So this is when PERSON_FIRSTNAME_1 had the genius idea of flavouring medicines and PRONOUN founded ORGANIZATION_1. 
+
+Unfortunately PERSON_FIRSTNAME_1 died from sepsis in DATE_1 from an infection.

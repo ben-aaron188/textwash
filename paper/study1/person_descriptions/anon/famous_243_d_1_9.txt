@@ -1,0 +1,3 @@
+PERSON_LASTNAME_1 PERSON_LASTNAME_2 is a NUMERIC_2 year old LOCATION_1 actor most notably known for a string of romantic comedy films in the DATE_1 and DATE_2 including NUMERIC_1 Wedding and a Funeral, Notting Hill, Bridget Jones and OTHER_IDENTIFYING_ATTRIBUTE_2. PRONOUN has often been typecast as a posh man with boyish charm. PRONOUN acting credits have earned PRONOUN a Golden Globe and a BAFTA. PRONOUN was educated privately at secondary school level and attended ORGANIZATION_2. 
+PERSON_LASTNAME_1 resides in LOCATION_2 and has NUMERIC_2 children. 
+In DATE_3 PRONOUN was involved in a campaign to ensure the ORGANIZATION_1 did not win the DATE_3 General Election; PRONOUN involvement in this campaign involved door to door appeals in swing councils.

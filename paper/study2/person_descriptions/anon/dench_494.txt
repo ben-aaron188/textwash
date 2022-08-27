@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_1 was born in LOCATION_2. LOCATION_1 and is considered NUMERIC_1 of the best LOCATION_3 actresses due to PRONOUN style being so adaptable to so many different genres. 
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 TITLE was honoured by the OTHER_IDENTIFYING_ATTRIBUTE_4 in DATE_1 for PRONOUN services to performance. PRONOUN acting ability has seen PRONOUN in a wide range of roles including PERSON_FIRSTNAME_3 PERSON_LASTNAME_1, period films such as PERSON_FIRSTNAME_2 PERSON_LASTNAME_3 and OTHER_IDENTIFYING_ATTRIBUTE_3 classics such as OTHER_IDENTIFYING_ATTRIBUTE_2, OTHER_IDENTIFYING_ATTRIBUTE_2 and OTHER_IDENTIFYING_ATTRIBUTE_1.
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 is also an advocate for charities and 
+supports many organisations. PERSON_LASTNAME_2 is a president of a drama studio in LOCATION_4, President, a Patron of the ORGANIZATION_1.

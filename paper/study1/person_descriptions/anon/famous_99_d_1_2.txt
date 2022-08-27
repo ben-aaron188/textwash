@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_3 is a singer/songwriter and guitarist. PRONOUN has had several hit records. PRONOUN style of music is pop. PRONOUN self-released PRONOUN first records before being signed.
+ PRONOUN is from LOCATION_1 and was born in DATE_1. PRONOUN moved to LOCATION_2 when NUMERIC_1 years old and played gigs while writing new material. As time went on PRONOUN managed to get support slots with larger acts which allowed PRONOUN to expand PRONOUN fan base, and PRONOUN first label-released LP sold over a million copies in the LOCATION_3.
+
+As well as PRONOUN own material, PERSON_LASTNAME_3 has written songs for other acts such as ORGANIZATION_1, PERSON_FIRSTNAME_4 PERSON_LASTNAME_1, PERSON_FIRSTNAME_3 PERSON_LASTNAME_4 and PERSON_FIRSTNAME_1 PERSON_LASTNAME_2.
+ PRONOUN was married in DATE_2 married and has NUMERIC_1 child, a daughter, born in DATE_3.

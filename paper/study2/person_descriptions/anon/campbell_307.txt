@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a NUMERIC_2 year old LOCATION_2 model, actress, singer, and businesswoman from LOCATION_1, LOCATION_1 LOCATION_1. 
+ PRONOUN studied at ORGANIZATION_5 stage school and appeared in music videos for ORGANIZATION_4 and ORGANIZATION_3 before signing with ORGANIZATION_6 modeling agency at age NUMERIC_5.
+ PRONOUN became the first OTHER_IDENTIFYING_ATTRIBUTE_1 woman to appear on the cover of French 'Vogue' en route to iconic status in the modeling industry. After beginning PRONOUN modeling career at age NUMERIC_5, PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 became the first OTHER_IDENTIFYING_ATTRIBUTE_1 woman to appear on the cover of ORGANIZATION_1 and the first OTHER_IDENTIFYING_ATTRIBUTE_1 model on the cover of ORGANIZATION_2.

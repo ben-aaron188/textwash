@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is an LOCATION_1 singer songwriter.They we are born on the DATE_4 in LOCATION_2. In collaboration with PERSON_FIRSTNAME_1 name is PERSON_FIRSTNAME_2 compose writings on the wall the theme song to spectate the NUMERIC_5th OTHER_IDENTIFYING_ATTRIBUTE_1 film.The film won best original song at the Academy Awards. PERSON_FIRSTNAME_2 has released NUMERIC_1 albums so far- the lonely Hour DATE_1 , the thrill of it all DATE_3 and love goes DATE_2 .
+PERSON_FIRSTNAME_2 song stay with me NUMERIC_2 and the world record of the year at the NUMERIC_2th annual Grammy award.
+PERSON_LASTNAME_2 debut solo album was released in DATE_5 by capital record and it was cold in the lonely hour

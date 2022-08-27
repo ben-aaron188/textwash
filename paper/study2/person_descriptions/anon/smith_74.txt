@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a famous musician from LOCATION_1, LOCATION_1. They have been a prominent figure in the international music scene for DATE_1 years (breaking through in DATE_1 , with hits such as; " OTHER_IDENTIFYING_ATTRIBUTE_4"" (with OTHER_IDENTIFYING_ATTRIBUTE_1 , " OTHER_IDENTIFYING_ATTRIBUTE_1 La OTHER_IDENTIFYING_ATTRIBUTE_1"" (with OTHER_IDENTIFYING_ATTRIBUTE_2 , and " OTHER_IDENTIFYING_ATTRIBUTE_5"" (with OTHER_IDENTIFYING_ATTRIBUTE_3 PERSON_LASTNAME_2 .
+
+PERSON_LASTNAME_1 identifies as genderqueer and uses the they/them pronouns.
+
+PERSON_LASTNAME_1 has also won many awards for their music. Their achievements include NUMERIC_4 Grammy awards, NUMERIC_5 Brit awards and even an Academy award (for ""writing's on the wall"" from the film ""spectre""). These are just to name a few.

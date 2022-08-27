@@ -1,0 +1,8 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_3 is a LOCATION_2 actress most famous for PRONOUN portrayal of PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 in the OTHER_IDENTIFYING_ATTRIBUTE_1 film series. 
+
+PERSON_FIRSTNAME_2 started acting at around age NUMERIC_5 or NUMERIC_4 alongside fellow cast mates PERSON_FIRSTNAME_5 PERSON_LASTNAME_4 and PERSON_FIRSTNAME_3 PERSON_LASTNAME_1. 
+
+PERSON_FIRSTNAME_2 appeared in all NUMERIC_6 OTHER_IDENTIFYING_ATTRIBUTE_1 movies and has since acted in several more movies. 
+
+PERSON_FIRSTNAME_2 is largely recognisable due to being in NUMERIC_1 of the biggest film franchises ever. For a large part of PRONOUN life PRONOUN has had long dark hair. 
+ PRONOUN is now NUMERIC_7 years of age. PRONOUN was born in LOCATION_1 and goes by the full name of PERSON_FIRSTNAME_4 PERSON_LASTNAME_3.

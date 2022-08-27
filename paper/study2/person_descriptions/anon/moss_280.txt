@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 is a supermodel and businesswoman from LOCATION_1 who rose to fame in the DATE_3 DATE_3. PRONOUN was born in LOCATION_2 in DATE_1 making PRONOUN NUMERIC_2 years of age. PRONOUN is also NUMERIC_1ft NUMERIC_1 which is smaller than the average supermodel. PRONOUN is also very well known for PRONOUN figure, and role in size zero fashion. PERSON_LASTNAME_1 has models for a variety of major fashion brands, NUMERIC_1 being ORGANIZATION_2.
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 has also collabed with the huge cosmetic brand OTHER_IDENTIFYING_ATTRIBUTE_1 to create a range of lipsticks. 
+
+Some of OTHER_IDENTIFYING_ATTRIBUTE_2 most successful parts of PRONOUN career include an award received at the DATE_2 ORGANIZATION_3 Fashion Awards which acknowledged PRONOUN contribution to fashion over NUMERIC_5 years. Along with PERSON_FIRSTNAME_1 being a contributing fashion editor for ORGANIZATION_1.

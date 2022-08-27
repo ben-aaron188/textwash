@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 or also known as PERSON_FIRSTNAME_3 K. PERSON_LASTNAME_1 was born in the midwest state of LOCATION_2 on the DATE_2. PERSON_FIRSTNAME_3 was a very talented and multifaceted individual who played college football throughout PRONOUN education, then became a lawyer and was also an insurance superintendent.
+PERSON_FIRSTNAME_3 started PRONOUN sporting career as a college football player playing as linebacker first in ORGANIZATION_2 (now ORGANIZATION_1 in Fayette, LOCATION_2. PRONOUN then moved on with PRONOUN football career to ORGANIZATION_3 in Nashville, Tennessee where PRONOUN played as a guard and tackle.
+PERSON_FIRSTNAME_3 K. PERSON_LASTNAME_1 passed away on the DATE_1.

@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a top LOCATION_1 footballer who had a NUMERIC_6 year career which ended when PRONOUN retired in DATE_2. PRONOUN is now NUMERIC_3 years old and is still very much in the public eye due to PRONOUN role as a ORGANIZATION_3 ambassador and also as NUMERIC_1 of the owners of ORGANIZATION_1.
+ PRONOUN is married to PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 who is more famously known as OTHER_IDENTIFYING_ATTRIBUTE_4 of ORGANIZATION_2 and are known as " OTHER_IDENTIFYING_ATTRIBUTE_3 and OTHER_IDENTIFYING_ATTRIBUTE_1"". PERSON_FIRSTNAME_2's nickname for PERSON_FIRSTNAME_1 is " OTHER_IDENTIFYING_ATTRIBUTE_2"" - PRONOUN named PRONOUN this for PRONOUN comeback after the DATE_3 World Cup. 
+They have been married since DATE_1 and have NUMERIC_2 children. 
+
+PERSON_FIRSTNAME_1 is very fashion conscious and always wears stylish clothes. PRONOUN also has a large number of tattoos.

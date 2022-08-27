@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_3 is an actor/producer from LOCATION_1, born in DATE_1. PRONOUN is most famous for PRONOUN role as OTHER_IDENTIFYING_ATTRIBUTE_1 in the OTHER_IDENTIFYING_ATTRIBUTE_1 film series, involving NUMERIC_1 films released between DATE_2 and DATE_3. 
+ PRONOUN has short brown hair, bushy eyebrows and a beard. While PRONOUN can play serious roles in films, PRONOUN personality is fun and comedic at times. PRONOUN has a sense of humour and many people can relate to PRONOUN.
+
+When people think of PERSON_FIRSTNAME_2 PERSON_LASTNAME_3, the instant thought would be OTHER_IDENTIFYING_ATTRIBUTE_1 as PRONOUN played the main character. Other actors/actresses that come to mind when you think of PERSON_FIRSTNAME_2 are PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 and PERSON_FIRSTNAME_4 PERSON_LASTNAME_2 who are PRONOUN co-stars in the OTHER_IDENTIFYING_ATTRIBUTE_1 series.

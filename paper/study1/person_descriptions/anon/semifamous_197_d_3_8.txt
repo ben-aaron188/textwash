@@ -1,0 +1,15 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1, born as PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 ORGANIZATION_1: Александр Александрович Грязин) is a retired ORGANIZATION_1 professional footballer. PRONOUN was born in Lyubertsy, Russia on DATE_3. PRONOUN is currently NUMERIC_15 years old. PRONOUN made PRONOUN professional debut in the ORGANIZATION_1 Second Division in DATE_4 for PFC CSKA-d Moscow. PRONOUN is NUMERIC_11 NUMERIC_13 m NUMERIC_9 ft NUMERIC_21 in) tall. PRONOUN playing positions positions are: Midfielder or Striker. PRONOUN is now retired but had lots of involvment in different teams. Such as 
+DATE_4 DATE_2
+PFC CSKA-d Moscow DATE_10
+ NUMERIC_12) DATE_2
+Hapoel Bat Yam F.C.
+DATE_1 ORGANIZATION_2 NUMERIC_1
+ NUMERIC_17) NUMERIC_5 NUMERIC_18 ORGANIZATION_8 NUMERIC_19
+ NUMERIC_10) DATE_9
+FC Torpedo-ZIL Moscow NUMERIC_21
+ NUMERIC_11)
+DATE_9 ORGANIZATION_6 NUMERIC_4
+ NUMERIC_11) NUMERIC_14 ORGANIZATION_10 NUMERIC_2
+ NUMERIC_20) DATE_8
+FC Salyut-Energiya Belgorod DATE_7
+FC Spartak-MZhK Ryazan

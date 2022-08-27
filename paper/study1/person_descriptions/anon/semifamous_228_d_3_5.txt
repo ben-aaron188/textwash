@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was born on DATE_4 and died on DATE_5, PRONOUN was an LOCATION_2 Entrepreneur and founded ORGANIZATION_2 and it's system of adding flavouring to otherwise unpalatable medicines to make them easier to take.
+
+PERSON_LASTNAME_1 was born in LOCATION_1 D.C. and grew up in Potomac, Maryland. PRONOUN graduated from the ORGANIZATION_1 in DATE_3 with a degree in advertising design and became an art director for an agency. After developing a dislike for that career in DATE_2 PRONOUN jointed PRONOUN father's Pharmacy film in LOCATION_1 as a business manager.
+
+PERSON_LASTNAME_1 sadly died from sepsis in DATE_1 after contracting an infection.

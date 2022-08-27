@@ -1,0 +1,10 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2. 
+ PRONOUN is a LOCATION_1 footballer who plays for ORGANIZATION_2. PRONOUN plays as a left winger. 
+ PRONOUN is thirty years old currently, and was born DATE_1 NUMERIC_4th, NUMERIC_2. 
+ PRONOUN is capable of playing on the right side as well, albeit not quite as efficiently.
+
+I have to be honest, I tend to know a lot about football, but I have never heard of this guy.
+
+It actually looks like PRONOUN is in fact a free agent and without a club at the moment. I suppose my initial statement that PRONOUN has a club is incorrect. 
+
+I get the feeling that PRONOUN does not bend it like ORGANIZATION_1. Perhaps though, PRONOUN lobs it like PERSON_LASTNAME_1.

@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a chartered accountant living in LOCATION_1. PRONOUN is aged NUMERIC_2 and is married.
+
+It is not possible to further describe this person as no details have been given. There is no picture and so I have no idea what this person looks like. There are no details given as to the likes or dislikes of this person and they could really be anyone.
+
+I find making up details for this person to be difficult - they could be anyone and to attribute a race or other characteristics to this person would be wrong. Stereotypes do not help anyone. To attribute characteristics on this basis only causes issues within society and I don't want to perpetuate this.

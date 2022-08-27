@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was an LOCATION_1 legal academic and lecturer who died in DATE_2. PRONOUN was born in LOCATION_2, and studied at the ORGANIZATION_2, before graduating from ORGANIZATION_1 in DATE_1 with an LLB (bachelor of laws).
+PERSON_LASTNAME_1 was involved in several civil rights cases.
+In DATE_3, PERSON_LASTNAME_1 was appointed professor of Law at ORGANIZATION_1 university in LOCATION_3 where PRONOUN remained for NUMERIC_2 years. PRONOUN published works included 'Impeachment: A Handbook' which was the standard textbook for information on the impeachment process and was referenced extensively during investigations into the OTHER_IDENTIFYING_ATTRIBUTE_1 scandal.
+In PRONOUN personal life, PERSON_LASTNAME_1 was a published poet, having developed an interest in poetry in PRONOUN NUMERIC_4's.

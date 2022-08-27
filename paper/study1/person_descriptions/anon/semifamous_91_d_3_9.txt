@@ -1,0 +1,8 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 was born a free man of colour in LOCATION_1. PRONOUN became a businessman and a politician. PRONOUN went to ORGANIZATION_2 and ORGANIZATION_3. PRONOUN was NUMERIC_1 of PRONOUN few OTHER_IDENTIFYING_ATTRIBUTE_1 to hold a political position after the Reconstruction era.
+
+During PRONOUN career PRONOUN rose of the titles of office of Customs Inspector, Registrar of ORGANIZATION_6 and also office of OCCUPATION_1 by various presidents.
+
+In DATE_1, PERSON_LASTNAME_2 was appointed comptroller of customs by President PERSON_FIRSTNAME_2 PERSON_LASTNAME_1. By now PRONOUN had been a leading figure in federal and state poliitics for around NUMERIC_3 years. PRONOUN salary was NUMERIC_1 NUMERIC_5 a year (which would be the equivalent of about NUMERIC_7 NUMERIC_5), according to ORGANIZATION_7. 
+
+In PRONOUN business carer, PERSON_LASTNAME_2 was the founder and president of People’s Life Insurance Co. PRONOUN also took an interest in fraternal and benevolent companies in LOCATION_1.
+ PRONOUN died in LOCATION_1 and was buried in LOCATION_2 ORGANIZATION_4. The ORGANIZATION_1 was named in PRONOUN honour.

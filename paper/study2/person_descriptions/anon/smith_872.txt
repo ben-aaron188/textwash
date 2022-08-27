@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is an LOCATION_1 singer and songwriter. PERSON_FIRSTNAME_1 was born on DATE_1 and has openly come out as a proud homosexual man. PERSON_FIRSTNAME_1 has a total of thirty NUMERIC_1 million monthly listeners on Spotify and a growing global fan-base.
+
+To date, PERSON_FIRSTNAME_1 has released NUMERIC_4 albums globally. PERSON_FIRSTNAME_1 is well-known for PRONOUN songs OTHER_IDENTIFYING_ATTRIBUTE_2 single in the Disclosure album, OTHER_IDENTIFYING_ATTRIBUTE_1 in the OTHER_IDENTIFYING_ATTRIBUTE_4 album and the single OTHER_IDENTIFYING_ATTRIBUTE_5.
+
+PERSON_FIRSTNAME_1 has won NUMERIC_2 Grammy Awards, NUMERIC_3 Brit Awards, NUMERIC_3 Billboard Music Awards, an American Music Award as well as a Golden Globe and an Academy Award through their career. PRONOUN most recent NUMERIC_7 award being the OTHER_IDENTIFYING_ATTRIBUTE_3 for Outstanding Music Artist.

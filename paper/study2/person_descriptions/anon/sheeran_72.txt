@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 MBE (Birthname PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is an LOCATION_1 musician from LOCATION_2, LOCATION_2 LOCATION_2. PRONOUN is NUMERIC_1 of the worlds best-selling artists at the current time.
+
+PERSON_LASTNAME_1 has been active within the music industry since DATE_1, even managing to earn NUMERIC_2 Grammy awards. PERSON_LASTNAME_1 currently has the most streamed song (""Shape of you"") on ORGANIZATION_1 (One of the biggest music streaming platforms) with over NUMERIC_1 NUMERIC_4 billion streams worldwide. PRONOUN was even named as the second most streamed artist of the decade by ORGANIZATION_1.

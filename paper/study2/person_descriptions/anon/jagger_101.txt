@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 known for being the front man of the ORGANIZATION_1. LOCATION_1 singer, songwriter, actor, and film producer who has achieved international fame as the lead vocalist and NUMERIC_1 of the founder members of the ORGANIZATION_1. PRONOUN songwriting partnership with PERSON_FIRSTNAME_3 PERSON_LASTNAME_2 remains NUMERIC_1 of the most successful in history. described as " NUMERIC_1 of the most popular and influential frontmen in the history of rock & roll"". 
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1
+DATE_1 (age NUMERIC_2) LOCATION_2, LOCATION_2, LOCATION_2
+I have again researched most of this because originally I associated PRONOUN with the character from OTHER_IDENTIFYING_ATTRIBUTE_1.

@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was a football player, lawyer and insurance superintendent of the state of LOCATION_2 (though that was a NUMERIC_1 off). PRONOUN was born on the DATE_3 and died DATE_2. PRONOUN weighed NUMERIC_2lbs. 
+ PRONOUN went to ORGANIZATION_3 in LOCATION_2 and ORGANIZATION_5 in LOCATION_1, where PRONOUN played football and was a member of ORGANIZATION_2. PRONOUN played the positions of a guard and a table for the ORGANIZATION_4 football team. PRONOUN graduated University with a LLB in Law. 
+
+In DATE_4 PRONOUN had opened PRONOUN own law office and started reviewing LOCATION_2 laws. By DATE_1 PRONOUN was a chief clerk in the ORGANIZATION_1.

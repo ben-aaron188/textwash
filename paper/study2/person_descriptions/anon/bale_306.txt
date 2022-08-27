@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 is a NUMERIC_2 year old Academy Award-winning actor who has starred in such films as OTHER_IDENTIFYING_ATTRIBUTE_2 OTHER_IDENTIFYING_ATTRIBUTE_2,' OTHER_IDENTIFYING_ATTRIBUTE_3' and PERSON_FIRSTNAME_3 PERSON_LASTNAME_1's OTHER_IDENTIFYING_ATTRIBUTE_4' trilogy. 
+ PRONOUN was born in LOCATION_1, LOCATION_1, LOCATION_1, and made PRONOUN big-screen debut, with little formal training as an actor, at age NUMERIC_5 in OTHER_IDENTIFYING_ATTRIBUTE_1 DATE_1 .
+
+Most notably PRONOUN lost over NUMERIC_1 stone for PRONOUN role as an emaciated insomniac in OTHER_IDENTIFYING_ATTRIBUTE_5, and NUMERIC_2 to play PERSON_FIRSTNAME_1 PERSON_LASTNAME_3, a real-life boxer and former drug addict, in OTHER_IDENTIFYING_ATTRIBUTE_3.

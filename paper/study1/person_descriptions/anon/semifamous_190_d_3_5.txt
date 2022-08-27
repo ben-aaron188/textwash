@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 - a spoonful of sugar.
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was an LOCATION_1 entrepreneur who is famous for making medicine more palatable for children after PRONOUN own daughter refused to take PRONOUN epilepsy medication. 
+PERSON_FIRSTNAME_1 originally trained in advertising, working as an art director before joining PRONOUN father's pharmaceutical company as a business manager.
+It was in fact PERSON_FIRSTNAME_1's father, PERSON_FIRSTNAME_2, who first suggested the idea of sweetening the medicine to help the girl, and the men worked together to find a solution, eventually turning the idea into the successful business ORGANIZATION_1.
+PERSON_FIRSTNAME_1 was born in LOCATION_2 in DATE_2 and died of sepsis in DATE_1.

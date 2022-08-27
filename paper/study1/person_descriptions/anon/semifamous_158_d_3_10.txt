@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 NUMERIC_2th DATE_1 NUMERIC_1 - NUMERIC_6th DATE_2 NUMERIC_5) was an LOCATION_2 baseball player. Whereas PRONOUN was actually born in LOCATION_1 several reference books incorrectly list PRONOUN as being born in the LOCATION_3.
+
+Between DATE_3 to DATE_2 PRONOUN played as a pitcher, second base and outfielder for the ORGANIZATION_1. PRONOUN was also an outstanding hitter and was named in the all-time Negro League all-star baseball team. PERSON_LASTNAME_2 was easily good enough to play Major League Baseball however, PRONOUN was prevented from doing so due to segregation rules.
+ PRONOUN was married and had NUMERIC_1 children NUMERIC_2 of whom PERSON_FIRSTNAME_3 went on to become a leading civil rights activist who was a close personal friend of PERSON_FIRSTNAME_2 PERSON_LASTNAME_1.

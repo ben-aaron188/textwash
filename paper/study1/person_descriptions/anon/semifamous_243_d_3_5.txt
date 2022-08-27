@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1 was an LOCATION_1 entrepreneur who died in DATE_1, aged NUMERIC_2, of sepsis. PRONOUN left behind a wife and NUMERIC_1 children. 
+ PRONOUN daughter PERSON_FIRSTNAME_1 was the inspiration for PRONOUN company ORGANIZATION_1: a system of adding palatable flavourings to medicines to increase likelihood of compliance in taking the otherwise foul tasting medicine. When PERSON_FIRSTNAME_1 was a child PRONOUN refused PRONOUN eplipcy medicine due to the taste, PERSON_LASTNAME_1 altered the taste by adding different flavouring to PRONOUN medicine and from there ORGANIZATION_1 was born. 
+
+Prior to starting ORGANIZATION_1 PERSON_LASTNAME_1 had graduated from the ORGANIZATION_2 and had worked for a time at an advertising agency before switching careers and joining PRONOUN father pharmacy firm.

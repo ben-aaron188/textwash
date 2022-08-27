@@ -1,0 +1,8 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_4 is a LOCATION_4 model, actress and singer. PRONOUN was born on the DATE_1 in LOCATION_5, LOCATION_5 LOCATION_5. 
+
+PERSON_LASTNAME_4 grew up in LOCATION_3, LOCATION_5. PRONOUN attended ORGANIZATION_3, an independent school in LOCATION_5, until PRONOUN was NUMERIC_5, when PRONOUN moved to the independent ORGANIZATION_5 in LOCATION_1, LOCATION_1. After a year here, PRONOUN dropped out and followed PRONOUN sister, PERSON_FIRSTNAME_4, into a modelling career.
+ PERSON_LASTNAME_4's first modelling job was at age NUMERIC_1 for ORGANIZATION_6. PRONOUN later signed for ORGANIZATION_4 aged NUMERIC_3, before being scouted by ORGANIZATION_2 in DATE_3 while PRONOUN was working part-time in the office of a fashion website. 
+
+PERSON_LASTNAME_4 has walked at the world's best known fashion shows, including at LOCATION_2 Fashion week. Here, PERSON_LASTNAME_4 has walked for NUMERIC_2 shows for fashion houses uincluding PERSON_FIRSTNAME_5 PERSON_LASTNAME_1, PERSON_FIRSTNAME_3 PERSON_LASTNAME_3 and PERSON_FIRSTNAME_2 PERSON_LASTNAME_2. PRONOUN has also walked at LOCATION_5 Fashion Week, Milan Fashion Week and Paris Fashion week for many prestigious fashion houses.
+
+Since DATE_2, PERSON_LASTNAME_4 has taken a break from the catwalk, citing reasons such as a shift to acting for this hiatus.

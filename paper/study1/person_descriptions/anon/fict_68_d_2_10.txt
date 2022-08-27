@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_3 PERSON_LASTNAME_1 is a white, female, LOCATION_1 born DATE_1. 
+Whilst LOCATION_1 born PERSON_FIRSTNAME_3 studied in the LOCATION_2 and graduated with an IT masters from ORGANIZATION_3. 
+Since then PERSON_FIRSTNAME_3 has gone on to work for several large organisations including Amazon, Tesco and most recently the ORGANIZATION_2. With PRONOUN IT Masters PRONOUN specialises in IT training and has over NUMERIC_4 years experience in this field. 
+PERSON_FIRSTNAME_3 is now single but has previously married and divorced in DATE_2. PRONOUN shares NUMERIC_1 children with PRONOUN ex Husband. PRONOUN children are John, Paul, George, Ringo and PERSON_FIRSTNAME_1 named after PRONOUN favourite band, the ORGANIZATION_1.

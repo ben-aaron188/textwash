@@ -1,0 +1,4 @@
+Born in LOCATION_3, LOCATION_3 on DATE_2 to LOCATION_1 parents, PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is an award-winning LOCATION_2 actor.
+ PRONOUN is perhaps best known for PRONOUN performances as the brooding superhero, OTHER_IDENTIFYING_ATTRIBUTE_3, between DATE_3 and DATE_1 in OTHER_IDENTIFYING_ATTRIBUTE_3 OTHER_IDENTIFYING_ATTRIBUTE_3, OTHER_IDENTIFYING_ATTRIBUTE_3 OTHER_IDENTIFYING_ATTRIBUTE_3 OTHER_IDENTIFYING_ATTRIBUTE_3, and OTHER_IDENTIFYING_ATTRIBUTE_1; NUMERIC_1 of the highest-grossing trilogies of all time. 
+
+Despite PRONOUN first-ever acting role being in a commercial for ORGANIZATION_1 when PRONOUN was just NUMERIC_2 years old, remarkably PERSON_LASTNAME_1 has never received any formal training in acting.

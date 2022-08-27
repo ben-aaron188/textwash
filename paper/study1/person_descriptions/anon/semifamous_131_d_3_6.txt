@@ -1,0 +1,4 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2 (born DATE_3 the world famous cricketer with a batting average of NUMERIC_6 NUMERIC_9 PRONOUN was county champion for a record PRONOUN own record) NUMERIC_1 years DATE_1 to DATE_4 PRONOUN record score and only ever half century came against ORGANIZATION_1 in a county championship match where PRONOUN scored a whopping NUMERIC_5 runs.
+Sadly PERSON_LASTNAME_1 was never good enough to play for ORGANIZATION_5 but PRONOUN did play for many southern teams and represented ORGANIZATION_6 at county level and played in NUMERIC_2 trophy matches the last of which was against the formidably average ORGANIZATION_4
+and also played against ORGANIZATION_3 in the DATE_2 ORGANIZATION_2 trophy.
+When nobody else was available PRONOUN would captain PRONOUN beloved and beleaguered Cornwall

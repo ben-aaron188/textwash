@@ -1,0 +1,10 @@
+PERSON_LASTNAME_1 PERSON_LASTNAME_2 was born in Pembrokeshire, Wales, UK on DATE_3 to LOCATION_2 parents PERSON_FIRSTNAME_2 and PERSON_FIRSTNAME_4 PERSON_LASTNAME_2.
+
+PERSON_LASTNAME_1 an actors first acting job was a cereal commercial in DATE_4, PRONOUN went on to be very successful.
+
+PERSON_LASTNAME_1 is the recipient of many awards including an Academy Award and NUMERIC_1 Golden Globes and was featured in the Time NUMERIC_1 list of DATE_1.
+
+PERSON_LASTNAME_1 PERSON_LASTNAME_2 is best known for playing PERSON_FIRSTNAME_3 PERSON_LASTNAME_4 in PERSON_FIRSTNAME_1 PERSON_LASTNAME_3 OTHER_IDENTIFYING_ATTRIBUTE_1.
+
+Some of PERSON_LASTNAME_1's movies include: OTHER_IDENTIFYING_ATTRIBUTE_2 DATE_6 OTHER_IDENTIFYING_ATTRIBUTE_6 DATE_7 OTHER_IDENTIFYING_ATTRIBUTE_4 DATE_1 OTHER_IDENTIFYING_ATTRIBUTE_5 DATE_5 and OTHER_IDENTIFYING_ATTRIBUTE_3 DATE_2 .
+ PRONOUN movies are very popular and mostly suited to teenagers through to young adults.

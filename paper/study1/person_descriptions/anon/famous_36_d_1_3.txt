@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_2 is a very famous actress that has played PERSON_FIRSTNAME_3 in the OTHER_IDENTIFYING_ATTRIBUTE_1 film. PRONOUN birth name is PERSON_FIRSTNAME_4 PERSON_LASTNAME_1, PERSON_FIRSTNAME_2 is LOCATION_2 even PRONOUN was born in LOCATION_1, and a very good looking girl.
+PERSON_FIRSTNAME_2 studied in ORGANIZATION_3 and PRONOUN also has done some modelling.
+PERSON_FIRSTNAME_2 started acting at the age of NUMERIC_1 and has been honored with a few awards that’s why PRONOUN has won more than NUMERIC_2 million. PRONOUN first appearance in TV was in a ORGANIZATION_2 show called OTHER_IDENTIFYING_ATTRIBUTE_2. In DATE_3 PRONOUN played in an animated film called OTHER_IDENTIFYING_ATTRIBUTE_3, which is based on the eponymous book.
+PERSON_FIRSTNAME_1 main interest always has been acting but PRONOUN also has done fashion-related work. PRONOUN modelling started in DATE_1 in a LOCATION_2 autumn/winter campaign for the very famous brand the ORGANIZATION_4. PERSON_FIRSTNAME_2 also appeared in Spring/summer campaign in DATE_2.
+PERSON_FIRSTNAME_2 also worked for Lancôme, and PRONOUN become its face due to run NUMERIC_2 campaigns.

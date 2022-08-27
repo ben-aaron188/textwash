@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_2 PERSON_LASTNAME_1, who as a distraught father concocted a flavored additive for PRONOUN infant daughter’s anti-seizure drug, later marketing the product through pharmacies across the country and helping make the medicine go down for millions of children, died DATE_3 at a hospital in LOCATION_2. PRONOUN was NUMERIC_1.
+ PRONOUN contracted an infection that resulted in sepsis and cardiac arrest, said PRONOUN wife, PERSON_FIRSTNAME_1 PERSON_LASTNAME_1.
+
+The son of a pharmacist, MR/MS. PERSON_LASTNAME_1 grew up working at PRONOUN family’s business, ORGANIZATION_2 in the LOCATION_1 neighborhood of LOCATION_2. PRONOUN had joined the operation as a business manager by DATE_2, when PRONOUN and PRONOUN wife had their second daughter, PERSON_FIRSTNAME_3.
+
+Severely premature, PRONOUN suffered a brain hemorrhage when PRONOUN was NUMERIC_4 days old and developed disabilities including cerebral palsy. “When you have a baby, you have boundlesshopes for them,” MR/MS. PERSON_LASTNAME_1 told Inc. magazine in DATE_1. “All we could do was ask, ‘What is the best we can hope for? Will PRONOUN be able to walk? Will PRONOUN talk?’ ”

@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a LOCATION_3 rock star who is well known around the world. PRONOUN’s a member of a multiplatinum selling band ORGANIZATION_1. 
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is almost NUMERIC_4 years old and comes from LOCATION_2. PRONOUN is instantly recognisable since PRONOUN has a unique sense of fashion, large mouth and some killer dance moves. 
+
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is a global star, having hits in almost every country in the world. PRONOUN has spent a lot of PRONOUN life between the LOCATION_1 and LOCATION_4. 
+
+For the majority of PRONOUN career, PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 has had long hair and as previously mentioned is recognised for PRONOUN appearance.

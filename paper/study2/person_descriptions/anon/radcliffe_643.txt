@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_3 best known for PRONOUN character as PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 but has since been in several films and performed on Broadway.
+PERSON_LASTNAME_1 acting career really took off in DATE_3 when PRONOUN was cast to play PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 and went on to play this role over the next NUMERIC_3 years. These films launched PERSON_LASTNAME_1 career. PERSON_FIRSTNAME_1 was reported by the ORGANIZATION_1 to be NUMERIC_1 of the richest young kids in DATE_2 worth a staggering NUMERIC_4 million.
+PERSON_FIRSTNAME_1 was born in LOCATION_1 and since DATE_1 has been in a relationship with an actress who PRONOUN met on set of a film.

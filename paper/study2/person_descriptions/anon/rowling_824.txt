@@ -1,0 +1,3 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 was born on the DATE_2, making PRONOUN NUMERIC_3 years of age. PRONOUN is also known as PERSON_FIRSTNAME_2 PERSON_LASTNAME_1, the author of the extremely popular OTHER_IDENTIFYING_ATTRIBUTE_1 books.
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 starting writing as a hobby whilst working as a bilingual secretary and researcher and for the Chamber of Commerce.
+The idea for the OTHER_IDENTIFYING_ATTRIBUTE_1 books came to PRONOUN when PRONOUN was waiting for PRONOUN delayed train in DATE_1. It took a further NUMERIC_1 years before PRONOUN first OTHER_IDENTIFYING_ATTRIBUTE_1 book was published. PRONOUN fortune is estimated at NUMERIC_2 million.

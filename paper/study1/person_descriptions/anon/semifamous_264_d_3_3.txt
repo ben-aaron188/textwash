@@ -1,0 +1,7 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1, born DATE_3, is the son of former footballer PERSON_FIRSTNAME_2 PERSON_LASTNAME_1. Following in PRONOUN father’s footsteps, PERSON_LASTNAME_2 became interested in the sport at an early age. 
+
+Beginning PRONOUN football career at the age of NUMERIC_5, PERSON_LASTNAME_1 was quickly signed by a youth team named ORGANIZATION_3-manage. PRONOUN was known as a fine passer of the ball and NUMERIC_1 who assisted PRONOUN teammates well, even described as a magician by PRONOUN agent. 
+
+At NUMERIC_2f NUMERIC_1, PERSON_LASTNAME_1 made a perfect left-winger, which is why PRONOUN was signed by the youth team of ORGANIZATION_2 re. Interest aroused from the likes of ORGANIZATION_1, but didn’t end in a deal being signed.
+
+In DATE_1, PERSON_LASTNAME_1 was served a NUMERIC_2 month prison sentence after being caught speeding for the NUMERIC_5th time, following a reckless driving charge in DATE_2. This resulted in a driving ban for NUMERIC_4 years.

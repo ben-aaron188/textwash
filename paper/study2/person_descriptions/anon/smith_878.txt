@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is an LOCATION_1 singer and songwriter, who has sold over NUMERIC_3 million albums worldwide. They are NUMERIC_4 years old and was born in LOCATION_2. PERSON_LASTNAME_3 debut album was released in DATE_2. Some of the best selling singles were:- stay with me; I’m not the only one; Like I can; Writings on the wall; Too good at goodbyes; Dancing with a stranger. PERSON_FIRSTNAME_1 identifies as Non OTHER_IDENTIFYING_ATTRIBUTE_1 and revealed they wanted to be referred to as they/them.
+PERSON_FIRSTNAME_1 worked at a bar before making it in music.
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 love tattoos. 
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 won a Academy Award for PRONOUN DATE_1 OTHER_IDENTIFYING_ATTRIBUTE_3 movie theme song, it was also the first OTHER_IDENTIFYING_ATTRIBUTE_3 tune to get to number NUMERIC_1 in the charts. 
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 also has OTHER_IDENTIFYING_ATTRIBUTE_2. They are the NUMERIC_5rd cousin of PERSON_FIRSTNAME_2 PERSON_LASTNAME_2 and PRONOUN actor brother PERSON_FIRSTNAME_3 PERSON_LASTNAME_2.

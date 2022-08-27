@@ -1,0 +1,6 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_1 is an LOCATION_1 actor who starred in the OTHER_IDENTIFYING_ATTRIBUTE_1 films. PRONOUN has also appeared in several dramas such as the film the Woman in Black. PRONOUN is of small stature with dark hair and an engaging personality. PRONOUN wore very round glasses for PRONOUN part in OTHER_IDENTIFYING_ATTRIBUTE_1. PRONOUN has managed to transition from a child actor to more adult roles.
+
+ PRONOUN is part OTHER_IDENTIFYING_ATTRIBUTE_3 and is NUMERIC_2 years old. PRONOUN has appeared on some talk shows and appears very friendly with a wicked sense of humour. PRONOUN is very versatile and has managed to get some good acting roles and not be typecast from PRONOUN OTHER_IDENTIFYING_ATTRIBUTE_1 days. PRONOUN is an only child but this hasn’t made PRONOUN spoilt as PRONOUN comes across and very caring and not self centred. 
+
+
+.

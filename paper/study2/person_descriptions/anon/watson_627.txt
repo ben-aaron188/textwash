@@ -1,0 +1,5 @@
+PERSON_FIRSTNAME_1 PERSON_LASTNAME_2, or PERSON_FIRSTNAME_2 PERSON_LASTNAME_3, is an LOCATION_1 actress.
+SHe is most famous for PRONOUN rold playing PERSON_FIRSTNAME_3 PERSON_LASTNAME_1' in the hit film OTHER_IDENTIFYING_ATTRIBUTE_3' series.
+PERSON_FIRSTNAME_1 is also well known as an activist for Womens rights. PRONOUN was born in LOCATION_2 and raised in LOCATION_3 and the OTHER_IDENTIFYING_ATTRIBUTE_3 films were PRONOUN first professional acting roles. PRONOUN is NUMERIC_3 years old, having being born on DATE_1.
+PERSON_FIRSTNAME_1 has brown hair, brown eyes and notably thick dark eyebrows.
+After filming the OTHER_IDENTIFYING_ATTRIBUTE_3 series PRONOUN took a supporting role in OTHER_IDENTIFYING_ATTRIBUTE_2 and then starred in OTHER_IDENTIFYING_ATTRIBUTE_1 as a flirty, care free student.
