@@ -36,6 +36,20 @@ if __name__ == "__main__":
         default="",
         help="Comma-separated list of entities that should be anonymised",
     )
+    parser.add_argument(
+        "--deny_list",
+        dest="deny_list",
+        type=str,
+        default="",
+        help="Comma-separated list of words that should not be anonymised (even if Textwash would detect them)",
+    )
+    parser.add_argument(
+        "--allow_list",
+        dest="allow_list",
+        type=str,
+        default="",
+        help="Comma-separated list of words that should be anonymised (even if Textwash would not detect them)",
+    )
     args = parser.parse_args()
 
     assert os.path.exists(
@@ -50,9 +64,17 @@ if __name__ == "__main__":
     config.gpu = not args.cpu
 
     selected_entities = None
+    allow_list = None
+    deny_list = None
 
     if args.entities != "":
         selected_entities = assert_entities(args.entities, config.restore_path)
+
+    if args.allow_list != "":
+        allow_list = [e.strip() for e in args.allow_list.split(",")]
+
+    if args.deny_list != "":
+        deny_list = [e.strip() for e in args.deny_list.split(",")]
 
     data_processor = DataProcessor(config)
     config.num_classes = data_processor.label_count
@@ -80,7 +102,10 @@ if __name__ == "__main__":
 
     for idx, (k, text) in enumerate(data.items()):
         anonymised, orig_cut = anonymiser.anonymise(
-            text, selected_entities=selected_entities
+            text,
+            selected_entities=selected_entities,
+            allow_list=allow_list,
+            deny_list=deny_list,
         )
         outputs[k] = {"orig": orig_cut, "anon": anonymised}
 

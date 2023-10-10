@@ -3,15 +3,45 @@ import torch
 import pickle
 
 
+def add_deny_list_items(entities, deny_list):
+    items_to_add = []
+    entity_names = [x[0] for x in entities]
+
+    for deny_list_item in deny_list:
+        if deny_list_item not in entity_names:
+            items_to_add.append([deny_list_item, "OTHER_IDENTIFYING_ATTRIBUTE"])
+
+    return entities + items_to_add
+
+
+def remove_allow_list_items(entities, allow_list):
+    items_to_keep = []
+
+    for entity in entities:
+        if entity[0] not in allow_list:
+            items_to_keep.append(entity)
+
+    return items_to_keep
+
+
 def anon_numeric(selected_entities):
+    if not selected_entities:
+        return True
+
     return "NUMERIC" in selected_entities
 
 
 def anon_pronouns(selected_entities):
+    if not selected_entities:
+        return True
+
     return "PRONOUN" in selected_entities
 
 
 def anon_dates(selected_entities):
+    if not selected_entities:
+        return True
+
     return "DATE" in selected_entities
 
 

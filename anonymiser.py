@@ -9,6 +9,8 @@ from utils import (
     anon_dates,
     anon_numeric,
     anon_pronouns,
+    add_deny_list_items,
+    remove_allow_list_items,
 )
 
 
@@ -73,7 +75,9 @@ class Anonymiser:
 
         return anon_input_seq
 
-    def anonymise(self, input_seq, selected_entities=None):
+    def anonymise(
+        self, input_seq, selected_entities=None, allow_list=None, deny_list=None
+    ):
         orig_input_seq = deepcopy(input_seq)
         anon_input_seq = " {}".format(deepcopy(input_seq))
         entities = self.get_identifiable_tokens(deepcopy(input_seq))
@@ -87,6 +91,12 @@ class Anonymiser:
                     filtered_entities.append(entity)
 
             entities = filtered_entities
+
+        if deny_list:
+            entities = add_deny_list_items(entities, deny_list)
+
+        if allow_list:
+            entities = remove_allow_list_items(entities, allow_list)
 
         entities = {k: v for [k, v] in entities if k != self.config.unk_token}
         entity2generic_c = {v: 1 for _, v in entities.items()}
@@ -164,6 +174,13 @@ class Anonymiser:
                 "lord": "TITLE",
             }
 
+            if allow_list:
+                pronoun_map = {
+                    k: v
+                    for k, v in pronoun_map.items()
+                    if k not in [x.lower() for x in allow_list]
+                }
+
             for k, v in pronoun_map.items():
                 if anon_input_seq.startswith("{} ".format(k)):
                     anon_input_seq = anon_input_seq.replace(
@@ -204,6 +221,11 @@ class Anonymiser:
         spl = re.split("[ ,.-]", anon_input_seq)
 
         if anon_numeric(selected_entities):
+            if allow_list:
+                self.written_numbers = [
+                    x for x in self.written_numbers if x not in allow_list
+                ]
+
             for word in spl:
                 if word.lower() in self.written_numbers:
                     try:
@@ -215,6 +237,9 @@ class Anonymiser:
                         entity2generic_c["NUMERIC"] += 1
 
         if anon_dates(selected_entities):
+            if deny_list:
+                self.months = [x for x in self.months if x not in deny_list]
+
             for word in spl:
                 if word.lower() in self.months:
                     try:
