@@ -69,7 +69,7 @@ if __name__ == "__main__":
     data = {}
 
     for filename in os.listdir(args.input_dir):
-        if filename.endswith('.txt'):
+        if filename.endswith(".txt"):
             with open("{}/{}".format(args.input_dir, filename)) as f:
                 data[filename[: filename.index(".txt")]] = f.read().strip()
 
