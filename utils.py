@@ -4,14 +4,23 @@ import pickle
 
 
 def anon_numeric(selected_entities):
+    if not selected_entities:
+        return True
+
     return "NUMERIC" in selected_entities
 
 
 def anon_pronouns(selected_entities):
+    if not selected_entities:
+        return True
+
     return "PRONOUN" in selected_entities
 
 
 def anon_dates(selected_entities):
+    if not selected_entities:
+        return True
+
     return "DATE" in selected_entities
 
 
