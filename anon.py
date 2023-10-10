@@ -69,8 +69,9 @@ if __name__ == "__main__":
     data = {}
 
     for filename in os.listdir(args.input_dir):
-        with open("{}/{}".format(args.input_dir, filename)) as f:
-            data[filename[: filename.index(".txt")]] = f.read().strip()
+        if filename.endswith('.txt'):
+            with open("{}/{}".format(args.input_dir, filename)) as f:
+                data[filename[: filename.index(".txt")]] = f.read().strip()
 
     model = load_model(config.load_model_path, model)
     anonymiser = Anonymiser(config, model, data_processor, device, bert_model)
