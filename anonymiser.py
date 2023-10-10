@@ -2,7 +2,14 @@ import re
 import torch
 import torch.nn as nn
 from copy import deepcopy
-from utils import tokenize, get_named_entities_from_preds, get_cut_idx
+from utils import (
+    tokenize,
+    get_named_entities_from_preds,
+    get_cut_idx,
+    anon_dates,
+    anon_numeric,
+    anon_pronouns,
+)
 
 
 class Anonymiser:
@@ -66,10 +73,20 @@ class Anonymiser:
 
         return anon_input_seq
 
-    def anonymise(self, input_seq):
+    def anonymise(self, input_seq, selected_entities=None):
         orig_input_seq = deepcopy(input_seq)
         anon_input_seq = " {}".format(deepcopy(input_seq))
         entities = self.get_identifiable_tokens(deepcopy(input_seq))
+
+        # Filter entities if necessary
+        if selected_entities:
+            filtered_entities = []
+
+            for entity in entities:
+                if entity[1] in selected_entities:
+                    filtered_entities.append(entity)
+
+            entities = filtered_entities
 
         entities = {k: v for [k, v] in entities if k != self.config.unk_token}
         entity2generic_c = {v: 1 for _, v in entities.items()}
@@ -109,96 +126,104 @@ class Anonymiser:
             unfound_entities, anon_input_seq, entity2generic
         )
 
-        all_numeric = list(set(re.findall("[0-9]+", anon_input_seq)))
-        numeric_map = {k: "NUMERIC_{}".format(v + 1) for v, k in enumerate(all_numeric)}
+        if anon_numeric(selected_entities):
+            all_numeric = list(set(re.findall("[0-9]+", anon_input_seq)))
+            numeric_map = {
+                k: "NUMERIC_{}".format(v + 1) for v, k in enumerate(all_numeric)
+            }
 
-        for k, v in sorted(numeric_map.items(), key=lambda x: int(x[0]), reverse=True):
-            anon_input_seq = re.sub(
-                "[^NUMERIC_0-9+]{}".format(k), " {}".format(v), anon_input_seq
-            )
-
-        pronoun_map = {
-            "he": "PRONOUN",
-            "she": "PRONOUN",
-            "him": "PRONOUN",
-            "his": "PRONOUN",
-            "her": "PRONOUN",
-            "hers": "PRONOUN",
-            "himself": "PRONOUN",
-            "herself": "PRONOUN",
-            "mr": "MR/MS",
-            "mrs": "MR/MS",
-            "miss": "MR/MS",
-            "ms": "MR/MS",
-            "dr": "TITLE",
-            "dr.": "TITLE",
-            "prof": "TITLE",
-            "prof.": "TITLE",
-            "sir": "TITLE",
-            "dame": "TITLE",
-            "madam": "TITLE",
-            "lady": "TITLE",
-            "lord": "TITLE",
-        }
-
-        for k, v in pronoun_map.items():
-            if anon_input_seq.startswith("{} ".format(k)):
-                anon_input_seq = anon_input_seq.replace(
-                    "{} ".format(k), "{} ".format(v), 1
-                )
-
-            if anon_input_seq.startswith("{} ".format(k.capitalize())):
-                anon_input_seq = anon_input_seq.replace(
-                    "{} ".format(k.capitalize()), "{} ".format(v), 1
-                )
-
-            for char in self.valid_surrounding_chars:
+            for k, v in sorted(
+                numeric_map.items(), key=lambda x: int(x[0]), reverse=True
+            ):
                 anon_input_seq = re.sub(
-                    "[^a-zA-Z0-9]{}[{}]".format(k, char),
-                    " {}{}".format(v, char),
+                    "[^NUMERIC_0-9+]{}".format(k), " {}".format(v), anon_input_seq
+                )
+
+        if anon_pronouns(selected_entities):
+            pronoun_map = {
+                "he": "PRONOUN",
+                "she": "PRONOUN",
+                "him": "PRONOUN",
+                "his": "PRONOUN",
+                "her": "PRONOUN",
+                "hers": "PRONOUN",
+                "himself": "PRONOUN",
+                "herself": "PRONOUN",
+                "mr": "MR/MS",
+                "mrs": "MR/MS",
+                "miss": "MR/MS",
+                "ms": "MR/MS",
+                "dr": "TITLE",
+                "dr.": "TITLE",
+                "prof": "TITLE",
+                "prof.": "TITLE",
+                "sir": "TITLE",
+                "dame": "TITLE",
+                "madam": "TITLE",
+                "lady": "TITLE",
+                "lord": "TITLE",
+            }
+
+            for k, v in pronoun_map.items():
+                if anon_input_seq.startswith("{} ".format(k)):
+                    anon_input_seq = anon_input_seq.replace(
+                        "{} ".format(k), "{} ".format(v), 1
+                    )
+
+                if anon_input_seq.startswith("{} ".format(k.capitalize())):
+                    anon_input_seq = anon_input_seq.replace(
+                        "{} ".format(k.capitalize()), "{} ".format(v), 1
+                    )
+
+                for char in self.valid_surrounding_chars:
+                    anon_input_seq = re.sub(
+                        "[^a-zA-Z0-9]{}[{}]".format(k, char),
+                        " {}{}".format(v, char),
+                        anon_input_seq,
+                    )
+                    anon_input_seq = re.sub(
+                        "[^a-zA-Z0-9]{}[{}]".format(k.capitalize(), char),
+                        " {}{}".format(v, char),
+                        anon_input_seq,
+                    )
+
+                anon_input_seq = re.sub(
+                    "[^a-zA-Z0-9]{}[^a-zA-Z0-9]".format(k),
+                    " {} ".format(v),
                     anon_input_seq,
                 )
                 anon_input_seq = re.sub(
-                    "[^a-zA-Z0-9]{}[{}]".format(k.capitalize(), char),
-                    " {}{}".format(v, char),
+                    "[^a-zA-Z0-9]{}[^a-zA-Z0-9]".format(k.capitalize()),
+                    " {} ".format(v),
                     anon_input_seq,
                 )
-
-            anon_input_seq = re.sub(
-                "[^a-zA-Z0-9]{}[^a-zA-Z0-9]".format(k),
-                " {} ".format(v),
-                anon_input_seq,
-            )
-            anon_input_seq = re.sub(
-                "[^a-zA-Z0-9]{}[^a-zA-Z0-9]".format(k.capitalize()),
-                " {} ".format(v),
-                anon_input_seq,
-            )
 
         entity2generic_c = {"DATE": 1, "NUMERIC": 1}
         entity2generic = {}
 
         spl = re.split("[ ,.-]", anon_input_seq)
 
-        for word in spl:
-            if word.lower() in self.written_numbers:
-                try:
-                    _ = entity2generic[word]
-                except KeyError:
-                    entity2generic[word] = "{}_{}".format(
-                        "NUMERIC", entity2generic_c["NUMERIC"]
-                    )
-                    entity2generic_c["NUMERIC"] += 1
+        if anon_numeric(selected_entities):
+            for word in spl:
+                if word.lower() in self.written_numbers:
+                    try:
+                        _ = entity2generic[word]
+                    except KeyError:
+                        entity2generic[word] = "{}_{}".format(
+                            "NUMERIC", entity2generic_c["NUMERIC"]
+                        )
+                        entity2generic_c["NUMERIC"] += 1
 
-        for word in spl:
-            if word.lower() in self.months:
-                try:
-                    _ = entity2generic[word]
-                except KeyError:
-                    entity2generic[word] = "{}_{}".format(
-                        "DATE", entity2generic_c["DATE"]
-                    )
-                    entity2generic_c["DATE"] += 1
+        if anon_dates(selected_entities):
+            for word in spl:
+                if word.lower() in self.months:
+                    try:
+                        _ = entity2generic[word]
+                    except KeyError:
+                        entity2generic[word] = "{}_{}".format(
+                            "DATE", entity2generic_c["DATE"]
+                        )
+                        entity2generic_c["DATE"] += 1
 
         for phrase, replacement in sorted(
             entity2generic.items(), key=lambda x: len(x[0]), reverse=True

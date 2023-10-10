@@ -3,6 +3,37 @@ import torch
 import pickle
 
 
+def anon_numeric(selected_entities):
+    return "NUMERIC" in selected_entities
+
+
+def anon_pronouns(selected_entities):
+    return "PRONOUN" in selected_entities
+
+
+def anon_dates(selected_entities):
+    return "DATE" in selected_entities
+
+
+def assert_entities(entities, restore_path):
+    label_map = load_pkl(f"{restore_path}/label_map.pkl")
+    available_entities = list(label_map.keys()) + ["NUMERIC", "PRONOUN"]
+    available_entities = sorted(
+        list(set(available_entities).difference({"NONE", "PAD"}))
+    )
+
+    entity_list = [e.strip() for e in entities.split(",")]
+
+    for entity in entity_list:
+        if entity not in available_entities:
+            raise ValueError(
+                "Incorrect argument --entities provided. Please ensure that all values refer to existing entities separated by comma.\n"
+                "Available entities are {}.".format(", ".join(available_entities))
+            )
+
+    return entity_list
+
+
 def get_named_entities_from_preds(text, preds, label_map_rev):
     named_entities = []
     output_string = []

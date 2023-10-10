@@ -46,6 +46,29 @@ anonymises the three example texts in the `examples` directory. In doing so, Tex
 
 Textwash works best when running on a GPU. If no GPU is available, you should use the `--cpu` flag as in the snippet above. If you have a GPU, remove the `--cpu` flag and Textwash will resort to `pytorch` with `CUDA` support.
 
+#### Entity selection
+Textwash can furthermore be restricted to only consider a subset of all available entity types for anonymisation. 
+
+The complete list of available entity types is as follows:
+* ADDRESS
+* DATE
+* EMAIL_ADDRESS
+* LOCATION
+* NUMERIC
+* OCCUPATION
+* ORGANIZATION
+* OTHER_IDENTIFYING_ATTRIBUTE
+* PERSON_FIRSTNAME
+* PERSON_LASTNAME
+* PHONE_NUMBER
+* PRONOUN
+* TIME
+
+Using the `--entities` flag, individual entity types can be selected for anonymisation. These entity types need to be separated by comma.
+
+For example, if you would only like to anonymise the LOCATION and PERSON_FIRSTNAME entity types, run
+
+    $ python3 anon.py --input_dir examples --output_dir anonymised_examples --cpu --entities LOCATION,PERSON_FIRSTNAME
 
 ## Who can use Textwash?
 
