@@ -5,7 +5,7 @@ from config import Config
 from data_processor import DataProcessor
 from bert_model import BERTModel
 from anonymiser import Anonymiser
-from utils import load_model
+from utils import load_model, assert_entities
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Required + optional arguments")
@@ -29,18 +29,30 @@ if __name__ == "__main__":
         required=True,
         help="Output directory into which Textwash saves the anonymised files",
     )
+    parser.add_argument(
+        "--entities",
+        dest="entities",
+        type=str,
+        default="",
+        help="Comma-separated list of entities that should be anonymised",
+    )
     args = parser.parse_args()
 
     assert os.path.exists(
         args.input_dir
     ), f"Input directory {args.input_dir} does not exist!"
-    
+
     if not os.path.exists(args.output_dir):
         print(f"Creating directory {args.output_dir}")
         os.makedirs(args.output_dir)
 
     config = Config()
     config.gpu = not args.cpu
+
+    selected_entities = None
+
+    if args.entities != "":
+        selected_entities = assert_entities(args.entities, config.restore_path)
 
     data_processor = DataProcessor(config)
     config.num_classes = data_processor.label_count
@@ -57,8 +69,9 @@ if __name__ == "__main__":
     data = {}
 
     for filename in os.listdir(args.input_dir):
-        with open("{}/{}".format(args.input_dir, filename)) as f:
-            data[filename[: filename.index(".txt")]] = f.read().strip()
+        if filename.endswith(".txt"):
+            with open("{}/{}".format(args.input_dir, filename)) as f:
+                data[filename[: filename.index(".txt")]] = f.read().strip()
 
     model = load_model(config.load_model_path, model)
     anonymiser = Anonymiser(config, model, data_processor, device, bert_model)
@@ -66,7 +79,9 @@ if __name__ == "__main__":
     outputs = {}
 
     for idx, (k, text) in enumerate(data.items()):
-        anonymised, orig_cut = anonymiser.anonymise(text)
+        anonymised, orig_cut = anonymiser.anonymise(
+            text, selected_entities=selected_entities
+        )
         outputs[k] = {"orig": orig_cut, "anon": anonymised}
 
         print("Anonymised {}/{}".format(idx + 1, len(data)))
