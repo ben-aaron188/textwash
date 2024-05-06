@@ -1,7 +1,8 @@
 # Textwash
 
-Textwash is an automated text anonymisation tool written in Python. The tool can be used to anonymise unstructured text data. To achieve this, Textwash identifies and extracts personally-identifiable information (e.g., names, dates) from text and replaces the identified entities with a generic identifier (e.g., Jane Doe is replaced with PERSON_FIRSTNAME_1 PERSON_LASTNAME_1).
+**UPDATE: Textwash is now available for Dutch! See below for details of how you can run the Dutch anonymization model.**
 
+Textwash is an automated text anonymisation tool written in Python. The tool can be used to anonymise unstructured text data. To achieve this, Textwash identifies and extracts personally-identifiable information (e.g., names, dates) from text and replaces the identified entities with a generic identifier (e.g., Jane Doe is replaced with PERSON_FIRSTNAME_1 PERSON_LASTNAME_1).
 
 ## Why is this software special?
 
@@ -34,13 +35,13 @@ Textwash is built in Python3. To run the software, it is recommended to first cr
     $ conda activate textwash
     $ pip install -r requirements.txt
 
-Additionally, you need to download the trained model file from [here](https://drive.google.com/file/d/1DR5SfB-xvVxXl5m4nGnSz4kri1mDOuUa/view?usp=sharing). Once you have downloaded the `model.pth`, move it into the `data` directory.
+Additionally, you need to download the trained model folders from [here](https://drive.google.com/file/d/1YBccngYE3lvod87TI6UIhBzrN7nY9vHS/view?usp=sharing). Once you have downloaded the zip file, unpack it and place it in the `data` directory.
 
 ## Using Textwash
 
-Textwash can be used to anonymise **txt** files. To do this, run `anon.py` by providing the path to the input files `--input_dir` and the corresponding path to the output folder `--output_dir`. For example, running
+Textwash can be used to anonymise **txt** files. To do this, run `anon.py` by providing the `--language` ('en' for English and 'nl' for Dutch), the path to the input files `--input_dir` and the corresponding path to the output folder `--output_dir`. For example, running
 
-    $ python3 anon.py --input_dir examples --output_dir anonymised_examples --cpu
+    $ python3 anon.py --language en --input_dir examples --output_dir anonymised_examples --cpu
 
 anonymises the three example texts in the `examples` directory. In doing so, Textwash loads the downloaded model into memory, then automatically anonymises the inputs and writes the anonymised files to the provided output folder `anonymised_examples`.
 

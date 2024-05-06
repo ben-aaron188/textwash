@@ -1,31 +1,9 @@
-import re
-import torch
-import pickle
+import json
 
 
-def anon_numeric(selected_entities):
-    if not selected_entities:
-        return True
-
-    return "NUMERIC" in selected_entities
-
-
-def anon_pronouns(selected_entities):
-    if not selected_entities:
-        return True
-
-    return "PRONOUN" in selected_entities
-
-
-def anon_dates(selected_entities):
-    if not selected_entities:
-        return True
-
-    return "DATE" in selected_entities
-
-
-def assert_entities(entities, restore_path):
-    label_map = load_pkl(f"{restore_path}/label_map.pkl")
+def assert_entities(entities, model_path):
+    with open(f"{model_path}/config.json", "r") as f:
+        label_map = json.load(f)["id2label"]
     available_entities = list(label_map.keys()) + ["NUMERIC", "PRONOUN"]
     available_entities = sorted(
         list(set(available_entities).difference({"NONE", "PAD"}))
@@ -43,57 +21,34 @@ def assert_entities(entities, restore_path):
     return entity_list
 
 
-def get_named_entities_from_preds(text, preds, label_map_rev):
-    named_entities = []
-    output_string = []
-    output_labels = []
+def decode_outputs(predicted_labels, model_type="bert"):
+    entities = []
+    shift_idx = 2 if model_type == "bert" else 0
 
-    for word, tag in zip(text, preds):
-        if word[:2] == "##":
-            output_string[-1] = output_string[-1].strip() + word[2:].strip()
+    for _, elem in enumerate(predicted_labels):
+        attach = False
+
+        if model_type == "bert" and elem["word"].startswith("##"):
+            attach = True
+
+        elif model_type == "roberta" and not elem["word"].startswith("Ġ"):
+            attach = True
+
+        if attach:
+            entities[-1]["word"] += elem["word"][shift_idx:]
+            entities[-1]["end"] = elem["end"]
         else:
-            output_string.append(word)
-            output_labels.append(tag)
+            entities.append(
+                {
+                    "word": elem["word"],
+                    "start": elem["start"],
+                    "end": elem["end"],
+                    "entity": elem["entity"],
+                }
+            )
 
-    for idx, (token, pred) in enumerate(zip(output_string, output_labels)):
-        if pred != 0:
-            if idx == 0:
-                named_entities.append([token, label_map_rev[pred]])
-            else:
-                if output_labels[idx - 1] == pred:
-                    named_entities[-1][0] += " {}".format(token)
-                else:
-                    named_entities.append([token, label_map_rev[pred]])
+    if model_type == "roberta":
+        for elem in entities:
+            elem["word"] = elem["word"][1:]
 
-    return named_entities
-
-
-def tokenize(input_string):
-    assert isinstance(input_string, str)
-    input_string = re.sub(r"[^a-zA-Z0-9.]+", " ", input_string)
-    return [x for x in input_string.split(" ")]
-
-
-def load_pkl(path):
-    with open(path, "rb") as f:
-        data = pickle.load(f)
-
-    return data
-
-
-def get_cut_idx(string, pad):
-    last_valid_idx = len(string)
-
-    for i in reversed(range(len(string))):
-        if string[i] == pad:
-            last_valid_idx -= 1
-        else:
-            break
-
-    return last_valid_idx
-
-
-def load_model(path, model):
-    checkpoint = torch.load(path, map_location=torch.device("cpu"))
-    model.load_state_dict(checkpoint["model_state_dict"])
-    return model
+    return entities

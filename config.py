@@ -1,9 +1,9 @@
 class Config:
-    restore_path = "./data"
-    load_model_path = f"{restore_path}/model.pth"
-    path_to_months_file = f"{restore_path}/months.txt"
-    path_to_written_numbers_file = f"{restore_path}/written_numbers.txt"
+    def __init__(self, language):
+        self.path_to_months_file = "./data/months.txt"
+        self.path_to_written_numbers_file = "./data/written_numbers.txt"
 
-    max_len = 384
-    unk_token = "[UNK]"
-    pad_token = "[PAD]"
+        assert language in ["nl", "en"], f"Invalid language {language} specified (only 'nl' and 'en' supported)"
+        
+        self.path_to_model = f"./data/models/{language}"
+        self.model_type = "bert" if language == "nl" else "roberta"
