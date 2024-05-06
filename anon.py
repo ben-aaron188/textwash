@@ -2,10 +2,10 @@ import os
 import torch
 import argparse
 from config import Config
-from data_processor import DataProcessor
-from bert_model import BERTModel
-from anonymiser import Anonymiser
-from utils import load_model, assert_entities
+from anonymizer import Anonymizer
+from utils import assert_entities
+from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Required + optional arguments")
@@ -20,21 +20,28 @@ if __name__ == "__main__":
         dest="input_dir",
         type=str,
         required=True,
-        help="Directory containing the input txt files for textwash anonymisation",
+        help="Directory containing the input txt files for textwash anonymization",
     )
     parser.add_argument(
         "--output_dir",
         dest="output_dir",
         type=str,
         required=True,
-        help="Output directory into which Textwash saves the anonymised files",
+        help="Output directory into which Textwash saves the anonymized files",
     )
     parser.add_argument(
         "--entities",
         dest="entities",
         type=str,
         default="",
-        help="Comma-separated list of entities that should be anonymised",
+        help="Comma-separated list of entities that should be anonymized",
+    )
+    parser.add_argument(
+        "--language",
+        dest="language",
+        type=str,
+        default="",
+        help="The language of the documents (supports 'en' and 'nl')",
     )
     args = parser.parse_args()
 
@@ -46,23 +53,13 @@ if __name__ == "__main__":
         print(f"Creating directory {args.output_dir}")
         os.makedirs(args.output_dir)
 
-    config = Config()
-    config.gpu = not args.cpu
+    config = Config(language=args.language)
 
-    selected_entities = None
+    selected_entities = assert_entities(args.entities, config.path_to_model) if args.entities != "" else None
 
-    if args.entities != "":
-        selected_entities = assert_entities(args.entities, config.restore_path)
-
-    data_processor = DataProcessor(config)
-    config.num_classes = data_processor.label_count
-
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    bert_model = BERTModel(config)
-    model = bert_model.model
-
-    if config.gpu:
-        model.cuda()
+    tokenizer = AutoTokenizer.from_pretrained(config.path_to_model)
+    model = AutoModelForTokenClassification.from_pretrained(config.path_to_model)
+    classifier = pipeline("ner", model=model, tokenizer=tokenizer, device=torch.device("cuda:0" if not args.cpu else "cpu"))
 
     print(f"Load input data from '{args.input_dir}'")
 
@@ -73,21 +70,20 @@ if __name__ == "__main__":
             with open("{}/{}".format(args.input_dir, filename)) as f:
                 data[filename[: filename.index(".txt")]] = f.read().strip()
 
-    model = load_model(config.load_model_path, model)
-    anonymiser = Anonymiser(config, model, data_processor, device, bert_model)
+    anonymizer = Anonymizer(config, classifier)
 
     outputs = {}
 
     for idx, (k, text) in enumerate(data.items()):
-        anonymised, orig_cut = anonymiser.anonymise(
+        anonymized = anonymizer.anonymize(
             text, selected_entities=selected_entities
         )
-        outputs[k] = {"orig": orig_cut, "anon": anonymised}
+        outputs[k] = anonymized
 
-        print("Anonymised {}/{}".format(idx + 1, len(data)))
+        print("Anonymized {}/{}".format(idx + 1, len(data)))
 
-    print(f"Write anonymised data to '{args.output_dir}'")
+    print(f"Write anonymized data to '{args.output_dir}'")
 
     for k, data in outputs.items():
         with open("{}/{}.txt".format(args.output_dir, k), "w+") as f:
-            f.write(data["anon"])
+            f.write(data)
