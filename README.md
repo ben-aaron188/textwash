@@ -35,7 +35,7 @@ Textwash is built in Python3. To run the software, it is recommended to first cr
     $ conda activate textwash
     $ pip install -r requirements.txt
 
-Additionally, you need to download the trained model folders from [here](https://drive.google.com/file/d/1YBccngYE3lvod87TI6UIhBzrN7nY9vHS/view?usp=sharing). Once you have downloaded the zip file, unpack it and place it in the `data` directory.
+Additionally, you need to download the trained model folders from [here](https://drive.google.com/file/d/1YBccngYE3lvod87TI6UIhBzrN7nY9vHS/view?usp=sharing). Once you have downloaded the tgz file, unpack it and place it in the `data` directory.
 
 ## Using Textwash
 
