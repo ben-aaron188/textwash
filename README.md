@@ -9,7 +9,7 @@ Textwash is an automated text anonymisation tool written in Python. The tool can
 Textwash was designed to be a tool that meets the highest standards that we have for text anonymisation. The following principles guided our development decisions:
 
 - **Complete and transparent evaluation:** you can find a full empirical evaluation of this tool in the paper linked below. We put the tool to various tests and show what it can(not) do -  this includes a motivated intruder test where humans try to re-identify persons from Textwash-anonymised documents.
-- **Data never the your system:** at no point does the Textwash tool require you to upload (text) data or use an API. The tool is entirely functional offline (you can try it by switching off your Internet connection). This feature is essential to avoid any data leakage or possible risks for your data.
+- **Data never leave your system:** at no point does the Textwash tool require you to upload (text) data or use an API. The tool is entirely functional offline (you can try it by switching off your Internet connection). This feature is essential to avoid any data leakage or possible risks for your data.
 - **Open source:** the code base is open source and can be inspected, used adn modified in line with the [GNU General Public License 3 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.en.html). We do this because we think it is essential that you know what this tool does.
 - **Learning-based anonymisation:** since the information that can reveal personal data is complex, we are not using a dictionary-based approach (e.g., looking up keywords in a static database). Instead, the core of Textwash is a machine learning model that assigns category probabilities to phrases and anonymises them accordingly.
 
@@ -35,7 +35,7 @@ Textwash is built in Python3. To run the software, it is recommended to first cr
     $ conda activate textwash
     $ pip install -r requirements.txt
 
-Additionally, you need to download the trained model folders from [here](https://drive.google.com/file/d/1YBccngYE3lvod87TI6UIhBzrN7nY9vHS/view?usp=sharing). Once you have downloaded the tgz file, unpack it and place it in the `data` directory.
+Additionally, you need to download the trained model folders from [here](https://drive.google.com/file/d/1YBccngYE3lvod87TI6UIhBzrN7nY9vHS/view?usp=sharing). Once you have downloaded the tgz file, unpack it and place it in the `data` directory. **Important: the models (in `en` and `nl`) should be directly in `./data` and _not_ in the `models` parent dirctory. The relative path to the models should be `./data/en` and `./data/nl`. Otherwise, your will encounter the `Repo id must be in the form 'repo_name' ...` error.**
 
 ## Using Textwash
 
@@ -71,11 +71,16 @@ For example, if you would only like to anonymise the LOCATION and PERSON_FIRSTNA
 
     $ python3 anon.py --input_dir examples --output_dir anonymised_examples --cpu --entities LOCATION,PERSON_FIRSTNAME
 
+## Examples
+
+You can find examples of person descriptions rich in details in the `examples` directory with the corresponding anonymised versions after running it through Textwash in the `examples_anonymised` directory.
+
+
 ## Who can use Textwash?
 
 Textwash is developed with non-profit open science principles. If you are a researcher, a research organization, working in the public sector or a non-profit organization, you are free to use this software. Please make sure you cite our work as follows:
 
-(to do with DOI)
+(will be added soon)
 
 If you intend to use this software commercially without our consent, please be advised that this software is released under the [GNU General Public License 3 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
@@ -86,7 +91,7 @@ If you intend to use this software commercially without our consent, please be a
 
 Textwash is a multi-year project that is led by Maximilian Mozes (University College London) and Bennett Kleinberg (Tilburg University and University College London).
 
-The work is supported by the [SAGE Concept Grant](https://www.youtube.com/watch?v=T9pRRn2DrMY) and we are currently developing it further with a grant from the Dutch Research Council (NWO).
+The work is supported by a [SAGE Proof of Concept Grant](https://www.youtube.com/watch?v=T9pRRn2DrMY) and an Open Science grant from the Dutch Research Council (NWO).
 
 ## Questions and Comments
 
