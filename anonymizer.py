@@ -106,7 +106,7 @@ class Anonymizer:
 
         return anon_input_seq
 
-    def replace_pronouns(self, anon_input_seq):
+        def replace_pronouns(self, anon_input_seq):
         # https://blog.hubspot.com/marketing/gender-neutral-pronouns
         pronoun_map = {
             "he": "PRONOUN",
@@ -119,6 +119,8 @@ class Anonymizer:
             "herself": "PRONOUN",
             "mr": "MR/MS",
             "mrs": "MR/MS",
+            "mr.": "MR/MS",
+            "mrs.": "MR/MS",
             "miss": "MR/MS",
             "ms": "MR/MS",
             "dr": "TITLE",
@@ -214,9 +216,9 @@ class Anonymizer:
 
     def anonymize(self, input_seq, selected_entities=None):
         orig_input_seq = deepcopy(input_seq)
-        
+
         entities = self.get_identifiable_tokens(deepcopy(input_seq))
-        
+
         # Filter entities if necessary
         if selected_entities:
             filtered_entities = []
