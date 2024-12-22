@@ -106,7 +106,7 @@ class Anonymizer:
 
         return anon_input_seq
 
-        def replace_pronouns(self, anon_input_seq):
+    def replace_pronouns(self, anon_input_seq):
         # https://blog.hubspot.com/marketing/gender-neutral-pronouns
         pronoun_map = {
             "he": "PRONOUN",
