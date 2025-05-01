@@ -80,11 +80,7 @@ You can find examples of person descriptions rich in details in the `examples` d
 
 Textwash is developed with non-profit open science principles. If you are a researcher, a research organization, working in the public sector or a non-profit organization, you are free to use this software. Please make sure you cite our work as follows:
 
-Please cite our work as described in the **CITATION.cff** file at the root of the repository:
-
-```bash
-cat CITATION.cff
-```
+Please cite our work as described in the `CITATION.cff` file at the root of the repository.
 
 If you intend to use this software commercially without our consent, please be advised that this software is released under the [GNU General Public License 3 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
