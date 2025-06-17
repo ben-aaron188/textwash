@@ -16,5 +16,5 @@ class Config:
         
         if language not in ("nl", "en"):
             raise ValueError("language must be 'nl' or 'en'")
-        self.path_to_model = data_dir / language
+        self.model_path = data_dir / language
         self.model_type = "bert" if language == "nl" else "roberta"

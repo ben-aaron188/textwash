@@ -36,13 +36,22 @@ def main() -> None:
         default="",
         help="Comma-separated list of entities that should be anonymized",
     )
-    parser.add_argument(
+    # Mutually exclusive language or custom model
+    src = parser.add_mutually_exclusive_group(required=True)
+    src.add_argument(
         "--language",
         dest="language",
         type=str,
         default="en",
         choices=["en", "nl"],
-        help="The language of the documents (supports 'en' and 'nl')",
+        help="The language of the documents (supports 'en' and 'nl')"
+    )
+    src.add_argument(
+        "--model_path",
+        dest="model_path",
+        type=str,
+        default=None,
+        help="Custom path to a local model folder"
     )
     args = parser.parse_args()
 
@@ -55,11 +64,22 @@ def main() -> None:
         os.makedirs(args.output_dir)
 
     config = Config(language=args.language)
+    
+    if args.model_path:
+        model_path = args.model_path
+        #config = Config(language="en")  # dummy, only for months/lookup files
+    else:
+        config = Config(language=args.language)
+        model_path = config.model_path
+        
+    assert os.path.exists(
+        model_path
+    ), f"Model directory {model_path} does not exist!"
+    
+    selected_entities = assert_entities(args.entities, model_path) if args.entities != "" else None
 
-    selected_entities = assert_entities(args.entities, config.path_to_model) if args.entities != "" else None
-
-    tokenizer = AutoTokenizer.from_pretrained(config.path_to_model)
-    model = AutoModelForTokenClassification.from_pretrained(config.path_to_model)
+    tokenizer = AutoTokenizer.from_pretrained(model_path)
+    model = AutoModelForTokenClassification.from_pretrained(model_path)
     classifier = pipeline("ner", model=model, tokenizer=tokenizer, device=torch.device("cuda:0" if not args.cpu else "cpu"))
 
     print(f"Load input data from '{args.input_dir}'")
@@ -88,7 +108,7 @@ def main() -> None:
     for k, data in outputs.items():
         with open("{}/{}.txt".format(args.output_dir, k), "w+") as f:
             f.write(data)
-
+            
 
 if __name__ == "__main__": # still allows running python -m textwash ...
     main()
