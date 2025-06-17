@@ -7,7 +7,7 @@ from .utils import assert_entities
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 
 
-if __name__ == "__main__":
+def main() -> None:
     parser = argparse.ArgumentParser(description="Required + optional arguments")
     parser.add_argument(
         "--cpu",
@@ -87,3 +87,7 @@ if __name__ == "__main__":
     for k, data in outputs.items():
         with open("{}/{}.txt".format(args.output_dir, k), "w+") as f:
             f.write(data)
+
+
+if __name__ == "__main__": # still allows running python -m textwash ...
+    main()
