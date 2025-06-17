@@ -1,9 +1,9 @@
 import os
 import torch
 import argparse
-from config import Config
-from anonymizer import Anonymizer
-from utils import assert_entities
+from .config import Config
+from .anonymizer import Anonymizer
+from .utils import assert_entities
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 
 

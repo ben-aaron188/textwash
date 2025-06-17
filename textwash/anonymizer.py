@@ -1,6 +1,6 @@
 import re
 from copy import deepcopy
-from utils import decode_outputs
+from .utils import decode_outputs
 
 
 class Anonymizer:

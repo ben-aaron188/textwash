@@ -35,13 +35,13 @@ Textwash is built in Python3. To run the software, it is recommended to first cr
     $ conda activate textwash
     $ pip install -r requirements.txt
 
-Additionally, you need to download the trained model folders from [here](https://drive.google.com/file/d/1YBccngYE3lvod87TI6UIhBzrN7nY9vHS/view?usp=sharing). Once you have downloaded the tgz file, unpack it and place it in the `data` directory. **Important: the models (in `en` and `nl`) should be directly in `./data` and _not_ in the `models` parent dirctory. The relative path to the models should be `./data/en` and `./data/nl`. Otherwise, your will encounter the `Repo id must be in the form 'repo_name' ...` error.**
+Additionally, you need to download the trained model folders from [here](https://drive.google.com/file/d/1YBccngYE3lvod87TI6UIhBzrN7nY9vHS/view?usp=sharing). Once you have downloaded the tgz file, unpack it and place it in the `textwash/data` directory. **Important: the models (in `en` and `nl`) should be directly in `./textwash/data` and _not_ in the `models` parent directory. The relative path to the models should be `./textwash/data/en` and `./textwash/data/nl`. Otherwise, your will encounter the ` Repo id must use alphanumeric chars or ...` error.**
 
 ## Using Textwash
 
-Textwash can be used to anonymise **txt** files. To do this, run `anon.py` by providing the `--language` ('en' for English and 'nl' for Dutch), the path to the input files `--input_dir` and the corresponding path to the output folder `--output_dir`. For example, running
+Textwash can be used to anonymise **txt** files. To do this, run `python3 -m textwash` by providing the `--language` ('en' for English and 'nl' for Dutch), the path to the input files `--input_dir` and the corresponding path to the output folder `--output_dir`. For example, running
 
-    $ python3 anon.py --language en --input_dir examples --output_dir anonymised_examples --cpu
+    $ python3 -m textwash --language en --input_dir examples --output_dir anonymised_examples --cpu
 
 anonymises the three example texts in the `examples` directory. In doing so, Textwash loads the downloaded model into memory, then automatically anonymises the inputs and writes the anonymised files to the provided output folder `anonymised_examples`.
 
@@ -69,7 +69,7 @@ Using the `--entities` flag, individual entity types can be selected for anonymi
 
 For example, if you would only like to anonymise the LOCATION and PERSON_FIRSTNAME entity types, run
 
-    $ python3 anon.py --input_dir examples --output_dir anonymised_examples --cpu --entities LOCATION,PERSON_FIRSTNAME
+    $ python3 -m textwash --input_dir examples --output_dir anonymised_examples --cpu --entities LOCATION,PERSON_FIRSTNAME
 
 ## Examples
 
