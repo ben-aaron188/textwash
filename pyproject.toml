@@ -1,0 +1,57 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel >= 0.37"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "textwash"
+version = "0.1.0"
+description = "Automated text anonymization with the help of named entity recognition"
+readme = { file = "README.md", content-type = "text/markdown" }
+authors = [
+    { name = "Maximilian Mozes" },
+    { name = "Bennett Kleinberg" },
+    ]
+
+license = "GPL-3.0-or-later"
+license-files = ["LICENSE"]
+
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3"
+]
+keywords = [
+"anonymization",
+"named entity recognition","natural language processing"
+]
+
+dependencies = [
+    "numpy >= 1.23, < 3",
+    "torch >= 1.9.0, < 3",
+    "transformers >= 4.28.1, < 5",
+    'tomli; python_version < "3.11"'
+]
+
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/your-org/textwash"
+Issues   = "https://github.com/your-org/textwash/issues"
+
+[project.optional-dependencies]
+dev = [
+    "pip-tools",
+    "pytest",
+    "black",
+    "ruff",
+]
+
+[project.scripts]
+textwash = "textwash.__main__:main"
+
+[tool.setuptools.package-data]
+"textwash" = [
+    "data/*.txt"
+]
+
+[tool.setuptools.packages.find]
+include = ["textwash*"]      # make sure we only import the package folder
