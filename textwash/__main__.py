@@ -40,7 +40,8 @@ def main() -> None:
         "--language",
         dest="language",
         type=str,
-        default="",
+        default="en",
+        choices=["en", "nl"],
         help="The language of the documents (supports 'en' and 'nl')",
     )
     args = parser.parse_args()
