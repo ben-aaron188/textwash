@@ -37,6 +37,8 @@ Textwash is built in Python3. To run the software, it is recommended to first cr
 
 Additionally, you need to download the trained model folders from [here](https://drive.google.com/file/d/1YBccngYE3lvod87TI6UIhBzrN7nY9vHS/view?usp=sharing). Once you have downloaded the tgz file, unpack it and place it in the `textwash/data` directory. **Important: the models (in `en` and `nl`) should be directly in `./textwash/data` and _not_ in the `models` parent directory. The relative path to the models should be `./textwash/data/en` and `./textwash/data/nl`. Otherwise, your will encounter the ` Repo id must use alphanumeric chars or ...` error.**
 
+You can also place the models in a directory of your choice. In that case, you can specify the model with the optional `--model_path` (see below). 
+
 ## Using Textwash
 
 Textwash can be used to anonymise **txt** files. To do this, run `python3 -m textwash` by providing the `--language` ('en' for English and 'nl' for Dutch), the path to the input files `--input_dir` and the corresponding path to the output folder `--output_dir`. For example, running
@@ -44,6 +46,10 @@ Textwash can be used to anonymise **txt** files. To do this, run `python3 -m tex
     $ python3 -m textwash --language en --input_dir examples --output_dir anonymised_examples --cpu
 
 anonymises the three example texts in the `examples` directory. In doing so, Textwash loads the downloaded model into memory, then automatically anonymises the inputs and writes the anonymised files to the provided output folder `anonymised_examples`.
+
+If you would instead like to use a model in a custom location, you should indicate the directory where the model files are located with `--model_path`. Please not that 
+
+$ python3 -m textwash --model_path path/to/the/ en --input_dir examples --output_dir anonymised_examples --cpu
 
 Textwash works best when running on a GPU. If no GPU is available, you should use the `--cpu` flag as in the snippet above. If you have a GPU, remove the `--cpu` flag and Textwash will resort to `pytorch` with `CUDA` support.
 
