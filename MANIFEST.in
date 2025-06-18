@@ -1,1 +1,6 @@
-recursive-include textwash/data *
+include textwash/data/months.txt
+include textwash/data/written_numbers.txt
+
+# explicitly exclude the model data in the sdist
+prune textwash/data/en
+prune textwash/data/nl
