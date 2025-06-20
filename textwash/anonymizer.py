@@ -1,6 +1,6 @@
 import re
 from copy import deepcopy
-from utils import decode_outputs
+from .utils import decode_outputs
 
 
 class Anonymizer:
@@ -234,7 +234,7 @@ class Anonymizer:
         anon_input_seq = re.sub("https*://\S+", "URL", orig_input_seq)
 
         anon_input_seq = self.replace_identified_entities(
-            entities, orig_input_seq, entity2generic
+            entities, anon_input_seq, entity2generic
         )
 
         anon_input_seq = self.replace_numerics(anon_input_seq)

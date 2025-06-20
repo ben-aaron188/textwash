@@ -29,26 +29,53 @@ If you have a tool that meets these requirements, we would be glad to promote it
 
 ## Quick start guide
 
-Textwash is built in Python3. To run the software, it is recommended to first create an Anaconda environment and install the required dependencies. For details on how to get and install Anaconda, click [here](https://www.anaconda.com/products/distribution).
+Textwash is built for Python 3. To run the software, we recommend creating a virtual environment for installing `textwash` and its dependencies. The simplest way to do this is with Python’s built-in `venv` module.
 
-    $ conda create -n textwash python=3.7
-    $ conda activate textwash
-    $ pip install -r requirements.txt
+To create and activate a virtual environment with `venv`, open a terminal in your project directory and run:
 
-Additionally, you need to download the trained model folders from [here](https://drive.google.com/file/d/1YBccngYE3lvod87TI6UIhBzrN7nY9vHS/view?usp=sharing). Once you have downloaded the tgz file, unpack it and place it in the `data` directory. **Important: the models (in `en` and `nl`) should be directly in `./data` and _not_ in the `models` parent dirctory. The relative path to the models should be `./data/en` and `./data/nl`. Otherwise, your will encounter the `Repo id must be in the form 'repo_name' ...` error.**
+```bash
+python3 -m venv .venv
+# On Windows:
+.venv\Scripts\activate
+# On macOS/Linux:
+source .venv/bin/activate
+```
+
+Next up, install the latest version of `textwash` directly from the GitHub using pip:
+
+```bash
+pip install "git+https://github.com/ben-aaron188/textwash.git"
+```
+
+Additionally, you need to download the trained models [here](https://drive.google.com/file/d/1YBccngYE3lvod87TI6UIhBzrN7nY9vHS/view?usp=sharing). Once you have downloaded the `.tgz` file, unpack it and place the resulting folders in the textwash directory `.venv/Lib/site-packages/textwash/data`.
+
+> **Important**:
+> The extracted model directories (`en` and `nl`) should be directly in `.venv/Lib/site-packages/textwash/data`. Otherwise, your will encounter the `Repo id must use alphanumeric chars or ...` error.**
+
+You can also place the models in a directory of your choice. In that case, you can specify the model with the optional `--model_path` (see below).
 
 ## Using Textwash
 
-Textwash can be used to anonymise **txt** files. To do this, run `anon.py` by providing the `--language` ('en' for English and 'nl' for Dutch), the path to the input files `--input_dir` and the corresponding path to the output folder `--output_dir`. For example, running
+Textwash can be used to anonymise `.txt` files. To do this, run `textwash` by providing the `--language` ('en' for English and 'nl' for Dutch), the path to the input files `--input_dir` and the corresponding path to the output folder `--output_dir`. For example, running
 
-    $ python3 anon.py --language en --input_dir examples --output_dir anonymised_examples --cpu
+```bash
+textwash --language en --input_dir examples --output_dir anonymised_examples --cpu
+```
 
 anonymises the three example texts in the `examples` directory. In doing so, Textwash loads the downloaded model into memory, then automatically anonymises the inputs and writes the anonymised files to the provided output folder `anonymised_examples`.
 
-Textwash works best when running on a GPU. If no GPU is available, you should use the `--cpu` flag as in the snippet above. If you have a GPU, remove the `--cpu` flag and Textwash will resort to `pytorch` with `CUDA` support.
+If you would instead like to use a model in a custom location, you should indicate the directory where the model files are located with `--model_path`.
+
+```bash
+textwash --model_path path/to/the/english/model/en --input_dir examples --output_dir anonymised_examples --cpu
+```
+
+Please note that in that case you should not specify `--language`, as the model in the chosen location already determines the language.
+
+Textwash works best when running on a GPU. If no GPU is available, you should use the `--cpu` flag as in the snippets above. If you have a GPU, remove the `--cpu` flag and Textwash will resort to `pytorch` with `CUDA` support.
 
 #### Entity selection
-Textwash can furthermore be restricted to only consider a subset of all available entity types for anonymisation. 
+Textwash can furthermore be restricted to only consider a subset of all available entity types for anonymisation.
 
 The complete list of available entity types is as follows:
 * ADDRESS
@@ -69,7 +96,9 @@ Using the `--entities` flag, individual entity types can be selected for anonymi
 
 For example, if you would only like to anonymise the LOCATION and PERSON_FIRSTNAME entity types, run
 
-    $ python3 anon.py --input_dir examples --output_dir anonymised_examples --cpu --entities LOCATION,PERSON_FIRSTNAME
+```bash
+textwash --input_dir examples --output_dir anonymised_examples --cpu --entities LOCATION,PERSON_FIRSTNAME
+```
 
 ## Examples
 
