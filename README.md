@@ -34,11 +34,11 @@ Textwash is built for Python 3. To run the software, we recommend creating a vir
 To create and activate a virtual environment with `venv`, open a terminal in your project directory and run:
 
 ```bash
-python3 -m venv venv
+python3 -m venv .venv
 # On Windows:
-venv\Scripts\activate
+.venv\Scripts\activate
 # On macOS/Linux:
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
 Next up, install the latest version of `textwash` directly from the GitHub using pip:
@@ -47,15 +47,16 @@ Next up, install the latest version of `textwash` directly from the GitHub using
 pip install "git+https://github.com/ben-aaron188/textwash.git"
 ```
 
-Additionally, you need to download the trained model folders from [here](https://drive.google.com/file/d/1YBccngYE3lvod87TI6UIhBzrN7nY9vHS/view?usp=sharing). Once you have downloaded the tgz file, unpack it and place it in the textwash directory `.venv/Lib/site-packages/textwash/data`.
+Additionally, you need to download the trained models [here](https://drive.google.com/file/d/1YBccngYE3lvod87TI6UIhBzrN7nY9vHS/view?usp=sharing). Once you have downloaded the `.tgz` file, unpack it and place the resulting folders in the textwash directory `.venv/Lib/site-packages/textwash/data`.
 
-**Important: The directories containing the models (in `en` and `nl`) should be directly in `./textwash/data`. Otherwise, your will encounter the `Repo id must use alphanumeric chars or ...` error.**
+> **Important**:
+> The extracted model directories (`en` and `nl`) should be directly in `.venv/Lib/site-packages/textwash/data`. Otherwise, your will encounter the `Repo id must use alphanumeric chars or ...` error.**
 
 You can also place the models in a directory of your choice. In that case, you can specify the model with the optional `--model_path` (see below).
 
 ## Using Textwash
 
-Textwash can be used to anonymise **txt** files. To do this, run `textwash` by providing the `--language` ('en' for English and 'nl' for Dutch), the path to the input files `--input_dir` and the corresponding path to the output folder `--output_dir`. For example, running
+Textwash can be used to anonymise `.txt` files. To do this, run `textwash` by providing the `--language` ('en' for English and 'nl' for Dutch), the path to the input files `--input_dir` and the corresponding path to the output folder `--output_dir`. For example, running
 
 ```bash
 textwash --language en --input_dir examples --output_dir anonymised_examples --cpu
