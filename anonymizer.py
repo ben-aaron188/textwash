@@ -21,6 +21,32 @@ class Anonymizer:
 
         self._strip_chars = string.punctuation + "’‘“”"
 
+    def _normalize_whitespace_preserve_newlines(self, text: str) -> str:
+        # Keep exact newline positions by processing line-by-line
+        lines = text.splitlines(keepends=True)
+        out = []
+        for line in lines:
+            # Separate content from newline so we preserve \n / \r\n exactly
+            if line.endswith("\r\n"):
+                content, nl = line[:-2], "\r\n"
+            elif line.endswith("\n"):
+                content, nl = line[:-1], "\n"
+            else:
+                content, nl = line, ""
+
+            # Collapse runs of spaces/tabs inside the line, but keep leading indentation
+            leading_ws = re.match(r"^[ \t]*", content).group(0)
+            rest = content[len(leading_ws):]
+            rest = re.sub(r"[ \t]+", " ", rest)
+
+            # Remove trailing whitespace at end of line (common cleanup, doesn't affect blank lines)
+            cleaned = (leading_ws + rest).rstrip(" \t")
+
+            out.append(cleaned + nl)
+
+        # Optional: trim only outer whitespace, but keep internal blank lines exactly
+        return "".join(out).strip()
+
     def get_identifiable_tokens(self, text_input):
         predictions = decode_outputs(
             self.classifier(text_input), model_type=self.config.model_type
@@ -46,22 +72,24 @@ class Anonymizer:
         for phrase, _ in sorted(entities.items(), key=lambda x: len(x[0]), reverse=True):
             if len(phrase) > 1 or phrase.isalnum():
                 try:
+                    escaped = re.escape(phrase)
+                    repl = entity2generic[phrase]
+
                     for char in self.valid_surrounding_chars:
                         anon_input_seq = re.sub(
-                            r"(\b{}\b)({})".format(re.escape(phrase), re.escape(char)),
-                            r" {}\2".format(entity2generic[phrase]),
+                            rf"(?<!\w){escaped}(?={re.escape(char)})",
+                            repl,
                             anon_input_seq,
                         )
 
                     anon_input_seq = re.sub(
-                        r"(\b{}\b)".format(re.escape(phrase)),
-                        r" {}".format(entity2generic[phrase]),
+                        rf"(?<!\w){escaped}(?!\w)",
+                        repl,
                         anon_input_seq,
                     )
+
                 except re.error:
-                    anon_input_seq = anon_input_seq.replace(
-                        phrase, entity2generic[phrase]
-                    )
+                    anon_input_seq = anon_input_seq.replace(phrase, entity2generic[phrase])
 
         return anon_input_seq
 
@@ -91,7 +119,6 @@ class Anonymizer:
         return anon_input_seq
 
     def replace_pronouns(self, anon_input_seq):
-        # https://blog.hubspot.com/marketing/gender-neutral-pronouns
         pronoun_map = {
             "he": "PRONOUN",
             "she": "PRONOUN",
@@ -119,84 +146,46 @@ class Anonymizer:
         }
 
         for k, v in pronoun_map.items():
-            if anon_input_seq.startswith("{} ".format(k)):
-                anon_input_seq = anon_input_seq.replace(
-                    "{} ".format(k), "{} ".format(v), 1
-                )
+            # start-of-string cases (keep as you had, but no extra spaces needed)
+            anon_input_seq = re.sub(rf"^(?i:{re.escape(k)})(?=\s)", v, anon_input_seq)
 
-            if anon_input_seq.startswith("{} ".format(k.capitalize())):
-                anon_input_seq = anon_input_seq.replace(
-                    "{} ".format(k.capitalize()), "{} ".format(v), 1
-                )
-
-            for char in self.valid_surrounding_chars:
-                anon_input_seq = re.sub(
-                    "[^a-zA-Z0-9]{}[{}]".format(k, char),
-                    " {}{}".format(v, char),
-                    anon_input_seq,
-                )
-                anon_input_seq = re.sub(
-                    "[^a-zA-Z0-9]{}[{}]".format(k.capitalize(), char),
-                    " {}{}".format(v, char),
-                    anon_input_seq,
-                )
-
+            # surrounded by non-word chars, preserving both sides
+            # (?<!\w) and (?!\w) behave like "word boundaries" but work nicely with punctuation/newlines
             anon_input_seq = re.sub(
-                "[^a-zA-Z0-9]{}[^a-zA-Z0-9]".format(k),
-                " {} ".format(v),
-                anon_input_seq,
-            )
-            anon_input_seq = re.sub(
-                "[^a-zA-Z0-9]{}[^a-zA-Z0-9]".format(k.capitalize()),
-                " {} ".format(v),
+                rf"(?<!\w)(?i:{re.escape(k)})(?!\w)",
+                v,
                 anon_input_seq,
             )
 
         return anon_input_seq
+
 
     def replace_numbers_and_months(self, anon_input_seq):
         entity2generic_c = {"DATE": 1, "NUMERIC": 1}
         entity2generic = {}
 
-        spl = re.split("[ ,.-]", anon_input_seq)
+        spl = re.split(r"[ ,.-]", anon_input_seq)
 
         for word in spl:
-            if word.lower() in self.written_numbers:
-                try:
-                    _ = entity2generic[word]
-                except KeyError:
-                    entity2generic[word] = "{}_{}".format(
-                        "NUMERIC", entity2generic_c["NUMERIC"]
-                    )
-                    entity2generic_c["NUMERIC"] += 1
+            if word.lower() in self.written_numbers and word not in entity2generic:
+                entity2generic[word] = f"NUMERIC_{entity2generic_c['NUMERIC']}"
+                entity2generic_c["NUMERIC"] += 1
 
         for word in spl:
-            if word.lower() in self.months:
-                try:
-                    _ = entity2generic[word]
-                except KeyError:
-                    entity2generic[word] = "{}_{}".format(
-                        "DATE", entity2generic_c["DATE"]
-                    )
-                    entity2generic_c["DATE"] += 1
+            if word.lower() in self.months and word not in entity2generic:
+                entity2generic[word] = f"DATE_{entity2generic_c['DATE']}"
+                entity2generic_c["DATE"] += 1
 
-        for phrase, replacement in sorted(
-            entity2generic.items(), key=lambda x: len(x[0]), reverse=True
-        ):
-            for char in self.valid_surrounding_chars:
-                anon_input_seq = re.sub(
-                    "[^a-zA-Z0-9]{}[{}]".format(phrase, char),
-                    " {}{}".format(replacement, char),
-                    anon_input_seq,
-                )
-
+        for phrase, replacement in sorted(entity2generic.items(), key=lambda x: len(x[0]), reverse=True):
+            escaped = re.escape(phrase)
             anon_input_seq = re.sub(
-                "[^a-zA-Z0-9]{}[^a-zA-Z0-9]".format(phrase),
-                " {} ".format(replacement),
+                rf"(?<!\w){escaped}(?!\w)",
+                replacement,
                 anon_input_seq,
             )
 
         return anon_input_seq
+
 
     def anonymize(self, input_seq, selected_entities=None):
         orig_input_seq = deepcopy(input_seq)
@@ -222,5 +211,6 @@ class Anonymizer:
         anon_input_seq = self.replace_numerics(anon_input_seq)
         anon_input_seq = self.replace_pronouns(anon_input_seq)
         anon_input_seq = self.replace_numbers_and_months(anon_input_seq)
+        anon_input_seq = self._normalize_whitespace_preserve_newlines(anon_input_seq)
 
-        return " ".join([x.strip() for x in anon_input_seq.split()])
+        return anon_input_seq
