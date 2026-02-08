@@ -21,6 +21,40 @@ class Anonymizer:
 
         self._strip_chars = string.punctuation + "’‘“”"
 
+        self.pronoun_map = {
+            "he": "PRONOUN",
+            "she": "PRONOUN",
+            "him": "PRONOUN",
+            "his": "PRONOUN",
+            "her": "PRONOUN",
+            "hers": "PRONOUN",
+            "himself": "PRONOUN",
+            "herself": "PRONOUN",
+            "mr": "MR/MS",
+            "mrs": "MR/MS",
+            "mr.": "MR/MS",
+            "mrs.": "MR/MS",
+            "miss": "MR/MS",
+            "ms": "MR/MS",
+            "dr": "TITLE",
+            "dr.": "TITLE",
+            "prof": "TITLE",
+            "prof.": "TITLE",
+            "sir": "TITLE",
+            "dame": "TITLE",
+            "madam": "TITLE",
+            "lady": "TITLE",
+            "lord": "TITLE",
+        }
+
+        # Precompile patterns once (case-insensitive)
+        self._pronoun_patterns = [
+            (re.compile(rf"(?<!\w){re.escape(k)}(?!\w)", re.IGNORECASE), v)
+            for k, v in self.pronoun_map.items()
+        ]
+
+        self._ws_collapse = re.compile(r"[ \t]+")
+
     def _normalize_whitespace_preserve_newlines(self, text: str) -> str:
         # Keep exact newline positions by processing line-by-line
         lines = text.splitlines(keepends=True)
@@ -37,7 +71,8 @@ class Anonymizer:
             # Collapse runs of spaces/tabs inside the line, but keep leading indentation
             leading_ws = re.match(r"^[ \t]*", content).group(0)
             rest = content[len(leading_ws):]
-            rest = re.sub(r"[ \t]+", " ", rest)
+
+            rest = self._ws_collapse.sub(" ", rest)
 
             # Remove trailing whitespace at end of line (common cleanup, doesn't affect blank lines)
             cleaned = (leading_ws + rest).rstrip(" \t")
@@ -68,6 +103,7 @@ class Anonymizer:
 
         return entities
 
+
     def replace_identified_entities(self, entities, anon_input_seq, entity2generic):
         for phrase, _ in sorted(entities.items(), key=lambda x: len(x[0]), reverse=True):
             if len(phrase) > 1 or phrase.isalnum():
@@ -75,18 +111,11 @@ class Anonymizer:
                     escaped = re.escape(phrase)
                     repl = entity2generic[phrase]
 
-                    for char in self.valid_surrounding_chars:
-                        anon_input_seq = re.sub(
-                            rf"(?<!\w){escaped}(?={re.escape(char)})",
-                            repl,
-                            anon_input_seq,
-                        )
+                    # One regex: standalone token match.
+                    # (?!\w) allows punctuation/space/end after the phrase, but blocks letters/digits/underscore.
+                    pat = re.compile(rf"(?<!\w){escaped}(?!\w)")
 
-                    anon_input_seq = re.sub(
-                        rf"(?<!\w){escaped}(?!\w)",
-                        repl,
-                        anon_input_seq,
-                    )
+                    anon_input_seq = pat.sub(repl, anon_input_seq)
 
                 except re.error:
                     anon_input_seq = anon_input_seq.replace(phrase, entity2generic[phrase])
@@ -119,44 +148,8 @@ class Anonymizer:
         return anon_input_seq
 
     def replace_pronouns(self, anon_input_seq):
-        pronoun_map = {
-            "he": "PRONOUN",
-            "she": "PRONOUN",
-            "him": "PRONOUN",
-            "his": "PRONOUN",
-            "her": "PRONOUN",
-            "hers": "PRONOUN",
-            "himself": "PRONOUN",
-            "herself": "PRONOUN",
-            "mr": "MR/MS",
-            "mrs": "MR/MS",
-            "mr.": "MR/MS",
-            "mrs.": "MR/MS",
-            "miss": "MR/MS",
-            "ms": "MR/MS",
-            "dr": "TITLE",
-            "dr.": "TITLE",
-            "prof": "TITLE",
-            "prof.": "TITLE",
-            "sir": "TITLE",
-            "dame": "TITLE",
-            "madam": "TITLE",
-            "lady": "TITLE",
-            "lord": "TITLE",
-        }
-
-        for k, v in pronoun_map.items():
-            # start-of-string cases (keep as you had, but no extra spaces needed)
-            anon_input_seq = re.sub(rf"^(?i:{re.escape(k)})(?=\s)", v, anon_input_seq)
-
-            # surrounded by non-word chars, preserving both sides
-            # (?<!\w) and (?!\w) behave like "word boundaries" but work nicely with punctuation/newlines
-            anon_input_seq = re.sub(
-                rf"(?<!\w)(?i:{re.escape(k)})(?!\w)",
-                v,
-                anon_input_seq,
-            )
-
+        for pat, repl in self._pronoun_patterns:
+            anon_input_seq = pat.sub(repl, anon_input_seq)
         return anon_input_seq
 
 
