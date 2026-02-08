@@ -1,25 +1,32 @@
 import json
 
-
-def assert_entities(entities, model_path):
+def assert_entities(entities: str, model_path: str):
     with open(f"{model_path}/config.json", "r") as f:
-        label_map = json.load(f)["id2label"]
-    available_entities = list(label_map.keys()) + ["NUMERIC", "PRONOUN"]
-    available_entities = sorted(
-        list(set(available_entities).difference({"NONE", "PAD"}))
-    )
+        id2label = json.load(f)["id2label"]
 
-    entity_list = [e.strip() for e in entities.split(",")]
+    available_entities = set(id2label.values())
+    available_entities.update({"NUMERIC", "PRONOUN"})
+    available_entities.difference_update({"NONE", "PAD"})
 
-    for entity in entity_list:
-        if entity not in available_entities:
+    entity_list = [e.strip() for e in entities.split(",") if e.strip()]
+
+    # Normalize for case-insensitive CLI
+    available_upper = {e.upper() for e in available_entities}
+    normalized = []
+    for e in entity_list:
+        eu = e.upper()
+        if eu not in available_upper:
             raise ValueError(
                 "Incorrect argument --entities provided. Please ensure that all values refer to existing entities separated by comma.\n"
-                "Available entities are {}.".format(", ".join(available_entities))
+                "Available entities are {}.".format(", ".join(sorted(available_entities)))
             )
+        # preserve canonical capitalization from available_entities
+        # (find the matching one)
+        canonical = next(x for x in available_entities if x.upper() == eu)
+        normalized.append(canonical)
 
-    return entity_list
-
+    return normalized
+    
 
 def decode_outputs(predicted_labels, model_type="bert"):
     entities = []

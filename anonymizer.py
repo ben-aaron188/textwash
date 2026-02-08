@@ -203,28 +203,24 @@ class Anonymizer:
 
         entities = self.get_identifiable_tokens(deepcopy(input_seq))
 
-        # Filter entities if necessary
+        # Filter entities if necessary (entities is a dict: {phrase: label})
         if selected_entities:
-            filtered_entities = []
-
-            for entity in entities:
-                if entity[1] in selected_entities:
-                    filtered_entities.append(entity)
-
-            entities = filtered_entities
+            entities = {
+                phrase: label
+                for phrase, label in entities.items()
+                if label in selected_entities
+            }
 
         entity2generic = self.get_entity_type_mapping(entities)
 
-        anon_input_seq = re.sub("https*://\S+", "URL", orig_input_seq)
+        anon_input_seq = re.sub(r"https*://\S+", "URL", orig_input_seq)
 
         anon_input_seq = self.replace_identified_entities(
             entities, orig_input_seq, entity2generic
         )
 
         anon_input_seq = self.replace_numerics(anon_input_seq)
-
         anon_input_seq = self.replace_pronouns(anon_input_seq)
-
         anon_input_seq = self.replace_numbers_and_months(anon_input_seq)
 
         return " ".join([x.strip() for x in anon_input_seq.split()])
