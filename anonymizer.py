@@ -15,11 +15,20 @@ class Anonymizer:
         with open(self.config.path_to_written_numbers_file, "r") as f:
             self.written_numbers = [w.strip() for w in f.readlines()]
 
-        self.valid_surrounding_chars = [
-            ".", ",", ";", "!", ":", "\n", "’", "‘", "'", '"', "?", "-"
-        ]
+        # Faster membership checks
+        self._months_set = {m.lower() for m in self.months}
+        self._written_numbers_set = {w.lower() for w in self.written_numbers}
 
         self._strip_chars = string.punctuation + "’‘“”"
+
+        self._entity_token_pat = re.compile(
+            r"^[A-Za-z0-9]+(?:[’'\-\.&/][A-Za-z0-9]+)*$"
+        )
+
+        # Used for scanning word-like tokens in text for months/written numbers
+        # Examples matched: "January", "twenty-five", "O'Neil"
+        self._word_token_pat = re.compile(
+            r"(?<!\w)([A-Za-z]+(?:[’'\-][A-Za-z]+)*)(?!\w)")
 
         self.pronoun_map = {
             "he": "PRONOUN",
@@ -47,20 +56,27 @@ class Anonymizer:
             "lord": "TITLE",
         }
 
-        # Precompile patterns once (case-insensitive)
+        # Precompile pronoun patterns once (case-insensitive)
         self._pronoun_patterns = [
             (re.compile(rf"(?<!\w){re.escape(k)}(?!\w)", re.IGNORECASE), v)
             for k, v in self.pronoun_map.items()
         ]
 
+        # Precompile numeric matcher once
+        self._num_pat = re.compile(r"(?<!\w)(\d+(?:[.,]\d+)*)(?!\w)")
+
+        # Whitespace collapse within a line
         self._ws_collapse = re.compile(r"[ \t]+")
 
+        # Cache compiled entity/month/number regexes for replacements
+        self._entity_pat_cache: dict[str, re.Pattern] = {}
+        self._entity_pat_cache_ic: dict[str, re.Pattern] = {}
+
     def _normalize_whitespace_preserve_newlines(self, text: str) -> str:
-        # Keep exact newline positions by processing line-by-line
         lines = text.splitlines(keepends=True)
-        out = []
+        out: list[str] = []
+
         for line in lines:
-            # Separate content from newline so we preserve \n / \r\n exactly
             if line.endswith("\r\n"):
                 content, nl = line[:-2], "\r\n"
             elif line.endswith("\n"):
@@ -68,26 +84,25 @@ class Anonymizer:
             else:
                 content, nl = line, ""
 
-            # Collapse runs of spaces/tabs inside the line, but keep leading indentation
-            leading_ws = re.match(r"^[ \t]*", content).group(0)
+            m = re.match(r"^[ \t]*", content)
+            leading_ws = m.group(0) if m else ""
             rest = content[len(leading_ws):]
 
             rest = self._ws_collapse.sub(" ", rest)
-
-            # Remove trailing whitespace at end of line (common cleanup, doesn't affect blank lines)
             cleaned = (leading_ws + rest).rstrip(" \t")
 
             out.append(cleaned + nl)
 
-        # Optional: trim only outer whitespace, but keep internal blank lines exactly
-        return "".join(out).strip()
+        return "".join(out)
 
     def get_identifiable_tokens(self, text_input):
         predictions = decode_outputs(
             self.classifier(text_input), model_type=self.config.model_type
         )
 
-        entities = {}
+        # key by lowercase token so Tunisia/tunisia share the same replacement
+        entities_by_lower: dict[str, tuple[str, str]] = {}
+
         for p in predictions:
             if p["entity"] == "NONE":
                 continue
@@ -97,28 +112,45 @@ class Anonymizer:
                 continue
 
             cleaned = raw.strip(self._strip_chars)
+            if len(cleaned) <= 1:
+                continue
 
-            if len(cleaned) > 1 and cleaned.isalnum():
-                entities.setdefault(cleaned, p["entity"])
+            if not self._entity_token_pat.match(cleaned):
+                continue
 
-        return entities
+            key = cleaned.lower()
 
+            # Keep first-seen surface form + label for that lowercase key
+            # (stable behavior; you can change policy if you prefer)
+            entities_by_lower.setdefault(key, (cleaned, p["entity"]))
+
+        # Convert back to the {surface_form: label} dict your pipeline expects
+        return {surface: label for (surface, label) in entities_by_lower.values()}
+
+
+    def _get_cached_boundary_pat(self, phrase: str, ignore_case: bool = False) -> re.Pattern:
+        """
+        Cached boundary-safe pattern: match phrase as a standalone token.
+        (?<!\w) and (?!\w) preserve punctuation/newlines around the match.
+        """
+        cache = self._entity_pat_cache_ic if ignore_case else self._entity_pat_cache
+        pat = cache.get(phrase)
+        if pat is None:
+            flags = re.IGNORECASE if ignore_case else 0
+            pat = re.compile(rf"(?<!\w){re.escape(phrase)}(?!\w)", flags)
+            cache[phrase] = pat
+        return pat
 
     def replace_identified_entities(self, entities, anon_input_seq, entity2generic):
         for phrase, _ in sorted(entities.items(), key=lambda x: len(x[0]), reverse=True):
-            if len(phrase) > 1 or phrase.isalnum():
+            if len(phrase) > 1:
                 try:
-                    escaped = re.escape(phrase)
                     repl = entity2generic[phrase]
-
-                    # One regex: standalone token match.
-                    # (?!\w) allows punctuation/space/end after the phrase, but blocks letters/digits/underscore.
-                    pat = re.compile(rf"(?<!\w){escaped}(?!\w)")
-
+                    pat = self._get_cached_boundary_pat(phrase, ignore_case=True)
                     anon_input_seq = pat.sub(repl, anon_input_seq)
-
                 except re.error:
-                    anon_input_seq = anon_input_seq.replace(phrase, entity2generic[phrase])
+                    anon_input_seq = anon_input_seq.replace(
+                        phrase, entity2generic[phrase])
 
         return anon_input_seq
 
@@ -130,76 +162,63 @@ class Anonymizer:
             entity2generic[phrase] = "{}_{}".format(
                 entity_type, entity2generic_c[entity_type]
             )
-
             entity2generic_c[entity_type] += 1
 
         return entity2generic
 
-
     def replace_numerics(self, anon_input_seq: str) -> str:
         """
         Replace numeric tokens with NUMERIC_1, NUMERIC_2, ... in order of appearance.
-
-        Matches:
-          - integers: 25
-          - decimals: 3.14
-          - thousands separators: 1,000 or 1.000
-          - mixed forms: 1,000.50 or 1.000,50 (keeps exact original token)
+        Matches: 25, 3.14, 1,000, 1.000, 1,000.50, 1.000,50
         """
-
-        # Boundary-safe: don't match digits that are part of a larger word token
-        # (e.g., won't match the "1" in "A1" or in "NUMERIC_1")
-        num_pat = re.compile(r"(?<!\w)(\d+(?:[.,]\d+)*)(?!\w)")
 
         numeric_map: dict[str, str] = {}
         counter = 1
 
-        # Build mapping deterministically in first-appearance order
-        for m in num_pat.finditer(anon_input_seq):
+        for m in self._num_pat.finditer(anon_input_seq):
             tok = m.group(1)
             if tok not in numeric_map:
                 numeric_map[tok] = f"NUMERIC_{counter}"
                 counter += 1
 
-        # Replace using a callback (no extra spaces inserted, preserves punctuation/newlines)
         def repl(m: re.Match) -> str:
             return numeric_map[m.group(1)]
 
-        return num_pat.sub(repl, anon_input_seq)
-
+        return self._num_pat.sub(repl, anon_input_seq)
 
     def replace_pronouns(self, anon_input_seq):
         for pat, repl in self._pronoun_patterns:
             anon_input_seq = pat.sub(repl, anon_input_seq)
         return anon_input_seq
 
-
-    def replace_numbers_and_months(self, anon_input_seq):
+    def replace_numbers_and_months(self, anon_input_seq: str) -> str:
+        """
+        (3) Improved:
+        - No splitting (which misses tokens next to punctuation you didn't include).
+        - Scan tokens via regex and replace using boundary-safe cached patterns.
+        - Deterministic numbering in order of first appearance.
+        """
         entity2generic_c = {"DATE": 1, "NUMERIC": 1}
-        entity2generic = {}
+        mapping: dict[str, str] = {}
 
-        spl = re.split(r"[ ,.-]", anon_input_seq)
+        # Build mapping in order of appearance
+        for m in self._word_token_pat.finditer(anon_input_seq):
+            tok = m.group(1)
+            key = tok.lower()
 
-        for word in spl:
-            if word.lower() in self.written_numbers and word not in entity2generic:
-                entity2generic[word] = f"NUMERIC_{entity2generic_c['NUMERIC']}"
+            if key in self._written_numbers_set and tok not in mapping:
+                mapping[tok] = f"NUMERIC_{entity2generic_c['NUMERIC']}"
                 entity2generic_c["NUMERIC"] += 1
-
-        for word in spl:
-            if word.lower() in self.months and word not in entity2generic:
-                entity2generic[word] = f"DATE_{entity2generic_c['DATE']}"
+            elif key in self._months_set and tok not in mapping:
+                mapping[tok] = f"DATE_{entity2generic_c['DATE']}"
                 entity2generic_c["DATE"] += 1
 
-        for phrase, replacement in sorted(entity2generic.items(), key=lambda x: len(x[0]), reverse=True):
-            escaped = re.escape(phrase)
-            anon_input_seq = re.sub(
-                rf"(?<!\w){escaped}(?!\w)",
-                replacement,
-                anon_input_seq,
-            )
+        # Replace longest first to avoid partial overlaps
+        for phrase, replacement in sorted(mapping.items(), key=lambda x: len(x[0]), reverse=True):
+            pat = self._get_cached_boundary_pat(phrase, ignore_case=True)
+            anon_input_seq = pat.sub(replacement, anon_input_seq)
 
         return anon_input_seq
-
 
     def anonymize(self, input_seq, selected_entities=None):
         orig_input_seq = deepcopy(input_seq)
@@ -225,6 +244,7 @@ class Anonymizer:
         anon_input_seq = self.replace_numerics(anon_input_seq)
         anon_input_seq = self.replace_pronouns(anon_input_seq)
         anon_input_seq = self.replace_numbers_and_months(anon_input_seq)
-        anon_input_seq = self._normalize_whitespace_preserve_newlines(anon_input_seq)
+        anon_input_seq = self._normalize_whitespace_preserve_newlines(
+            anon_input_seq)
 
         return anon_input_seq

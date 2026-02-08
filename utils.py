@@ -26,7 +26,7 @@ def assert_entities(entities: str, model_path: str):
         normalized.append(canonical)
 
     return normalized
-    
+
 
 def decode_outputs(predicted_labels, model_type="bert"):
     entities = []
