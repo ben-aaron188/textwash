@@ -25,6 +25,19 @@ class Anonymizer:
             r"^[A-Za-z0-9]+(?:[’'\-\.&/][A-Za-z0-9]+)*$"
         )
 
+        # Email validation
+        self._email_pat = re.compile(
+            r"(?i)^[A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,}$"
+        )
+
+        # Find emails in raw text
+        self._email_find_pat = re.compile(
+            r"(?<![\w.+-])"                            # don't start in the middle of a token
+            r"([A-Z0-9._%+\-]+@[A-Z0-9.\-]+\.[A-Z]{2,})"  # the email
+            r"(?![\w%+\-])",                           # next char cannot be a token char that would extend it
+            re.IGNORECASE,
+        )
+
         # Used for scanning word-like tokens in text for months/written numbers
         # Examples matched: "January", "twenty-five", "O'Neil"
         self._word_token_pat = re.compile(
@@ -95,14 +108,28 @@ class Anonymizer:
 
         return "".join(out)
 
+
+    def replace_emails(self, text: str) -> str:
+        email_map: dict[str, str] = {}
+        counter = 1
+
+        def repl(m: re.Match) -> str:
+            nonlocal counter
+            email = m.group(1)
+            key = email.lower()  # case-insensitive stability
+            if key not in email_map:
+                email_map[key] = f"EMAIL_ADDRESS_{counter}"
+                counter += 1
+            return email_map[key]
+
+        return self._email_find_pat.sub(repl, text)
+
     def get_identifiable_tokens(self, text_input):
         predictions = decode_outputs(
             self.classifier(text_input), model_type=self.config.model_type
         )
 
-        # key by lowercase token so Tunisia/tunisia share the same replacement
-        entities_by_lower: dict[str, tuple[str, str]] = {}
-
+        entities: dict[str, str] = {}
         for p in predictions:
             if p["entity"] == "NONE":
                 continue
@@ -112,20 +139,26 @@ class Anonymizer:
                 continue
 
             cleaned = raw.strip(self._strip_chars)
+
             if len(cleaned) <= 1:
                 continue
 
-            if not self._entity_token_pat.match(cleaned):
+            label = p["entity"]
+
+            # Allow emails
+            if label == "EMAIL_ADDRESS":
+                # Strip common wrapper chars too, in case text has "(a@b.com)" or "<a@b.com>"
+                email = cleaned.strip("<>()[]{}")
+                if self._email_pat.match(email):
+                    entities.setdefault(email, label)
                 continue
 
-            key = cleaned.lower()
+            # Default token rule for everything else
+            if self._entity_token_pat.match(cleaned):
+                entities.setdefault(cleaned, label)
 
-            # Keep first-seen surface form + label for that lowercase key
-            # (stable behavior; you can change policy if you prefer)
-            entities_by_lower.setdefault(key, (cleaned, p["entity"]))
+        return entities
 
-        # Convert back to the {surface_form: label} dict your pipeline expects
-        return {surface: label for (surface, label) in entities_by_lower.values()}
 
 
     def _get_cached_boundary_pat(self, phrase: str, ignore_case: bool = False) -> re.Pattern:
@@ -221,9 +254,15 @@ class Anonymizer:
         return anon_input_seq
 
     def anonymize(self, input_seq, selected_entities=None):
-        orig_input_seq = deepcopy(input_seq)
+        # Start from the raw input
+        anon_input_seq = deepcopy(input_seq)
 
-        entities = self.get_identifiable_tokens(deepcopy(input_seq))
+        # 1) Deterministic passes first (regex)
+        anon_input_seq = self.replace_emails(anon_input_seq)
+        anon_input_seq = re.sub(r"https*://\S+", "URL", anon_input_seq)
+
+        # 2) Run NER on the *already-masked* text
+        entities = self.get_identifiable_tokens(deepcopy(anon_input_seq))
 
         # Filter entities if necessary (entities is a dict: {phrase: label})
         if selected_entities:
@@ -235,16 +274,15 @@ class Anonymizer:
 
         entity2generic = self.get_entity_type_mapping(entities)
 
-        anon_input_seq = re.sub(r"https*://\S+", "URL", orig_input_seq)
-
+        # 3) Replace detected entities on the same anon_input_seq
         anon_input_seq = self.replace_identified_entities(
-            entities, orig_input_seq, entity2generic
+            entities, anon_input_seq, entity2generic
         )
 
+        # 4) Other passes
         anon_input_seq = self.replace_numerics(anon_input_seq)
         anon_input_seq = self.replace_pronouns(anon_input_seq)
         anon_input_seq = self.replace_numbers_and_months(anon_input_seq)
-        anon_input_seq = self._normalize_whitespace_preserve_newlines(
-            anon_input_seq)
+        anon_input_seq = self._normalize_whitespace_preserve_newlines(anon_input_seq)
 
         return anon_input_seq
