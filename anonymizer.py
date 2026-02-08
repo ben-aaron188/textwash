@@ -1,4 +1,5 @@
 import re
+import string
 from copy import deepcopy
 from utils import decode_outputs
 
@@ -9,77 +10,60 @@ class Anonymizer:
         self.classifier = classifier
 
         with open(self.config.path_to_months_file, "r") as f:
-            self.months = f.readlines()
-            self.months = [m.replace("\n", "") for m in self.months]
+            self.months = [m.strip() for m in f.readlines()]
 
         with open(self.config.path_to_written_numbers_file, "r") as f:
-            self.written_numbers = f.readlines()
-            self.written_numbers = [w.replace("\n", "") for w in self.written_numbers]
+            self.written_numbers = [w.strip() for w in f.readlines()]
 
         self.valid_surrounding_chars = [
-            ".",
-            ",",
-            ";",
-            "!",
-            ":",
-            "\n",
-            "’",
-            "‘",
-            "'",
-            '"',
-            "?",
-            "-",
+            ".", ",", ";", "!", ":", "\n", "’", "‘", "'", '"', "?", "-"
         ]
 
-    def replace_identified_entities(self, entities, anon_input_seq, entity2generic):
-        for phrase, _ in sorted(
-            entities.items(), key=lambda x: len(x[0]), reverse=True
-        ):
-            if len(phrase) > 1 or phrase.isalnum():
-                try:
-                    for char in self.valid_surrounding_chars:
-                        anon_input_seq = re.sub(
-                            "[^a-zA-Z0-9]{}[{}]".format(phrase, char),
-                            " {}{}".format(entity2generic[phrase], char),
-                            anon_input_seq,
-                        )
-
-                    anon_input_seq = re.sub(
-                        "[^a-zA-Z0-9\n]{}[^a-zA-Z0-9\n]".format(phrase),
-                        " {} ".format(entity2generic[phrase]),
-                        anon_input_seq,
-                    )
-
-                    anon_input_seq = re.sub(
-                        "[\n]{}".format(phrase),
-                        "\n{}".format(entity2generic[phrase]),
-                        anon_input_seq,
-                    )
-
-                    anon_input_seq = re.sub(
-                        "{}".format(phrase),
-                        "{}".format(entity2generic[phrase]),
-                        anon_input_seq,
-                    )
-                except re.error:
-                    anon_input_seq = anon_input_seq.replace(
-                        "{}".format(phrase), "{}".format(entity2generic[phrase])
-                    )
-
-        return anon_input_seq
+        self._strip_chars = string.punctuation + "’‘“”"
 
     def get_identifiable_tokens(self, text_input):
         predictions = decode_outputs(
             self.classifier(text_input), model_type=self.config.model_type
         )
 
-        entities = {
-            p["word"]: p["entity"]
-            for p in predictions
-            if p["entity"] != "NONE" and len(p["word"]) > 1 and p["word"].isalnum()
-        }
+        entities = {}
+        for p in predictions:
+            if p["entity"] == "NONE":
+                continue
+
+            raw = p["word"]
+            if not raw or len(raw) <= 1:
+                continue
+
+            cleaned = raw.strip(self._strip_chars)
+
+            if len(cleaned) > 1 and cleaned.isalnum():
+                entities.setdefault(cleaned, p["entity"])
 
         return entities
+
+    def replace_identified_entities(self, entities, anon_input_seq, entity2generic):
+        for phrase, _ in sorted(entities.items(), key=lambda x: len(x[0]), reverse=True):
+            if len(phrase) > 1 or phrase.isalnum():
+                try:
+                    for char in self.valid_surrounding_chars:
+                        anon_input_seq = re.sub(
+                            r"(\b{}\b)({})".format(re.escape(phrase), re.escape(char)),
+                            r" {}\2".format(entity2generic[phrase]),
+                            anon_input_seq,
+                        )
+
+                    anon_input_seq = re.sub(
+                        r"(\b{}\b)".format(re.escape(phrase)),
+                        r" {}".format(entity2generic[phrase]),
+                        anon_input_seq,
+                    )
+                except re.error:
+                    anon_input_seq = anon_input_seq.replace(
+                        phrase, entity2generic[phrase]
+                    )
+
+        return anon_input_seq
 
     def get_entity_type_mapping(self, entities):
         entity2generic_c = {v: 1 for _, v in entities.items()}
