@@ -135,17 +135,38 @@ class Anonymizer:
 
         return entity2generic
 
-    def replace_numerics(self, anon_input_seq):
-        # https://pythonexamples.org/python-regex-extract-find-all-the-numbers-in-string/
-        all_numeric = list(set(re.findall("[0-9]+", anon_input_seq)))
-        numeric_map = {k: "NUMERIC_{}".format(v + 1) for v, k in enumerate(all_numeric)}
 
-        for k, v in sorted(numeric_map.items(), key=lambda x: int(x[0]), reverse=True):
-            anon_input_seq = re.sub(
-                "[^NUMERIC_0-9+]{}".format(k), " {}".format(v), anon_input_seq
-            )
+    def replace_numerics(self, anon_input_seq: str) -> str:
+        """
+        Replace numeric tokens with NUMERIC_1, NUMERIC_2, ... in order of appearance.
 
-        return anon_input_seq
+        Matches:
+          - integers: 25
+          - decimals: 3.14
+          - thousands separators: 1,000 or 1.000
+          - mixed forms: 1,000.50 or 1.000,50 (keeps exact original token)
+        """
+
+        # Boundary-safe: don't match digits that are part of a larger word token
+        # (e.g., won't match the "1" in "A1" or in "NUMERIC_1")
+        num_pat = re.compile(r"(?<!\w)(\d+(?:[.,]\d+)*)(?!\w)")
+
+        numeric_map: dict[str, str] = {}
+        counter = 1
+
+        # Build mapping deterministically in first-appearance order
+        for m in num_pat.finditer(anon_input_seq):
+            tok = m.group(1)
+            if tok not in numeric_map:
+                numeric_map[tok] = f"NUMERIC_{counter}"
+                counter += 1
+
+        # Replace using a callback (no extra spaces inserted, preserves punctuation/newlines)
+        def repl(m: re.Match) -> str:
+            return numeric_map[m.group(1)]
+
+        return num_pat.sub(repl, anon_input_seq)
+
 
     def replace_pronouns(self, anon_input_seq):
         for pat, repl in self._pronoun_patterns:
