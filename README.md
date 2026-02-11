@@ -1,6 +1,6 @@
 # Textwash
 
-**UPDATE: Textwash is now available for Dutch! See below for details of how you can run the Dutch anonymization model.**
+_Textwash is available for English and Dutch._
 
 Textwash is an automated text anonymisation tool written in Python. The tool can be used to anonymise unstructured text data. To achieve this, Textwash identifies and extracts personally-identifiable information (e.g., names, dates) from text and replaces the identified entities with a generic identifier (e.g., Jane Doe is replaced with PERSON_FIRSTNAME_1 PERSON_LASTNAME_1).
 
@@ -10,7 +10,7 @@ Textwash was designed to be a tool that meets the highest standards that we have
 
 - **Complete and transparent evaluation:** you can find a full empirical evaluation of this tool in the paper linked below. We put the tool to various tests and show what it can(not) do -  this includes a motivated intruder test where humans try to re-identify persons from Textwash-anonymised documents.
 - **Data never leave your system:** at no point does the Textwash tool require you to upload (text) data or use an API. The tool is entirely functional offline (you can try it by switching off your Internet connection). This feature is essential to avoid any data leakage or possible risks for your data.
-- **Open source:** the code base is open source and can be inspected, used adn modified in line with the [GNU General Public License 3 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.en.html). We do this because we think it is essential that you know what this tool does.
+- **Open source:** the code base is open source and can be inspected, used and modified in line with the [GNU General Public License 3 (GPL-3.0)](https://www.gnu.org/licenses/gpl-3.0.en.html). We do this because we think it is essential that you know what this tool does.
 - **Learning-based anonymisation:** since the information that can reveal personal data is complex, we are not using a dictionary-based approach (e.g., looking up keywords in a static database). Instead, the core of Textwash is a machine learning model that assigns category probabilities to phrases and anonymises them accordingly.
 
 ### Note for researchers/organisations/other users
@@ -89,9 +89,11 @@ If you intend to use this software commercially without our consent, please be a
 
 ## Who developed Textwash?
 
-Textwash is a multi-year project that is led by Maximilian Mozes (University College London) and Bennett Kleinberg (Tilburg University and University College London).
+Textwash was a multi-year project that is led by Maximilian Mozes (University College London) and Bennett Kleinberg (Tilburg University and University College London).
 
-The work is supported by a [SAGE Proof of Concept Grant](https://www.youtube.com/watch?v=T9pRRn2DrMY) and an Open Science grant from the Dutch Research Council (NWO).
+The work was supported by a [SAGE Proof of Concept Grant](https://www.youtube.com/watch?v=T9pRRn2DrMY) and an Open Science grant from the Dutch Research Council (NWO).
+
+Future developments of Textwash happen under Textwash Pro at: [https://www.textwash.eu/](https://www.textwash.eu/)
 
 ## Questions and Comments
 

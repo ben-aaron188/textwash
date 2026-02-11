@@ -7,6 +7,18 @@ from utils import assert_entities
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 
 
+def read_text_file(file_path: str) -> str:
+    encodings = ("utf-8", "utf-8-sig", "utf-16", "utf-16-le", "utf-16-be", "latin-1")
+    last_error = None
+    for encoding in encodings:
+        try:
+            with open(file_path, encoding=encoding) as f:
+                return f.read()
+        except UnicodeError as exc:
+            last_error = exc
+    raise last_error
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Required + optional arguments")
     parser.add_argument(
@@ -67,8 +79,9 @@ if __name__ == "__main__":
 
     for filename in os.listdir(args.input_dir):
         if filename.endswith(".txt"):
-            with open("{}/{}".format(args.input_dir, filename)) as f:
-                data[filename[: filename.index(".txt")]] = f.read().strip()
+            file_path = "{}/{}".format(args.input_dir, filename)
+            contents = read_text_file(file_path)
+            data[filename[: filename.index(".txt")]] = contents.strip()
 
     anonymizer = Anonymizer(config, classifier)
 
@@ -85,5 +98,5 @@ if __name__ == "__main__":
     print(f"Write anonymized data to '{args.output_dir}'")
 
     for k, data in outputs.items():
-        with open("{}/{}.txt".format(args.output_dir, k), "w+") as f:
+        with open("{}/{}.txt".format(args.output_dir, k), "w+", encoding="utf-8") as f:
             f.write(data)
