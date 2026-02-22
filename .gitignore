@@ -7,3 +7,6 @@ __pycache__/
 .vscode
 data/model.pth
 venv/
+
+data/en/
+data/nl/
