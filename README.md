@@ -4,7 +4,7 @@
 
 The Textwash project evolves: to meet the growing demand for high-performance PII redaction tools, we have transitioned our core development to Textwash Pro. That shift allows us to implement significant advancements in model architecture, training data, and processing speed.  
 
-The current repository containing the base version of Textwash remains free and open-source. We are committed to maintaining it with lightweight updates and PRs.
+Important: _The current repository containing the base version of Textwash **remains free and open-source**. We are committed to maintaining it with lightweight updates and PRs._
 
 If your projects require advanced automated text anonymization with high precision, our new [Textwash Pro](https://www.textwash.eu/) offers a sophisticated anonymization software suite designed for modern data privacy needs.
 
@@ -37,7 +37,10 @@ Textwash was designed to be a tool that meets the highest standards that we have
 
 ### Note for researchers/organisations/other users
 
-We would be glad if Textwash is helpful to you. But even if you prefer to use another tool, we strongly encourage you to ask the developers to provide you _as the bare minimum_ with (i) an evaluation of their tool that shows empirically what it can and cannot do (you can even point them to our evaluation approach and ask them to show how their tool performs on our evaluation dataset), and (ii) reasons why they require you to send your data to online services or an API (you should never do this, nor does a good software necessitate this).
+We would be glad if Textwash is helpful to you. But even if you prefer to use another tool, we strongly encourage you to ask the developers to provide you _as the bare minimum_ with 
+
+- (i) an evaluation of their tool that shows empirically what it can and cannot do (you can even point them to our [TILD evaluation approach](https://arxiv.org/abs/2103.09263) and ask them to show how their tool performs on our evaluation dataset), and 
+- (ii) reasons why they require you (without local alternative) to send your data to online services or an API
 
 If they refuse to provide this, you should be skeptical.
 
@@ -45,8 +48,6 @@ If they refuse to provide this, you should be skeptical.
 ### Note for commercial anonymisation tools
 
 We have looked hard to find a tool that is as transparent, open and data-averse (as in: not unnecessarily collecting data) as ours. We did not find any.
-
-If you have a tool that meets these requirements, we would be glad to promote it and list it here.If you think your tool is better, we would love to see your evaluation results - you can use all the data we used and we'd be happy to assist with setting up the human intruder evaluation.
 
 
 ## Quick start guide

@@ -1,6 +1,10 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
 .vscode
 data/model.pth
-__pycache__
+venv/
 .DS_Store
 *.log
 *.tmp
