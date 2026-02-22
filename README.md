@@ -1,5 +1,27 @@
 # Textwash
 
+**Notice of transition to Textwash Pro**
+
+The Textwash project evolves: to meet the growing demand for high-performance PII redaction tools, we have transitioned our core development to Textwash Pro. That shift allows us to implement significant advancements in model architecture, training data, and processing speed.  
+
+The current repository containing the base version of Textwash remains free and open-source. We are committed to maintaining it with lightweight updates and PRs.
+
+If your projects require advanced automated text anonymization with high precision, our new [Textwash Pro](https://www.textwash.eu/) offers a sophisticated anonymization software suite designed for modern data privacy needs.
+
+We have overhauled the platform to provide an NLP anonymization tool that includes:
+
+- updated machine-learning architecture: A complete rewrite of the core engine using bespoke NER-based anonymization (Named Entity Recognition)
+- multi-language support: New models trained for probabilistic PII detection across six languages
+- Enhanced PII detection: New entities for identification and replacement to ensure GDPR-compliant anonymization
+- Performance & speed improvements: Substantially increased processing power for large-scale document anonymization software tasks
+- User-friendly interfaces: Dedicated offline text anonymizer apps (GUIs) for both Windows and Mac (+ cloud & API & mobile)
+
+Textwash Pro is built to help individual researchers, academic labs, and large-scale organizations (private/public sector) to anonymize qualitative data safely. The tool will enable you to meet requirements for text anonymization for studies, archiving sensitive documents, or cleaning datasets for safe LLM use.
+
+
+---------
+
+
 _Textwash is available for English and Dutch._
 
 Textwash is an automated text anonymisation tool written in Python. The tool can be used to anonymise unstructured text data. To achieve this, Textwash identifies and extracts personally-identifiable information (e.g., names, dates) from text and replaces the identified entities with a generic identifier (e.g., Jane Doe is replaced with PERSON_FIRSTNAME_1 PERSON_LASTNAME_1).
