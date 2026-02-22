@@ -112,7 +112,7 @@ If you intend to use this software commercially without our consent, please be a
 
 ## Who developed Textwash?
 
-Textwash was a multi-year project that is led by Maximilian Mozes (University College London) and Bennett Kleinberg (Tilburg University and University College London).
+Textwash was a multi-year project led by Bennett Kleinberg (Tilburg University and University College London).
 
 The work was supported by a [SAGE Proof of Concept Grant](https://www.youtube.com/watch?v=T9pRRn2DrMY) and an Open Science grant from the Dutch Research Council (NWO).
 
