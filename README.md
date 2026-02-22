@@ -54,7 +54,7 @@ We have looked hard to find a tool that is as transparent, open and data-averse 
 
 Textwash is built in Python3. To run the software, it is recommended to first create an Anaconda environment and install the required dependencies. For details on how to get and install Anaconda, click [here](https://www.anaconda.com/products/distribution).
 
-    $ conda create -n textwash python=3.7
+    $ conda create -n textwash python=3.9
     $ conda activate textwash
     $ pip install -r requirements.txt
 
