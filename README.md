@@ -51,6 +51,14 @@ We have looked hard to find a tool that is as transparent, open and data-averse 
 
 
 ## Quick start guide
+Clone the repository using the following code block in your git bash terminal. Consider downloading and unzipping the whole repository if you do not wish to use git. 
+
+```bash
+cd path/to/your/project/folder
+git clone https://github.com/ben-aaron188/textwash.git
+```
+This will enable you to use all the scripts from the repository!
+
 
 Textwash is built in Python3. To run the software, it is recommended to first create an Anaconda environment and install the required dependencies. For details on how to get and install Anaconda, click [here](https://www.anaconda.com/products/distribution).
 
