@@ -51,11 +51,18 @@ We have looked hard to find a tool that is as transparent, open and data-averse 
 
 
 ## Quick start guide
+You can run Textwash on your own machine. 
+Download the content of the repository onto your machine. 
 
 Textwash is built in Python3. To run the software, it is recommended to first create an Anaconda environment and install the required dependencies. For details on how to get and install Anaconda, click [here](https://www.anaconda.com/products/distribution).
 
+To create the Anaconda environment, you can use the following commands in your terminal:
+
     $ conda create -n textwash python=3.9
     $ conda activate textwash
+
+Then you can use the command below to install the requirements. Note that you may need to navigate to the directory where you downloaded Textwash and the requirements.text is located 
+
     $ pip install -r requirements.txt
 
 Additionally, you need to download the trained model folders from [here](https://drive.google.com/file/d/1YBccngYE3lvod87TI6UIhBzrN7nY9vHS/view?usp=sharing). Once you have downloaded the tgz file, unpack it and place it in the `data` directory. **Important: the models (in `en` and `nl`) should be directly in `./data` and _not_ in the `models` parent dirctory. The relative path to the models should be `./data/en` and `./data/nl`. Otherwise, your will encounter the `Repo id must be in the form 'repo_name' ...` error.**
